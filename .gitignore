@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+
+app/build/
+app/.build/
+app/.swiftpm/
