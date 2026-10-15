@@ -131,7 +131,9 @@ Se mesmo assim a pasta for substituída, o app restaura o progresso e as notas a
 
 **Testes** (rodam aqui e em qualquer Mac):
 - `node app/testes/testar_ui.js`: a interface no Chromium, em modo navegador e com uma ponte simulada.
+- `node --test app/testes/nucleo/*.test.js`: as regras do núcleo (registro de eventos, progresso).
 - `swiftc -o /tmp/teste-arquivos app/testes/arquivos/main.swift app/Sources/OMapa/Arquivos.swift app/Sources/OMapa/Despacho.swift && /tmp/teste-arquivos "Nous Keiros" /tmp/area-de-teste`: a camada de arquivos e o contrato da ponte.
+- `app/testes/checar_swift.sh`: confere os tipos de todo o Swift do app fora do Mac, contra módulos falsos de AppKit, WebKit e SwiftUI.
 
 ## Próximas fases
 
@@ -144,4 +146,4 @@ Se mesmo assim a pasta for substituída, o app restaura o progresso e as notas a
 - F7 Boss com prova;
 - F8 Autonomia.
 
-Todas estão sendo construídas em sequência, cada uma com os seus testes; o modelo da F5 e da F8 já foi definido por você. O detalhe de cada fase está em `ESTRATEGIA.md`. A configuração visual por assunto fica para o fim, com você.
+Todas estão sendo construídas em sequência, cada uma com os seus testes; o modelo da F5 e da F8 já foi definido por você. O detalhe de cada fase está em `ESTRATEGIA.md`; o plano aprovado e o ponto em que a construção está ficam em `PLANO.md`. A configuração visual por assunto fica para o fim, com você.
