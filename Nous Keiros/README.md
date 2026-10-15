@@ -7,8 +7,8 @@ Tudo o que você precisa para estudar, praticar e chegar a criar a sua própria 
 | Pasta | O que guarda |
 |---|---|
 | `mapa/` | O conteúdo do mapa. É o que o app lê. `mapa.json` tem níveis, trilhas, assuntos e fontes; `fontes.bib` tem todas as fontes em BibTeX. |
-| `assuntos/` | Uma pasta por assunto (`M01 — …`, `L14 — …`, `Z01 — …`). Cada uma já traz `assunto.md` com o conteúdo completo: por que importa, pré-requisitos, base, meio, avançado, matemática, métodos, desafios, fontes, boss fight e checkpoint. Tudo o que você escrever ou produzir sobre o assunto fica dentro da pasta dele. |
-| `materiais/` | Uma pasta por material que você abrir no app (paper, livro, vídeo, página). O app cria a pasta na primeira vez que você abre o material. |
+| `assuntos/` | Uma pasta por assunto (`M01 — …`, `L14 — …`, `Z01 — …`). Cada uma já traz `assunto.md` com o conteúdo completo: por que importa, pré-requisitos, base, meio, avançado, matemática, métodos, desafios, fontes, boss fight e checkpoint. Tudo o que você escrever ou produzir sobre o assunto fica dentro da pasta dele: as suas notas ficam em `notas.md`, e cada versão substituída vai para `.versoes/`. |
+| `materiais/` | Uma pasta por material que você abrir no app (paper, livro, vídeo, página). O app passa a criar essas pastas na fase F1, na primeira vez que você abre o material. |
 | `pratica/` | Os seus estudos de prática, uma pasta para cada. |
 | `criacoes/` | As suas criações (Rei Ichi, REIXU, MUSUBI…), uma pasta para cada, com builds e gráficos dentro. |
 | `autodidata/` | Assuntos que você estudar por conta própria, fora do mapa, uma pasta para cada. |

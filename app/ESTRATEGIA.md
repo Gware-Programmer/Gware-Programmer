@@ -32,8 +32,8 @@ O MAPA.app — SwiftUI, só macOS, fora do App Sandbox
 ```
 
 - **JS desenha** (árvore SVG, abas, painel lateral); **Swift guarda e executa**.
-- A ponte tem poucos métodos: `estado`, `comando`, `buscar`, `abrir`, `porque`, `alavancas`, `exportar`, `importar`.
-- O HTML original já funciona sozinho (guarda o progresso em `localStorage`). Na F0 ele roda como está, lendo `mapa/mapa.json`. Na F1 o `localStorage` é trocado pela ponte, porque o armazenamento web dentro de um app é "melhor esforço": o WebKit limita cada origem a 15% do disco e pode apagar os dados.
+- A ponte tem poucos métodos. Na F0: `carregar`, `salvarProgresso`, `lerNota`, `salvarNota`, `lerNotas`, `exportar`, `abrir`, `abrirPasta`. Depois entram `buscar`, `porque` e `alavancas`.
+- O HTML original já funcionava sozinho (guardando em `localStorage`). Como o armazenamento web dentro de um app é "melhor esforço" (o WebKit limita cada origem e pode apagar os dados), a F0 já troca isso pela ponte: o progresso vai para `progresso/progresso.json` e as notas para `notas.md` na pasta de cada assunto, no Nous Keiros. Fora do app, a mesma interface continua usando o navegador.
 
 ## Regras do mapa (redutor)
 
@@ -141,7 +141,7 @@ O que precisa rodar (testes, provas em Lean, builds) roda pelo próprio app, e a
 
 1. **O app engolir o estudo.** Defesas: portão entre fases e o conjunto mínimo de alavancas.
 2. **KEIROS desconectado ou com defeito.** Defesas: escrita atômica, fila no Mac, backups, Time Machine incluindo o KEIROS.
-3. **Perder progresso na F0** (localStorage). Defesa: exportar com frequência.
+3. **Perder progresso.** Defesas: gravação no KEIROS a cada marcação, cópia por dia em `progresso/backups/`, espelho e fila no Mac, e exportar.
 4. **O YouTube mudar a regra do player embutido.** Defesa: o teste da F0.
 5. **O conteúdo mudar e o progresso herdar a marca errada.** Defesa: identificar itens pelo hash do texto.
 6. **Laços de alavancas.** Defesa: tetos.

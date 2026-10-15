@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>pt-BR</string>
+	<key>CFBundleDisplayName</key>
+	<string>O MAPA</string>
+	<key>CFBundleExecutable</key>
+	<string>OMapa</string>
+	<key>CFBundleIdentifier</key>
+	<string>br.keiros.omapa</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>O MAPA</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.education</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>O MAPA lê o mapa e guarda o seu estudo na pasta Nous Keiros, no disco KEIROS.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>O MAPA lê e guarda o seu estudo na pasta Nous Keiros que você escolheu.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>O MAPA lê e guarda o seu estudo na pasta Nous Keiros que você escolheu.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>O MAPA lê e guarda o seu estudo na pasta Nous Keiros que você escolheu.</string>
+</dict>
+</plist>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>O MAPA</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="hero gutter">
+  <div class="brand">
+    <span class="jp" aria-hidden="true">◆</span>
+    <div><b>O MAPA</b><small id="brand-sub">da aritmética à fronteira</small></div>
+  </div>
+  <div class="meter" aria-label="Progresso geral">
+    <div class="meter-row"><span><strong id="m-done">0</strong>/<span id="m-total">0</span> assuntos dominados</span><span><strong id="m-items">0</strong> itens · <span id="m-pct">0%</span></span></div>
+    <span class="bar" id="m-bar"><i></i></span>
+  </div>
+  <div class="save" id="save" data-mode="none" role="status">carregando…</div>
+  <button class="btn salvar" id="salvar" title="Salvar agora (⌘S)">Salvar</button>
+</header>
+
+<div class="dock">
+  <div class="dock-in gutter">
+    <nav class="tabs" role="tablist" aria-label="Vistas">
+      <button class="tab" role="tab" data-view="tree" aria-selected="true">Árvore</button>
+      <button class="tab" role="tab" data-view="levels" aria-selected="false">Níveis</button>
+      <button class="tab" role="tab" data-view="now" aria-selected="false">Agora</button>
+      <button class="tab" role="tab" data-view="line" aria-selected="false">A linha</button>
+      <button class="tab" role="tab" data-view="sources" aria-selected="false">Fontes</button>
+      <button class="tab" role="tab" data-view="progress" aria-selected="false">Progresso</button>
+    </nav>
+    <div class="search">
+      <label for="q" class="sr">Buscar assunto</label>
+      <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar: IIT, PPO, Lean, M22…  ( / )">
+      <div class="results" id="q-res" hidden></div>
+    </div>
+  </div>
+</div>
+
+<main class="gutter">
+  <section class="view" id="v-tree" aria-label="Árvore">
+    <div class="eyebrow" id="tree-eyebrow"></div>
+    <h2 class="v">A árvore</h2>
+    <p class="lead">Colunas são ondas dentro de cada faixa; linhas são trilhas; cada curva liga um pré-requisito ao que ele destrava. Arraste, aproxime, toque num nó para abrir o assunto.</p>
+    <div class="tree-tools">
+      <div class="legend">
+        <span><i class="sw"></i>bloqueado</span>
+        <span><i class="sw open"></i>liberado</span>
+        <span><i class="sw started"></i>em andamento</span>
+        <span><i class="sw done"></i>dominado</span>
+      </div>
+    </div>
+    <div class="chips scroll" id="tr-chips" aria-label="Filtrar por trilha"></div>
+    <div class="stage" id="stage">
+      <svg id="svg" role="group" aria-label="Árvore de assuntos"></svg>
+      <svg class="mini" id="mini" aria-label="Minimapa" role="img"></svg>
+      <div class="ctrl" id="ctrl">
+        <button class="btn" id="z-in" aria-label="Aproximar" title="Aproximar">+</button>
+        <button class="btn" id="z-out" aria-label="Afastar" title="Afastar">−</button>
+        <button class="btn" id="z-here" aria-label="Onde estou: ir para o que está liberado" title="Onde estou">◎</button>
+        <button class="btn" id="z-fit" aria-label="Ver tudo" title="Ver tudo">⤢</button>
+      </div>
+      <button class="pinchip" id="pinchip" hidden></button>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <p class="hint">Passe o mouse num nó para acender de onde ele vem (carmim) e para onde leva (claro). No minimapa, toque para saltar. Teclado: setas movem, + e − aproximam, 0 mostra tudo.</p>
+  </section>
+
+  <section class="view" id="v-levels" aria-label="Níveis" hidden>
+    <div class="eyebrow">nível 0 → nível 13</div>
+    <h2 class="v">Os níveis</h2>
+    <p class="lead">Cada faixa reúne o que fica estudável depois da anterior; dentro dela, o que está na mesma onda corre em paralelo. Um assunto está dominado quando o boss fight e todos os itens do checkpoint estão marcados. Portão de nível: o nível seguinte só libera quando todos os assuntos deste estão dominados e o boss do nível foi vencido. Se você já domina algo, marque e siga, nível por nível.</p>
+    <div id="levels"></div>
+  </section>
+
+  <section class="view" id="v-now" aria-label="Agora" hidden>
+    <div class="eyebrow">calculado a partir do que você já dominou</div>
+    <h2 class="v">Agora</h2>
+    <p class="lead">O que está liberado neste momento: tudo cujos pré-requisitos já estão dominados, dentro dos níveis já abertos. Nada aqui é estimativa de tempo — só dependência.</p>
+    <div class="cols" id="now"></div>
+  </section>
+
+  <section class="view" id="v-line" aria-label="A linha que ninguém cruzou" hidden>
+    <div class="eyebrow">nível 13 · Fronteira · capítulo final</div>
+    <h2 class="v">A linha que ninguém cruzou</h2>
+    <div class="final" id="final"></div>
+  </section>
+
+  <section class="view" id="v-sources" aria-label="Fontes" hidden>
+    <div class="eyebrow" id="src-eyebrow"></div>
+    <h2 class="v">Fontes</h2>
+    <p class="lead">Cada fonte foi conferida: papers do arXiv pelo DataCite, DOIs pelo Crossref, vídeos pelo YouTube e os demais links pela resposta da página. Quando um site recusa leitura automática, a conferência foi feita por outra via (cópia no Wayback, ISBN ou README do repositório). O resultado de cada uma está em <code>auditoria/links.csv</code>. Tudo abre aqui dentro, no leitor do app.</p>
+    <div class="srcbar"><label for="sq" class="sr">Filtrar fontes</label><input class="field" id="sq" type="search" placeholder="Filtrar por título, autor ou assunto (ex.: Tononi, S04)"></div>
+    <div class="chips" id="src-chips" style="margin-bottom:12px"></div>
+    <div id="srclist"></div>
+  </section>
+
+  <section class="view" id="v-progress" aria-label="Progresso" hidden>
+    <div class="eyebrow">seu registro</div>
+    <h2 class="v">Progresso</h2>
+    <div class="stats" id="stats"></div>
+    <div class="cols">
+      <div class="panel"><h4>Por faixa</h4><div class="pbars" id="pb-levels"></div></div>
+      <div class="panel"><h4>Por trilha</h4><div class="pbars" id="pb-tracks"></div></div>
+    </div>
+    <div class="cols" style="margin-top:18px">
+      <div class="panel">
+        <h4>Onde o progresso fica</h4>
+        <p id="store-text" style="margin:0;color:var(--ink-2)"></p>
+        <div class="actions">
+          <button class="btn primary" id="exp">Exportar progresso (.json)</button>
+          <label class="btn" for="imp" style="cursor:pointer">Importar arquivo</label>
+          <input id="imp" type="file" accept=".json,application/json" class="sr">
+          <button class="btn ghost" id="rst">Zerar progresso</button>
+        </div>
+        <div id="dump-wrap" hidden style="display:grid;gap:8px"><p style="margin:0;color:var(--ink-2);font-size:var(--fs-1)">Copie e guarde este texto — ele é o seu progresso.</p><textarea class="dump" id="dump" readonly></textarea><div class="actions"><button class="btn" id="dump-copy">Copiar</button></div></div>
+      </div>
+      <div class="panel">
+        <h4>Importar colando</h4>
+        <p style="margin:0;color:var(--ink-2);font-size:var(--fs-1)">Se o seletor de arquivo não abrir aqui, cole o conteúdo de um progresso exportado.</p>
+        <label for="paste" class="sr">JSON de progresso</label>
+        <textarea class="dump" id="paste" placeholder='{"app":"o-mapa", …}'></textarea>
+        <div class="actions"><button class="btn" id="paste-go">Importar texto</button></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="dr-title">
+  <div class="dr-head">
+    <div class="dr-top"><div><span class="eyebrow" id="dr-eye"></span><h3 id="dr-title"></h3></div><button class="x" id="dr-x" aria-label="Fechar">×</button></div>
+    <div class="dr-nav"><button class="btn ghost" id="dr-prev"></button><button class="btn ghost" id="dr-next"></button><button class="btn ghost" id="dr-tree">ver na árvore</button><button class="btn ghost" id="dr-pasta" hidden>abrir a pasta</button></div>
+  </div>
+  <div class="dr-body" id="dr-body"></div>
+</aside>
+<div class="confirm" id="cf" hidden role="alertdialog" aria-labelledby="cf-msg"><span id="cf-msg"></span><div class="actions"><button class="btn gold" id="cf-yes">Confirmar</button><button class="btn ghost" id="cf-no">Cancelar</button></div></div>
+<div class="toast" id="toast" hidden role="status"></div>
+
+<script src="mapa.js"></script>
+</body>
+</html>
