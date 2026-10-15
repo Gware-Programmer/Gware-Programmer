@@ -1,4 +1,4 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.7
 // O MAPA — app de Mac para estudar e praticar até criar a sua própria IA.
 // Construa com ./construir.sh (monta o O MAPA.app em build/).
 import PackageDescription

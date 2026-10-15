@@ -4,9 +4,13 @@ import WebKit
 /// Serve a interface do app no endereço omapa://app/…
 /// - omapa://app/index.html, estilo.css, mapa.js, fontes/… → pasta UI dentro do app;
 /// - omapa://app/nous/mapa/mapa.json → o mapa do Nous Keiros (ou o espelho no Mac, sem o KEIROS).
-final class Esquema: NSObject, WKURLSchemeHandler {
-    static let nome = "omapa"
+/// Endereços fixos do app (fora da classe para não herdar isolamento de ator).
+enum Endereco {
+    static let esquema = "omapa"
     static let inicio = URL(string: "omapa://app/index.html")!
+}
+
+final class Esquema: NSObject, WKURLSchemeHandler {
 
     let arquivos: Arquivos
 
@@ -37,15 +41,15 @@ final class Esquema: NSObject, WKURLSchemeHandler {
         var caminho = url.path
         if caminho.isEmpty || caminho == "/" { caminho = "/index.html" }
         let rel = String(caminho.dropFirst())
-        let dados: Data?
+        let lido: Data?
         if rel.hasPrefix("nous/") {
-            dados = arquivos.lerMapa(String(rel.dropFirst("nous/".count)))
+            lido = arquivos.lerMapa(String(rel.dropFirst("nous/".count)))
         } else if let u = Arquivos.dentro(Self.pastaUI, rel) {
-            dados = try? Data(contentsOf: u)
+            lido = try? Data(contentsOf: u)
         } else {
-            dados = nil
+            lido = nil
         }
-        guard let dados else { return responder(tarefa, 404, nil, nil) }
+        guard let dados = lido else { return responder(tarefa, 404, nil, nil) }
         let ext = (rel as NSString).pathExtension.lowercased()
         responder(tarefa, 200, dados, Self.tipos[ext] ?? "application/octet-stream")
     }
@@ -53,7 +57,7 @@ final class Esquema: NSObject, WKURLSchemeHandler {
     func webView(_ webView: WKWebView, stop tarefa: WKURLSchemeTask) {}
 
     private func responder(_ tarefa: WKURLSchemeTask, _ codigo: Int, _ dados: Data?, _ tipo: String?) {
-        let url = tarefa.request.url ?? Self.inicio
+        let url = tarefa.request.url ?? Endereco.inicio
         let corpo = dados ?? Data()
         let cabecalhos = [
             "Content-Type": tipo ?? "text/plain; charset=utf-8",

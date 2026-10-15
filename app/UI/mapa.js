@@ -119,32 +119,51 @@ function allItems() {
 
 /* ═════════ persistência: KEIROS (pelo app) → Mac → navegador → exportar ═════════
    No app, o progresso vai para Nous Keiros/progresso/progresso.json e as notas de cada
-   assunto para notas.md, na pasta do assunto. Se o KEIROS estiver desconectado, o app
-   guarda no Mac e copia tudo para o disco quando ele volta. Fora do app, fica no navegador. */
-const store = { timer: null, writing: false, dirty: false, tries: 0, loaded: false, notes: {}, nst: {}, onde: PONTE ? "keiros" : "local" };
+   assunto para notas.md, na pasta do assunto. Se o KEIROS estiver desconectado (ou recusar
+   escrita), o app guarda no Mac e copia tudo para o disco quando ele volta.
+   Cada página guarda uma "ficha de versão" (impressão do último conteúdo que leu ou gravou):
+   se o disco mudou por fora (outro Mac), o app junta as marcações em vez de sobrescrever.
+   Fora do app, fica no navegador. */
+const store = {
+  timer: null, writing: false, dirty: false, tries: 0, loaded: false, erroLeitura: null, erro: null,
+  notes: {}, nst: {}, nver: {}, onde: PONTE ? "keiros" : "local", versao: null, raiz: null, aviso: null, versionar: false,
+};
 const pausa = ms => new Promise(r => setTimeout(r, ms));
 function saveLocal() { return LS.set(KEY, JSON.stringify(P)); }
 function loadLocal() { const t = LS.get(KEY); if (!t) return; try { const o = JSON.parse(t); if (valid(o)) P = o; } catch (e) {} }
 function hora() { return new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }); }
 function erroTxt(e) { return String(e && e.message ? e.message : e); }
+function semTags(h) { return String(h).replace(/<[^>]+>/g, ""); }
 function setStatus(mode, msg) {
   const el = $("#save");
   el.dataset.mode = mode;
   el.textContent = msg || (mode === "keiros" ? `salvo no KEIROS · ${hora()}` : mode === "espera" ? "KEIROS desconectado · guardado no Mac" : mode === "local" ? "salvo só neste navegador" : mode === "erro" ? "não consegui salvar — exporte" : "sem onde salvar — exporte");
   const st = $("#store-text");
-  if (st) st.textContent = mode === "keiros" || mode === "espera" || (PONTE && mode === "erro")
-    ? "Seu progresso fica em Nous Keiros/progresso/progresso.json, no disco KEIROS, com uma cópia por dia em progresso/backups. As notas de cada assunto ficam em notas.md, na pasta do assunto, e cada versão substituída vai para .versoes. Se o KEIROS estiver desconectado, o app guarda tudo no Mac e copia para o disco quando ele volta. Exportar gera mais uma cópia, num arquivo que você escolhe."
+  if (st) st.textContent = PONTE
+    ? "Seu progresso fica em Nous Keiros/progresso/progresso.json, no disco KEIROS, com uma cópia por dia em progresso/backups e versões em .versoes. As notas de cada assunto ficam em notas.md, na pasta do assunto, e cada versão substituída vai para .versoes. Se o KEIROS estiver desconectado ou recusar escrita, o app guarda tudo no Mac e copia para o disco quando ele volta; se o disco mudou em outro Mac, as marcações dos dois são juntadas. Exportar gera mais uma cópia, num arquivo que você escolhe."
     : mode === "local"
       ? "Fora do app, o progresso fica salvo só neste navegador. Exporte de vez em quando para não depender dele."
       : "Não há onde salvar agora. Use Exportar para guardar o progresso num arquivo.";
 }
-function anyDirty() { return store.dirty || store.writing || Object.values(store.nst).some(n => n.dirty || n.writing); }
+function notaSuja(id) { const n = store.nst[id]; return !!n && (n.dirty || n.writing); }
+function anyDirty() { return store.dirty || store.writing || Object.keys(store.nst).some(notaSuja); }
+/* O aviso no topo sai do estado de tudo o que grava: um erro só some quando aquilo grava. */
+function statusGeral() {
+  if (!PONTE) return;
+  if (!store.loaded) { setStatus("erro", `não consegui ler o progresso — ${store.erroLeitura || "sem resposta"}. Nada será gravado até o disco responder.`); return; }
+  if (store.erro && (store.dirty || store.writing)) { setStatus("erro", "não consegui salvar o progresso — " + store.erro); return; }
+  const comErro = Object.entries(store.nst).find(([id, n]) => n.erro && notaSuja(id));
+  if (comErro) { setStatus("erro", `não consegui salvar a nota de ${comErro[0]} — ${comErro[1].erro}`); return; }
+  if (anyDirty()) { setStatus(store.onde, "salvando…"); return; }
+  if (store.onde === "espera") { setStatus("espera", store.aviso ? `guardado no Mac — o disco recusou: ${store.aviso}` : undefined); return; }
+  setStatus("keiros");
+}
 function touch() {
   P.at = Date.now();
   gateCache = null;
   if (!PONTE) { setStatus(saveLocal() ? "local" : "none"); return; }
   store.dirty = true;
-  setStatus(store.onde, "salvando…");
+  statusGeral();
   clearTimeout(store.timer);
   store.timer = setTimeout(flush, 400);
 }
@@ -153,54 +172,106 @@ async function flush() {
   if (!PONTE || !store.loaded || store.writing || !store.dirty) return;
   store.dirty = false; store.writing = true;
   try {
-    const r = await pedir("salvarProgresso", { json: JSON.stringify(P, null, 1) });
-    store.onde = (r && r.onde) || "keiros"; store.tries = 0;
-    if (!anyDirty() || !store.dirty) setStatus(store.onde);
+    const r = await pedir("salvarProgresso", { json: JSON.stringify(P, null, 1), versao: store.versao, raiz: store.raiz, versionar: store.versionar });
+    store.onde = (r && r.onde) || "keiros"; store.tries = 0; store.erro = null; store.versionar = false;
+    store.aviso = (r && r.aviso) || null;
+    if (r && r.json) {
+      // o app juntou com o que mudou por fora; aplica se nada novo foi marcado enquanto isso
+      // (senão mantém a ficha antiga: a próxima gravação junta de novo)
+      let o = null;
+      try { o = JSON.parse(r.json); } catch (e) { o = null; }
+      if (!store.dirty && valid(o)) { P = o; store.versao = r.versao || null; gateCache = null; refresh(); toast("Juntei as suas marcações com as que mudaram em outro lugar (outro Mac ou a fila do Mac)."); }
+    } else if (r && r.versao) store.versao = r.versao;
   } catch (e) {
-    store.dirty = true; store.tries++;
-    setStatus("erro", "não consegui salvar — " + erroTxt(e));
+    store.dirty = true; store.tries++; store.erro = erroTxt(e);
+    if (/pasta Nous Keiros foi trocada/.test(store.erro)) { store.dirty = false; store.loaded = false; store.erroLeitura = store.erro; }
   } finally {
     store.writing = false;
     if (store.dirty) store.timer = setTimeout(flush, Math.min(30000, 1500 * 2 ** Math.min(store.tries, 5)));
+    statusGeral();
   }
+}
+function aplicarCarregado(r) {
+  if (r && r.json) {
+    let o = null;
+    try { o = JSON.parse(r.json); } catch (e) { o = null; }
+    if (valid(o)) P = o;
+    else toast("O arquivo de progresso não é um progresso válido. Ele será guardado à parte (progresso-ilegivel) na próxima gravação.");
+  }
+  store.versao = (r && r.versao) || null;
+  store.raiz = (r && r.raiz) || null;
+  store.onde = (r && r.onde) || "keiros";
+  if (r && r.restaurado) toast("O progresso não estava na pasta: restaurei a partir da cópia no Mac.");
 }
 async function carregarProgresso() {
   if (!PONTE) { loadLocal(); store.loaded = true; setStatus(LS.set(KEY, JSON.stringify(P)) ? "local" : "none"); return; }
   try {
-    const r = await pedir("carregar");
-    if (r && r.json) {
-      let o = null;
-      try { o = JSON.parse(r.json); } catch (e) { o = null; }
-      if (valid(o)) P = o;
-      else toast("O arquivo de progresso não pôde ser lido. Ele foi preservado; o app vai guardá-lo à parte na próxima gravação.");
-    }
-    store.onde = (r && r.onde) || "keiros";
-    store.loaded = true;
-    setStatus(store.onde, store.onde === "espera" ? undefined : `KEIROS conectado · ${hora()}`);
+    aplicarCarregado(await pedir("carregar"));
+    store.loaded = true; store.erroLeitura = null;
   } catch (e) {
-    store.loaded = false;
-    setStatus("erro", "não consegui ler o progresso — " + erroTxt(e) + ". Nada será gravado até reabrir o app.");
+    store.loaded = false; store.erroLeitura = erroTxt(e);
   }
+  statusGeral();
+}
+/* Chamado pelo app ao voltar para ele ou quando um disco é montado. */
+async function recarregar() {
+  if (!PONTE) return;
+  if (!store.loaded) {
+    await carregarProgresso();
+  } else {
+    await salvarAgora(true);
+    try {
+      const r = await pedir("carregar");
+      if (!store.dirty && !store.writing) {
+        const antes = JSON.stringify(P);
+        aplicarCarregado(r);
+        if (JSON.stringify(P) !== antes) toast("Progresso atualizado a partir do disco.");
+      }
+    } catch (e) { store.loaded = false; store.erroLeitura = erroTxt(e); }
+  }
+  gateCache = null;
+  refresh();
+  if (!$("#v-progress").hidden) paintProgress();
+  const vistos = new Set();
+  $$("textarea[data-note]").forEach(ta => { const id = ta.dataset.note; if (vistos.has(id)) return; vistos.add(id); if (!notaSuja(id)) loadNote(id, ta); });
+  statusGeral();
+}
+function podeMarcar() {
+  if (PONTE && !store.loaded) { toast("O progresso não foi lido do disco; nada pode ser marcado até ele responder."); refresh(); return false; }
+  return true;
 }
 function notaKey(id) { return "o-mapa-note-" + id; }
+function mostrarNota(id, texto, exceto) {
+  $$(`textarea[data-note="${id}"]`).forEach(ta => { if (ta !== exceto && ta.value !== texto) ta.value = texto; });
+}
 async function loadNote(id, ta) {
   if (!PONTE) { const v = LS.get(notaKey(id)); if (v != null) ta.value = v; return; }
-  const ns = store.nst[id];
-  if (ns && (ns.dirty || ns.writing) && store.notes[id] != null) { ta.value = store.notes[id]; return; }
+  if (notaSuja(id) && store.notes[id] != null) { ta.value = store.notes[id]; return; }
   ta.readOnly = true;
   try {
     const r = await pedir("lerNota", { id, titulo: S[id].t });
-    store.notes[id] = r && typeof r.texto === "string" ? r.texto : "";
-    ta.value = store.notes[id];
-  } catch (e) { toast(`Não consegui ler as notas de ${id}: ${erroTxt(e)}`); return; }
-  finally { ta.readOnly = false; }
+    if (notaSuja(id) && store.notes[id] != null) {
+      mostrarNota(id, store.notes[id]); // alguém digitou em outra caixa enquanto lia: vale o digitado
+    } else {
+      const t = r && typeof r.texto === "string" ? r.texto : "";
+      store.notes[id] = t; store.nver[id] = (r && r.versao) || null;
+      mostrarNota(id, t);
+      if (r && r.restaurada) toast(`A nota de ${id} não estava na pasta: restaurei a partir da cópia no Mac.`);
+    }
+    ta.readOnly = false;
+  } catch (e) {
+    ta.readOnly = true;
+    ta.placeholder = `Não consegui ler o notas.md de ${id} (${erroTxt(e)}). Para não apagar nada, esta nota fica só para leitura até o arquivo abrir.`;
+    toast(`Não consegui ler as notas de ${id}: ${erroTxt(e)}`);
+  }
 }
-function saveNote(id, text) {
+function saveNote(id, text, origem) {
   store.notes[id] = text;
+  mostrarNota(id, text, origem);
   if (!PONTE) { LS.set(notaKey(id), text); return; }
-  const ns = store.nst[id] || (store.nst[id] = { timer: null, writing: false, dirty: false, tries: 0 });
+  const ns = store.nst[id] || (store.nst[id] = { timer: null, writing: false, dirty: false, tries: 0, erro: null });
   ns.dirty = true;
-  setStatus(store.onde, "salvando…");
+  statusGeral();
   clearTimeout(ns.timer);
   ns.timer = setTimeout(() => flushNote(id), 700);
 }
@@ -211,26 +282,30 @@ async function flushNote(id) {
   if (ns.writing || !ns.dirty) return;
   ns.dirty = false; ns.writing = true;
   try {
-    const r = await pedir("salvarNota", { id, titulo: S[id].t, texto: store.notes[id] || "" });
-    store.onde = (r && r.onde) || store.onde; ns.tries = 0;
-    if (!ns.dirty) setStatus(store.onde);
+    const r = await pedir("salvarNota", { id, titulo: S[id].t, texto: store.notes[id] || "", versao: store.nver[id] || null, raiz: store.raiz });
+    store.onde = (r && r.onde) || store.onde; ns.tries = 0; ns.erro = null;
+    store.aviso = (r && r.aviso) || null;
+    if (r && r.versao) store.nver[id] = r.versao;
+    if (r && r.conflito) toast(`A nota de ${id} tinha mudado fora do app; a versão de fora ficou guardada em .versoes.`);
   } catch (e) {
-    ns.dirty = true; ns.tries++;
-    setStatus("erro", `não consegui salvar a nota de ${id} — ${erroTxt(e)}`);
+    ns.dirty = true; ns.tries++; ns.erro = erroTxt(e);
   } finally {
     ns.writing = false;
     if (ns.dirty) ns.timer = setTimeout(() => flushNote(id), Math.min(30000, 1500 * 2 ** Math.min(ns.tries, 5)));
+    statusGeral();
   }
 }
-async function salvarAgora() {
-  if (!PONTE) { const ok = saveLocal(); setStatus(ok ? "local" : "none"); toast(ok ? "Salvo neste navegador." : "Não consegui salvar — exporte."); return ok; }
-  if (!store.loaded) { toast("O progresso não foi carregado; nada foi gravado."); return false; }
-  for (let k = 0; k < 100 && anyDirty() && (store.writing || Object.values(store.nst).some(n => n.writing)); k++) await pausa(50);
-  store.dirty = true;
-  await flush();
+/* Grava só o que está pendente. Devolve true se não sobrou nada sem gravar. */
+async function salvarAgora(silencioso) {
+  if (!PONTE) { const ok = saveLocal(); setStatus(ok ? "local" : "none"); if (!silencioso) toast(ok ? "Salvo neste navegador." : "Não consegui salvar — exporte."); return ok; }
+  const emCurso = () => store.writing || Object.values(store.nst).some(n => n.writing);
+  for (let k = 0; k < 60 && emCurso(); k++) await pausa(50);
+  if (store.dirty) await flush();
   for (const id of Object.keys(store.nst)) if (store.nst[id].dirty) await flushNote(id);
-  const ok = !anyDirty() && $("#save").dataset.mode !== "erro";
-  toast(!ok ? "Ainda não consegui salvar tudo — veja o aviso no topo." : store.onde === "espera" ? "Salvo no Mac (KEIROS desconectado)." : "Salvo no KEIROS.");
+  for (let k = 0; k < 60 && emCurso(); k++) await pausa(50);
+  const ok = !anyDirty();
+  statusGeral();
+  if (!silencioso) toast(!ok ? "Ainda não consegui salvar tudo — veja o aviso no topo." : store.onde === "espera" ? "Salvo no Mac (KEIROS desconectado)." : "Salvo no KEIROS.");
   return ok;
 }
 function abrirFora(url, titulo) {
@@ -246,10 +321,43 @@ function testarYouTube() {
 
 /* ═════════ ações ═════════ */
 function bloqueado(id) { toast(`${id} ainda está bloqueado. Abra o assunto para ver o que falta.`); refresh(); }
-function toggle(id, kind, idx, on) { if (!canMark(id)) { bloqueado(id); return; } const x = sp(id); if (kind === "b") x.b = on ? 1 : 0; else x.c[idx] = on ? 1 : 0; touch(); refresh(); }
-function setAll(id, on) { if (!canMark(id)) { bloqueado(id); return false; } const x = sp(id); x.b = on ? 1 : 0; x.c = x.c.map(() => (on ? 1 : 0)); touch(); refresh(); return true; }
-function setLevelAll(n) { if (!gateOpen(n)) { toast(`O nível ${n} ainda está fechado.`); return false; } for (const id of BY_LEVEL[n] || []) { const x = sp(id); x.b = 1; x.c = x.c.map(() => 1); } touch(); refresh(); return true; }
-function toggleLevel(n, on) { if (on && !bossOpen(n)) { toast(bossWhy(n) || `O boss do nível ${n} ainda está fechado.`); refresh(); return; } P.L[n] = on ? 1 : 0; touch(); refresh(); }
+function motivoCurto(id) { return semTags(lockWhy(id).join("; ")) || "o caminho até ele abrir"; }
+function aplicarToggle(id, kind, idx, on) { const x = sp(id); if (kind === "b") x.b = on ? 1 : 0; else x.c[idx] = on ? 1 : 0; touch(); refresh(); }
+function toggle(id, kind, idx, on) {
+  if (!podeMarcar()) return;
+  if (!canMark(id)) { bloqueado(id); return; }
+  if (!on && !available(id) && itemsOf(id) === 1) {
+    refresh();
+    askConfirm(`Desmarcar este item deixa ${id} sem nenhuma marcação, e ${id} está bloqueado: ele fica trancado até ${motivoCurto(id)}. Desmarcar mesmo assim?`, () => aplicarToggle(id, kind, idx, false));
+    return;
+  }
+  aplicarToggle(id, kind, idx, on);
+}
+function setAll(id, on, confirmado) {
+  if (!podeMarcar()) return false;
+  if (!canMark(id)) { bloqueado(id); return false; }
+  if (!on && !confirmado && !available(id) && started(id)) {
+    askConfirm(`Desmarcar tudo em ${id} o deixa trancado até ${motivoCurto(id)}. Desmarcar mesmo assim?`, () => { if (setAll(id, false, true)) toast(`${id} desmarcado.`); });
+    return false;
+  }
+  const x = sp(id); x.b = on ? 1 : 0; x.c = x.c.map(() => (on ? 1 : 0)); touch(); refresh(); return true;
+}
+function setLevelAll(n) {
+  if (!podeMarcar()) return false;
+  if (!gateOpen(n)) { toast(`O nível ${n} ainda está fechado.`); return false; }
+  for (const id of BY_LEVEL[n] || []) { const x = sp(id); x.b = 1; x.c = x.c.map(() => 1); }
+  touch(); refresh(); return true;
+}
+function toggleLevel(n, on) {
+  if (!podeMarcar()) return;
+  if (on && !bossOpen(n)) { toast(semTags(bossWhy(n)) || `O boss do nível ${n} ainda está fechado.`); refresh(); return; }
+  if (!on && P.L[n] && !bossOpen(n)) {
+    refresh();
+    askConfirm(`Se desmarcar o boss do nível ${n}, ele só poderá ser marcado de novo depois: ${semTags(bossWhy(n)) || "quando o nível estiver dominado"} Desmarcar mesmo assim?`, () => { P.L[n] = 0; touch(); refresh(); });
+    return;
+  }
+  P.L[n] = on ? 1 : 0; touch(); refresh();
+}
 
 /* ═════════ conteúdo de um assunto ═════════ */
 function stateChip(id) { const st = stateOf(id); return `<span class="state ${st === "done" ? "done" : ""}">${STATE_TXT[st]} · ${itemsOf(id)}/${totalOf(id)}</span>`; }
@@ -767,9 +875,12 @@ function refresh() {
 }
 
 /* ═════════ exportar / importar ═════════ */
-async function collectNotes() {
+async function collectNotes(estrito) {
   const notes = {};
-  if (PONTE) { try { const r = await pedir("lerNotas"); if (r && r.notas) Object.assign(notes, r.notas); } catch (e) {} }
+  if (PONTE) {
+    try { const r = await pedir("lerNotas"); if (r && r.notas) Object.assign(notes, r.notas); }
+    catch (e) { if (estrito) throw e; toast("Não consegui ler todas as notas: " + erroTxt(e)); }
+  }
   else LS.keys().forEach(k => { if (k && k.startsWith("o-mapa-note-")) { const v = LS.get(k); if (v) notes[k.slice(12)] = v; } });
   Object.entries(store.notes).forEach(([k, v]) => { if (v) notes[k] = v; });
   return notes;
@@ -795,14 +906,31 @@ function importText(txt) {
   try { o = JSON.parse(txt); } catch (e) { o = null; }
   if (!o || o.app !== "o-mapa" || !valid(o.progress)) { toast("Isso não é um progresso exportado por O MAPA."); return; }
   const n = Object.keys(o.progress.s).filter(k => S[k]).length;
-  askConfirm(`Substituir o progresso atual pelo importado (${n} ${plural(n, "assunto registrado", "assuntos registrados")})?`, () => {
+  const notas = o.notes && typeof o.notes === "object" ? Object.fromEntries(Object.entries(o.notes).filter(([k, v]) => S[k] && typeof v === "string" && v.trim())) : {};
+  const nn = Object.keys(notas).length;
+  askConfirm(`Substituir o progresso atual pelo importado (${n} ${plural(n, "assunto registrado", "assuntos registrados")})? O progresso atual fica guardado em .versoes.` +
+    (nn ? ` As ${nn} notas do arquivo não apagam as suas: nota vazia recebe o texto importado; nota diferente recebe o importado no fim, depois de uma linha "importado em …".` : ""), async () => {
+    if (!podeMarcar()) return;
     const p = clone(o.progress);
     Object.keys(p.s).forEach(k => { if (!S[k]) delete p.s[k]; });
     P = { v: 1, s: p.s, L: p.L, at: 0 };
+    store.versionar = true;
     touch(); refresh(); paintProgress();
-    if (o.notes && typeof o.notes === "object") for (const [k, v] of Object.entries(o.notes)) if (S[k] && typeof v === "string") saveNote(k, v);
+    if (nn) await importarNotas(notas);
     toast("Progresso importado.");
   });
+}
+async function importarNotas(notas) {
+  let atuais;
+  try { atuais = await collectNotes(true); }
+  catch (e) { toast("Não consegui ler as suas notas atuais; para não apagar nada, as notas do arquivo não foram importadas."); return; }
+  const data = new Date().toLocaleDateString("pt-BR");
+  for (const [k, v] of Object.entries(notas)) {
+    const cur = atuais[k] || "";
+    if (!cur.trim()) saveNote(k, v);
+    else if (cur === v || cur.includes(v)) continue;
+    else saveNote(k, `${cur}\n\n--- importado em ${data} ---\n\n${v}`);
+  }
 }
 let pending = null;
 function askConfirm(msg, fn) { pending = fn; $("#cf-msg").textContent = msg; $("#cf").hidden = false; $("#cf-yes").focus(); }
@@ -816,7 +944,7 @@ function wireProgress() {
     rd.readAsText(f);
   };
   $("#paste-go").onclick = () => importText($("#paste").value);
-  $("#rst").onclick = () => askConfirm("Zerar todo o progresso? As notas ficam.", () => { P = blank(); touch(); refresh(); paintProgress(); toast("Progresso zerado."); });
+  $("#rst").onclick = () => askConfirm("Zerar todo o progresso? As notas ficam, e o progresso atual fica guardado em .versoes.", () => { if (!podeMarcar()) return; P = blank(); store.versionar = true; touch(); refresh(); paintProgress(); toast("Progresso zerado."); });
   $("#cf-yes").onclick = () => { const fn = pending; pending = null; $("#cf").hidden = true; if (fn) fn(); };
   $("#cf-no").onclick = () => { pending = null; $("#cf").hidden = true; };
   $("#dump-copy").onclick = async () => { const ta = $("#dump"); try { await navigator.clipboard.writeText(ta.value); toast("Copiado."); } catch (e) { ta.focus(); ta.select(); toast("Selecionado — copie com o atalho do sistema."); } };
@@ -902,7 +1030,9 @@ function wireGlobal() {
     if (cb.matches("input[data-sid]")) toggle(cb.dataset.sid, cb.dataset.k, +cb.dataset.i, cb.checked);
     else if (cb.matches("input[data-level]")) toggleLevel(+cb.dataset.level, cb.checked);
   });
-  document.addEventListener("input", e => { const ta = e.target; if (ta.matches && ta.matches("textarea[data-note]")) saveNote(ta.dataset.note, ta.value); });
+  document.addEventListener("input", e => { const ta = e.target; if (ta.matches && ta.matches("textarea[data-note]")) saveNote(ta.dataset.note, ta.value, ta); });
+  // janela escondida, minimizada ou fechando: grava na hora (o relógio da página fica lento escondido)
+  document.addEventListener("visibilitychange", () => { if (document.hidden && PONTE) salvarAgora(true); });
   $("#dr-x").onclick = closeDrawer; $("#scrim").onclick = closeDrawer;
   $("#dr-prev").onclick = e => { const to = e.currentTarget.dataset.to; if (to) openSubject(to); };
   $("#dr-next").onclick = e => { const to = e.currentTarget.dataset.to; if (to) openSubject(to); };
@@ -932,7 +1062,7 @@ async function start() {
   showView(v);
   const h = decodeURIComponent((location.hash || "").slice(1));
   if (S[h]) openSubject(h);
-  window.__mapa = { salvar: salvarAgora, exportar: doExport, testarYouTube, pendente: anyDirty };
+  window.__mapa = { salvar: salvarAgora, recarregar, exportar: doExport, testarYouTube, pendente: anyDirty };
 }
 start();
 }

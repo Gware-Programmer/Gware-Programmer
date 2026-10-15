@@ -20,10 +20,12 @@ cp "$BIN" "$APP/Contents/MacOS/OMapa"
 cp Info.plist "$APP/Contents/Info.plist"
 cp -R UI "$APP/Contents/Resources/UI"
 
+# metadados do Finder/iCloud copiados com os arquivos fazem o codesign falhar ("detritus")
+xattr -cr "$APP"
 codesign --force --sign "${IDENTIDADE:--}" "$APP"
 codesign --verify "$APP"
 
 echo
 echo "Pronto: $(pwd)/$APP"
-echo "Para instalar, arraste para Aplicativos ou rode:"
-echo "  ditto \"$(pwd)/$APP\" \"/Applications/O MAPA.app\""
+echo "Para instalar (substituindo a versão anterior), rode:"
+echo "  rm -rf \"/Applications/O MAPA.app\" && ditto \"$(pwd)/$APP\" \"/Applications/O MAPA.app\""

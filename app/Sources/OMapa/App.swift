@@ -15,7 +15,8 @@ struct OMapaApp: App {
         .defaultSize(width: 1440, height: 920)
         .commands {
             CommandGroup(replacing: .newItem) {}
-            CommandGroup(replacing: .saveItem) {
+            // "after" (e não "replacing") mantém Arquivo › Fechar (⌘W).
+            CommandGroup(after: .saveItem) {
                 Button("Salvar") { estado.salvar() }
                     .keyboardShortcut("s", modifiers: .command)
                 Button("Exportar progresso…") { estado.exportar() }
@@ -32,36 +33,65 @@ struct OMapaApp: App {
     }
 }
 
-/// Estado do app: a pasta Nous Keiros e a página do mapa.
+/// Estado do app: a pasta Nous Keiros e a (única) página do mapa.
 final class EstadoDoApp: ObservableObject {
     static let compartilhado = EstadoDoApp()
 
     let arquivos = Arquivos()
     @Published private(set) var temPasta: Bool
-    weak var web: WKWebView?
+    /// A WebView do mapa. Pertence ao estado (referência forte) para sobreviver ao fechar da janela.
+    private(set) var web: WKWebView?
+    private var coordenador: Coordenador?
+    private var discoSaiu = false
     private var observadores: [NSObjectProtocol] = []
 
     init() {
         temPasta = arquivos.raiz != nil
         let centro = NSWorkspace.shared.notificationCenter
         observadores.append(centro.addObserver(forName: NSWorkspace.didMountNotification, object: nil, queue: .main) { [weak self] _ in
-            self?.discoPodeTerVoltado()
+            self?.sincronizar()
+        })
+        observadores.append(centro.addObserver(forName: NSWorkspace.didUnmountNotification, object: nil, queue: .main) { [weak self] _ in
+            self?.discoSaiu = true
         })
         observadores.append(NotificationCenter.default.addObserver(forName: NSApplication.didBecomeActiveNotification, object: nil, queue: .main) { [weak self] _ in
-            self?.discoPodeTerVoltado()
+            self?.sincronizar()
         })
     }
 
-    /// Quando o KEIROS volta, copia para ele o que ficou guardado no Mac e regrava o progresso.
-    func discoPodeTerVoltado() {
+    /// Cria (uma vez) a WebView do mapa, com o esquema omapa:// e a ponte.
+    func webDoMapa() -> WKWebView {
+        if let web { return web }
+        let c = Coordenador(arquivos: arquivos)
+        let config = WKWebViewConfiguration()
+        config.setURLSchemeHandler(c.esquema, forURLScheme: Endereco.esquema)
+        config.userContentController.addScriptMessageHandler(c.ponte, contentWorld: .page, name: Ponte.nome)
+        let novo = WKWebView(frame: .zero, configuration: config)
+        novo.navigationDelegate = c
+        novo.uiDelegate = c
+        novo.underPageBackgroundColor = NSColor(red: 10 / 255, green: 8 / 255, blue: 18 / 255, alpha: 1)
+        #if compiler(>=5.8)
+        if #available(macOS 13.3, *) { novo.isInspectable = true }
+        #endif
+        coordenador = c
+        web = novo
+        novo.load(URLRequest(url: Endereco.inicio))
+        return novo
+    }
+
+    /// Ao voltar para o app ou montar um disco: copia a fila do Mac para o KEIROS e,
+    /// se o progresso no disco mudou (outro Mac, disco que saiu e voltou), recarrega a página.
+    func sincronizar() {
         guard arquivos.conectado else { return }
-        if arquivos.esvaziarEspera() > 0 {
-            web?.evaluateJavaScript("window.__mapa && void window.__mapa.salvar()", completionHandler: nil)
+        let copiados = arquivos.esvaziarEspera()
+        if web != nil, copiados > 0 || discoSaiu || arquivos.progressoMudouFora() {
+            discoSaiu = false
+            web?.evaluateJavaScript("window.__mapa && void window.__mapa.recarregar()", completionHandler: nil)
         }
     }
 
-    func salvar() {
-        web?.evaluateJavaScript("window.__mapa && void window.__mapa.salvar()", completionHandler: nil)
+    func salvar(silencioso: Bool = false) {
+        web?.evaluateJavaScript("window.__mapa && void window.__mapa.salvar(\(silencioso))", completionHandler: nil)
     }
 
     func exportar() {
@@ -72,16 +102,34 @@ final class EstadoDoApp: ObservableObject {
         web?.evaluateJavaScript("window.__mapa && void window.__mapa.testarYouTube()", completionHandler: nil)
     }
 
-    /// Grava o que estiver pendente na página e só então segue (trocar de pasta, sair do app).
-    func salvarEDepois(_ depois: @escaping () -> Void) {
-        guard let web else { return depois() }
+    /// Grava o que estiver pendente na página e só então segue, dizendo se tudo foi gravado.
+    /// Sem página, não há nada pendente. Sem resposta em 10 s, segue como "não gravou".
+    func salvarEDepois(_ depois: @escaping (Bool) -> Void) {
+        guard let web else { return depois(true) }
         var feito = false
-        let seguir = {
-            if !feito { feito = true; depois() }
+        let seguir: (Bool) -> Void = { ok in
+            if !feito { feito = true; depois(ok) }
         }
-        web.callAsyncJavaScript("return window.__mapa ? await window.__mapa.salvar() : true",
-                                arguments: [:], in: nil, in: .page) { _ in seguir() }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) { seguir() }
+        web.callAsyncJavaScript("return window.__mapa ? await window.__mapa.salvar(true) : true",
+                                arguments: [:], in: nil, in: .page) { resultado in
+            if case .success(let valor) = resultado, let ok = valor as? Bool {
+                seguir(ok)
+            } else {
+                seguir(false)
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10) { seguir(false) }
+    }
+
+    /// Pergunta se segue mesmo sem ter conseguido gravar tudo. "Cancelar" é o padrão.
+    static func confirmarSemSalvar(_ acao: String) -> Bool {
+        let alerta = NSAlert()
+        alerta.alertStyle = .warning
+        alerta.messageText = "Nem tudo foi gravado"
+        alerta.informativeText = "Algumas alterações ainda não chegaram ao disco nem à fila do Mac. Veja o aviso no topo do mapa ou use Exportar antes de continuar."
+        alerta.addButton(withTitle: "Cancelar")
+        alerta.addButton(withTitle: "\(acao) mesmo assim")
+        return alerta.runModal() == .alertSecondButtonReturn
     }
 
     func escolherPasta() {
@@ -100,11 +148,19 @@ final class EstadoDoApp: ObservableObject {
             alerta.runModal()
             return
         }
-        salvarEDepois { [weak self] in
+        salvarEDepois { [weak self] ok in
             guard let self else { return }
+            guard ok || Self.confirmarSemSalvar("Trocar de pasta") else { return }
+            let pendentes = self.arquivos.conectado ? 0 : self.arquivos.arquivosNaEspera()
             self.arquivos.definirRaiz(url)
             self.temPasta = true
-            self.web?.load(URLRequest(url: Esquema.inicio))
+            self.web?.load(URLRequest(url: Endereco.inicio))
+            if pendentes > 0 {
+                let alerta = NSAlert()
+                alerta.messageText = "Trabalho da pasta anterior guardado no Mac"
+                alerta.informativeText = "\(pendentes) arquivo(s) da pasta anterior continuam guardados no Mac. Eles vão para o disco quando você escolher aquela pasta de novo, com o disco conectado."
+                alerta.runModal()
+            }
         }
     }
 
@@ -121,11 +177,13 @@ final class EstadoDoApp: ObservableObject {
 }
 
 final class Delegado: NSObject, NSApplicationDelegate {
-    /// Antes de fechar, grava o que estiver pendente (no máximo 5 segundos de espera).
+    /// Antes de fechar, grava o que estiver pendente; se algo não foi gravado, pergunta.
     func applicationShouldTerminate(_ sender: NSApplication) -> NSApplication.TerminateReply {
         let estado = EstadoDoApp.compartilhado
         guard estado.web != nil else { return .terminateNow }
-        estado.salvarEDepois { sender.reply(toApplicationShouldTerminate: true) }
+        estado.salvarEDepois { ok in
+            sender.reply(toApplicationShouldTerminate: ok || EstadoDoApp.confirmarSemSalvar("Sair"))
+        }
         return .terminateLater
     }
 

@@ -14,9 +14,11 @@ final class Leitores: NSObject, NSWindowDelegate {
         janela.isReleasedWhenClosed = false
         let nome = (titulo ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
         janela.title = nome.isEmpty ? (url.host ?? "Leitor") : nome
-        janela.contentViewController = NSHostingController(rootView: LeitorView(endereco: url) { [weak janela] t in
+        let hospedeiro = NSHostingController(rootView: LeitorView(endereco: url) { [weak janela] t in
             janela?.title = t
         })
+        hospedeiro.sizingOptions = [.minSize]
+        janela.contentViewController = hospedeiro
         janela.setContentSize(NSSize(width: 1100, height: 780))
         if let ultima = janelas.last, ultima.isVisible {
             janela.setFrameTopLeftPoint(NSPoint(x: ultima.frame.minX + 28, y: ultima.frame.maxY - 28))
@@ -97,6 +99,8 @@ final class ModeloLeitor: NSObject, ObservableObject, WKNavigationDelegate, WKUI
     @Published var carregando = false
     @Published var erro: String?
     @Published var video: URL?
+    /// O último vídeo carregado no player embutido (para o Voltar restaurar o estado de vídeo).
+    private var ultimoVideo: URL?
     weak var web: WKWebView?
     var aoMudarTitulo: (String) -> Void = { _ in }
 
@@ -105,6 +109,7 @@ final class ModeloLeitor: NSObject, ObservableObject, WKNavigationDelegate, WKUI
         erro = nil
         if let v = YouTube.video(url) {
             video = url
+            ultimoVideo = url
             endereco = url
             web.loadHTMLString(YouTube.pagina(id: v.id, inicio: v.inicio), baseURL: YouTube.origem)
         } else {
@@ -129,7 +134,14 @@ final class ModeloLeitor: NSObject, ObservableObject, WKNavigationDelegate, WKUI
         podeVoltar = w.canGoBack
         podeAvancar = w.canGoForward
         carregando = w.isLoading
-        if video == nil, let u = w.url, u.scheme != "about" { endereco = u }
+        if let u = w.url, u.host == YouTube.origem.host {
+            // a página do player embutido (também ao voltar para ela pelo histórico)
+            video = video ?? ultimoVideo
+            endereco = video
+        } else if let u = w.url, u.scheme != "about" {
+            video = nil
+            endereco = u
+        }
         if video == nil, let t = w.title, !t.isEmpty { aoMudarTitulo(t) }
     }
 
@@ -149,15 +161,16 @@ final class ModeloLeitor: NSObject, ObservableObject, WKNavigationDelegate, WKUI
         atualizar(w)
     }
 
-    /// O que o WebKit não sabe mostrar (zip, ipynb…) abre, por enquanto, no app padrão do Mac.
-    func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse,
-                 decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void) {
-        if navigationResponse.canShowMIMEType {
-            decisionHandler(.allow)
-            return
+    /// O que o WebKit não sabe mostrar (zip, ipynb…) abre, por enquanto, no app padrão do Mac —
+    /// mas só quando é a página principal e só endereços http/https (nunca um iframe de anúncio).
+    @MainActor
+    func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse) async -> WKNavigationResponsePolicy {
+        if navigationResponse.canShowMIMEType { return .allow }
+        if navigationResponse.isForMainFrame, let u = navigationResponse.response.url,
+           ["http", "https"].contains(u.scheme?.lowercased() ?? "") {
+            NSWorkspace.shared.open(u)
         }
-        decisionHandler(.cancel)
-        if let u = navigationResponse.response.url { NSWorkspace.shared.open(u) }
+        return .cancel
     }
 
     /// Links que pedem janela nova abrem no mesmo leitor.
@@ -183,10 +196,12 @@ struct NavegadorWeb: NSViewRepresentable {
         web.navigationDelegate = modelo
         web.uiDelegate = modelo
         web.allowsBackForwardNavigationGestures = true
+        #if compiler(>=5.8)
         if #available(macOS 13.3, *) { web.isInspectable = true }
+        #endif
         modelo.web = web
-        let modelo = self.modelo, inicial = self.inicial
-        DispatchQueue.main.async { modelo.carregar(inicial) }
+        let m = modelo, primeiro = inicial
+        DispatchQueue.main.async { m.carregar(primeiro) }
         return web
     }
 
