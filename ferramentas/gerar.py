@@ -75,6 +75,11 @@ def assunto_md(sid, s, D, S):
         if not x.get('ok', True):
             linha += f' ⚠ não verificado — {x.get("why", "")}'
         md.append(linha)
+    if s.get('excecoes'):
+        md += ['', '**Exceções na regra de materiais:**', '']
+        rotulo = {'entrada': 'material de entrada', 'texto canônico': 'texto canônico', 'prático': 'material prático',
+                  'aula/vídeo': 'aula ou vídeo', 'fonte 2025–2026': 'fonte de 2025–2026'}
+        md += [f'- sem {rotulo.get(k, k)}: {m}' for k, m in s['excecoes'].items()]
     md += ['', '## Boss fight', '', html_md(s['boss']), '', '## Checkpoint', '']
     md += [f'- [ ] {html_md(c)}' for c in s['check']]
     md += ['', '---', '', 'Arquivo gerado a partir de `mapa/mapa.json`. Para mudar o conteúdo, edite o mapa e gere de novo.',

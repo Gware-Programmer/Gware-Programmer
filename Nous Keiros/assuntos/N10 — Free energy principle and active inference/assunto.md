@@ -58,6 +58,12 @@ O princípio da energia livre afirma que todo sistema que persiste minimiza um l
 - 🔧 [infer-actively/pymdp](https://github.com/infer-actively/pymdp) — Conor Heins et al. · ferramenta
 - 📄 [The Emperor's New Markov Blankets](https://doi.org/10.1017/S0140525X21002351) — Jelle Bruineberg, Krzysztof Dołęga, Joe Dewhurst & Manuel Baltieri, 2022 · paper. crítica
 - 📄 [What does the free energy principle tell us about the brain?](https://arxiv.org/abs/1901.07945) — Samuel J. Gershman, 2019 · paper
+- 🗺️ [pymdp: active inference in Python (documentation and tutorials)](https://pymdp-rtd.readthedocs.io/) — Conor Heins et al. · guia. tutoriais de inferência ativa do zero
+- 🆕 [Expected Free Energy-based Planning as Variational Inference](https://arxiv.org/abs/2504.14898) — Bert de Vries et al., 2025 · recente
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

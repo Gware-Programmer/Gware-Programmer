@@ -60,6 +60,7 @@ A hipótese de que o cérebro prevê constantemente suas entradas e propaga apen
 - 🧭 [Predictive Coding: a Theoretical and Experimental Review](https://arxiv.org/abs/2107.12979) — Beren Millidge, Anil Seth & Christopher L. Buckley, 2021 · review
 - 🧭 [Evaluating the neurophysiological evidence for predictive processing as a model of perception](https://doi.org/10.1111/nyas.14321) — Kevin S. Walsh, David P. McGovern, Andy Clark & Redmond G. O'Connell, 2020 · review. a evidência, com cautela
 - 🆕 [Inferring neural activity before plasticity as a foundation for learning beyond backpropagation](https://doi.org/10.1038/s41593-023-01514-1) — Yuhang Song et al., 2024 · recente
+- 🎓 [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks em Python
 
 ## Boss fight
 

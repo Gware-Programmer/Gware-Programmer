@@ -57,7 +57,7 @@ Neurônios, redes recorrentes, circuitos de controle, inferência ativa e difus�
 
 ## Fontes
 
-- 📖 [Nonlinear Dynamics and Chaos (3ª ed.)](https://doi.org/10.1201/9780429398490) — Steven H. Strogatz, 2024 · livro. o livro do assunto
+- 📖 [Nonlinear Dynamics and Chaos (3rd ed.)](https://doi.org/10.1201/9780429398490) — Steven H. Strogatz, 2024 · livro. o livro do assunto
 - 🎬 [Nonlinear Dynamics and Chaos (Cornell MAE 5790)](https://www.youtube.com/playlist?list=PLbN57C5Zdl6j_qJA-pARJnKsmROzPnO9V) — Steven Strogatz · video. as aulas do próprio autor
 - 🎓 [Differential Equations (18.03SC)](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/) — MIT OpenCourseWare · curso
 - 📄 [Neural Ordinary Differential Equations](https://arxiv.org/abs/1806.07366) — Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt & David Duvenaud, 2018 · paper. leitura do AVANÇADO

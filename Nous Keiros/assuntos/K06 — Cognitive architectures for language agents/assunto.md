@@ -58,6 +58,8 @@ Os agentes de linguagem de hoje reinventaram, quase sem citar, ideias de 40 anos
 - 📄 [Can A Cognitive Architecture Fundamentally Enhance LLMs? Or Vice Versa?](https://arxiv.org/abs/2401.10444) — Ron Sun, 2024 · paper
 - 📄 [An Analysis and Comparison of ACT-R and Soar](https://arxiv.org/abs/2201.09305) — John E. Laird, 2022 · paper
 - 📄 [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) — Guanzhi Wang et al., 2023 · paper. habilidades como código
+- 🎓 [Large Language Model Agents (MOOC, Fall 2024)](https://llmagents-learning.org/f24) — Dawn Song et al. (UC Berkeley) · curso. aulas em vídeo
+- 🆕 [NL2GenSym: Natural Language to Generative Symbolic Rules for SOAR Cognitive Architecture via Large Language Models](https://arxiv.org/abs/2510.09355) — Fang Yuan et al., 2025 · recente
 
 ## Boss fight
 

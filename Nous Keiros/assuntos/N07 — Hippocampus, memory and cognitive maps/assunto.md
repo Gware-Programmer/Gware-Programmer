@@ -60,6 +60,9 @@ O hipocampo grava episódios, constrói mapas do espaço e de conceitos e "repri
 - 📄 [The hippocampus as a predictive map](https://doi.org/10.1038/nn.4650) — Kimberly L. Stachenfeld, Matthew M. Botvinick & Samuel J. Gershman, 2017 · paper
 - 📄 [The Tolman-Eichenbaum Machine: Unifying Space and Relational Memory through Generalization in the Hippocampal Formation](https://doi.org/10.1016/j.cell.2020.10.024) — James C. R. Whittington et al., 2020 · paper
 - 🧭 [What Is a Cognitive Map? Organizing Knowledge for Flexible Behavior](https://doi.org/10.1016/j.neuron.2018.10.002) — Timothy E. J. Behrens et al., 2018 · review
+- 🎓 [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks em Python
+- 🔧 [RatInABox](https://github.com/RatInABox-Lab/RatInABox) — Tom George et al. · ferramenta. simulação de células de lugar e de grade
+- 🆕 [Between planning and map building: Prioritizing replay when future goals are uncertain](https://doi.org/10.1016/j.neuron.2025.09.021) — Yotam Sagiv, Thomas Akam, Ilana B. Witten & Nathaniel D. Daw, 2025 · recente
 
 ## Boss fight
 

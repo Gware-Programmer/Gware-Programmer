@@ -59,6 +59,7 @@ Humanos aprendem a vida inteira sem apagar o que sabiam; redes esquecem catastro
 - 📄 [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400) — Chelsea Finn, Pieter Abbeel & Sergey Levine, 2017 · paper
 - 📰 [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) — Catherine Olsson et al. (Anthropic), 2022 · artigo
 - 📄 [What Can Transformers Learn In-Context? A Case Study of Simple Function Classes](https://arxiv.org/abs/2208.01066) — Shivam Garg, Dimitris Tsipras, Percy Liang & Gregory Valiant, 2022 · paper
+- 🎓 [CS330: Deep Multi-Task and Meta Learning](https://cs330.stanford.edu/) — Chelsea Finn (Stanford) · curso. aulas e tarefas
 
 ## Boss fight
 

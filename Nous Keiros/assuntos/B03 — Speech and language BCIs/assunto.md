@@ -59,6 +59,7 @@ Em 2023, duas equipes mostraram neuropróteses de fala decodificando dezenas de 
 - 🆕 [An instantaneous voice-synthesis neuroprosthesis](https://doi.org/10.1038/s41586-025-09127-3) — Maitreyee Wairagkar et al., 2025 · recente
 - 🆕 [Inner speech in motor cortex and implications for speech neuroprostheses](https://doi.org/10.1016/j.cell.2025.06.015) — Erin M. Kunz et al., 2025 · recente
 - 📄 [Semantic reconstruction of continuous language from non-invasive brain recordings](https://doi.org/10.1038/s41593-023-01304-9) — Jerry Tang, Amanda LeBel, Shailee Jain & Alexander G. Huth, 2023 · paper
+- 🎓 [Neuromatch Academy: NeuroAI](https://neuroai.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks
 
 ## Boss fight
 

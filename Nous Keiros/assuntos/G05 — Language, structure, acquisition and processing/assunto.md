@@ -53,12 +53,13 @@ Linguagem é a capacidade mais estudada da cognição humana e a porta de entrad
 
 ## Fontes
 
-- 📖 [Speech and Language Processing (3ª ed., rascunho)](https://web.stanford.edu/~jurafsky/slp3/) — Daniel Jurafsky & James H. Martin · livro
+- 📖 [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) — Daniel Jurafsky & James H. Martin · livro
 - 📄 [Statistical Learning by 8-Month-Old Infants](https://doi.org/10.1126/science.274.5294.1926) — Jenny R. Saffran, Richard N. Aslin & Elissa L. Newport, 1996 · paper
 - 📄 [A Probabilistic Earley Parser as a Psycholinguistic Model](https://aclanthology.org/N01-1021/) — John Hale, 2001 · paper
 - 📄 [Expectation-based syntactic comprehension](https://doi.org/10.1016/j.cognition.2007.05.006) — Roger Levy, 2008 · paper
 - 🧭 [Dissociating language and thought in large language models](https://doi.org/10.1016/j.tics.2024.01.011) — Kyle Mahowald, Anna A. Ivanova, Idan A. Blank, Nancy Kanwisher, Joshua B. Tenenbaum & Evelina Fedorenko, 2024 · review
 - 🆕 [Language is primarily a tool for communication rather than thought](https://doi.org/10.1038/s41586-024-07522-w) — Evelina Fedorenko, Steven T. Piantadosi & Edward A. F. Gibson, 2024 · recente
+- 🎓 [9.00SC Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) — John Gabrieli (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

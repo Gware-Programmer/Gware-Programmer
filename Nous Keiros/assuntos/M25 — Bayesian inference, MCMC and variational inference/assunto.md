@@ -56,9 +56,9 @@ Bayes é a matemática de raciocinar com incerteza: o "cérebro bayesiano", a co
 
 ## Fontes
 
-- 📖 [Statistical Rethinking (2ª ed.)](https://xcelab.net/rm/) — Richard McElreath, 2020 · livro. a melhor formação prática em modelagem bayesiana
-- 🎓 [Statistical Rethinking 2026 — aulas e materiais](https://github.com/rmcelreath/stat_rethinking_2026) — Richard McElreath · curso
-- 📖 [Bayesian Data Analysis (3ª ed.)](https://sites.stat.columbia.edu/gelman/book/) — Gelman, Carlin, Stern, Dunson, Vehtari & Rubin, 2013 · livro. PDF gratuito oficial; a referência
+- 📖 [Statistical Rethinking (2nd ed.)](https://xcelab.net/rm/) — Richard McElreath, 2020 · livro. a melhor formação prática em modelagem bayesiana
+- 🎓 [Statistical Rethinking 2026 — lectures and materials](https://github.com/rmcelreath/stat_rethinking_2026) — Richard McElreath · curso
+- 📖 [Bayesian Data Analysis (3rd ed.)](https://sites.stat.columbia.edu/gelman/book/) — Gelman, Carlin, Stern, Dunson, Vehtari & Rubin, 2013 · livro. PDF gratuito oficial; a referência
 - 📄 [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) — David M. Blei, Alp Kucukelbir & Jon D. McAuliffe, 2017 · paper
 - 📄 [A Conceptual Introduction to Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434) — Michael Betancourt, 2017 · paper
 

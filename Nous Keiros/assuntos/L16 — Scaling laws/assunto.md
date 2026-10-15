@@ -60,6 +60,8 @@ As leis de escala tornaram o progresso em IA previsível: a perda cai como lei d
 - 📄 [Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004) — Rylan Schaeffer, Brando Miranda & Sanmi Koyejo, 2023 · paper
 - 📄 [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466) — Greg Yang et al., 2022 · paper. o muP
 - 🗃️ [Data on AI](https://epoch.ai/data) — Epoch AI · dados. tendências públicas de computação, dados e modelos
+- 🎓 [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. aulas e tarefas implementando tudo do zero
+- 🆕 [Distillation Scaling Laws](https://arxiv.org/abs/2502.08606) — Dan Busbridge et al., 2025 · recente
 
 ## Boss fight
 

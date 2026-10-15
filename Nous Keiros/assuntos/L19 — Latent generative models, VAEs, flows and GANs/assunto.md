@@ -58,6 +58,8 @@ Gerar dados exige modelar distribuições inteiras. VAEs, fluxos normalizantes e
 - 🧭 [Normalizing Flows for Probabilistic Modeling and Inference](https://arxiv.org/abs/1912.02762) — George Papamakarios, Eric Nalisnick, Danilo Jimenez Rezende, Shakir Mohamed & Balaji Lakshminarayanan, 2019 · review
 - 📄 [Density estimation using Real NVP](https://arxiv.org/abs/1605.08803) — Laurent Dinh, Jascha Sohl-Dickstein & Samy Bengio, 2016 · paper
 - 📖 [Understanding Deep Learning](https://udlbook.github.io/udlbook/) — Simon J. D. Prince, 2023 · livro. caps. 14–17
+- 🎓 [CS236: Deep Generative Models](https://deepgenerativemodels.github.io/) — Stefano Ermon (Stanford) · curso. notas e aulas
+- 🆕 [The GAN is dead; long live the GAN! A Modern GAN Baseline](https://arxiv.org/abs/2501.05441) — Yiwen Huang et al., 2025 · recente
 
 ## Boss fight
 

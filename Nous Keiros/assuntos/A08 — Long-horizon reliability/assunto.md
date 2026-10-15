@@ -59,6 +59,7 @@ O gargalo prático dos agentes não é inteligência pontual, é confiabilidade 
 - 📄 [Measuring AI Ability to Complete Long Software Tasks](https://arxiv.org/abs/2503.14499) — Thomas Kwa et al. (METR), 2025 · paper
 - 📊 [Frontier Risk Report (February to March 2026)](https://metr.org/blog/2026-05-19-frontier-risk-report) — METR, 2026 · relatório
 - 🗺️ [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic, 2025 · guia
+- 🎓 [Advanced Large Language Model Agents (MOOC, Spring 2025)](https://llmagents-learning.org/sp25) — Dawn Song et al. (UC Berkeley) · curso. raciocínio, busca e agentes; aulas em vídeo
 
 ## Boss fight
 

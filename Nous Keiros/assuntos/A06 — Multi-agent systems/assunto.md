@@ -59,6 +59,7 @@ Muitos agentes cooperando ou competindo — o MUSUBI é exatamente isso. A pesqu
 - 📄 [Improving Factuality and Reasoning in Language Models through Multiagent Debate](https://arxiv.org/abs/2305.14325) — Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum & Igor Mordatch, 2023 · paper
 - 📄 [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155) — Qingyun Wu et al., 2023 · paper
 - 📰 [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) — Anthropic, 2025 · artigo
+- 🎓 [Large Language Model Agents (MOOC, Fall 2024)](https://llmagents-learning.org/f24) — Dawn Song et al. (UC Berkeley) · curso. aulas em vídeo
 
 ## Boss fight
 

@@ -58,9 +58,10 @@ Entropia, entropia cruzada e divergência KL são as funções de perda e as mé
 ## Fontes
 
 - 📖 [Information Theory, Inference, and Learning Algorithms](https://www.inference.org.uk/itila/book.html) — David J. C. MacKay, 2003 · livro. PDF gratuito oficial
-- 📖 [Elements of Information Theory (2ª ed.)](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X) — Thomas M. Cover & Joy A. Thomas, 2006 · livro. a referência rigorosa
+- 📖 [Elements of Information Theory (2nd ed.)](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X) — Thomas M. Cover & Joy A. Thomas, 2006 · livro. a referência rigorosa
 - 📄 [A Mathematical Theory of Communication](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x) — Claude E. Shannon, 1948 · paper. leia o original: é legível e fundador
 - 📄 [Language Modeling Is Compression](https://arxiv.org/abs/2309.10668) — Delétang et al., 2023 · paper
+- 🎓 [Information Theory, Pattern Recognition and Neural Networks (lectures)](http://www.inference.org.uk/itprnn_lectures/) — David MacKay (Cambridge) · curso. as aulas em vídeo do livro
 
 ## Boss fight
 

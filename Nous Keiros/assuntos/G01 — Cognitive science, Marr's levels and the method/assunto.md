@@ -59,6 +59,7 @@ Nenhuma matemática anterior: o que se treina aqui é pensar com clareza sobre n
 - 🌐 [Cognitive Science (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/cognitive-science/) — Paul Thagard · site
 - 📄 [Neuroscience Needs Behavior: Correcting a Reductionist Bias](https://doi.org/10.1016/j.neuron.2016.12.041) — John W. Krakauer, Asif A. Ghazanfar, Alex Gomez-Marin, Malcolm A. MacIver & David Poeppel, 2017 · paper
 - 🆕 [The primacy of behavioral research for understanding the brain](https://doi.org/10.1037/bne0000471) — Yael Niv, 2021 · recente
+- 🎓 [9.00SC Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) — John Gabrieli (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

@@ -14,7 +14,10 @@ A auditoria teve dois objetivos:
 | Assuntos | 180 | 203 (15 assuntos novos + 8 projetos práticos) |
 | Trilhas | 15 | 16 (nova: Build Your Own AI) |
 | Níveis | 14 | 14, com nomes por etapa |
-| Fontes | 893 | 1.029 |
+| Fontes | 893 | 1.103 |
+| Fontes conferidas | 888 (5 sem verificação) | 1.103 (todas) |
+| Links mortos | — | 0 |
+| Assuntos que cumprem a regra de materiais | 69 de 203 | 203 de 203 (26 com exceção justificada) |
 | Dependências ajustadas | — | 20 |
 | Japonês na interface, níveis, trilhas e títulos | sim | nenhum |
 
@@ -201,4 +204,82 @@ Cada item novo tem os mesmos 11 blocos dos outros: por que importa, pré-requisi
 - Demais links: resposta da página.
 - Sites que recusam leitura automática: navegador comum, README do repositório ou ISBN no Open Library.
 
-**Status:** em andamento — a completude por assunto e a checagem de links das 893 fontes originais entram na próxima atualização deste relatório.
+### 6.1 Completude por assunto
+
+**Antes:** 134 dos 203 assuntos tinham alguma falta.
+
+| Critério | Assuntos com falta |
+|---|---|
+| Aula ou vídeo | 132 |
+| Material prático | 95 |
+| Material de entrada | 92 |
+| Fonte de 2025–2026 (níveis 8–13) | 29 |
+| Texto canônico | 1 |
+
+**O que entrou:** 189 indicações de material em 131 assuntos, somando 103 fontes novas (27 delas de 2025–2026).
+- Cursos abertos com aulas e listas:
+  - Stanford CS229, CS224n, CS336, CS236, CS330, CS276 e CS25;
+  - Berkeley CS285, CS188 e LLM Agents;
+  - Cornell CS4780;
+  - MIT 9.00, 9.40, 24.09, 6.172, 6.262, 18.102, EfficientML e Underactuated Robotics;
+  - NYU Deep Learning, UvA Deep Learning, Neuromatch, ARENA, BlueDot, o curso de RL de David Silver, GPU MODE, o Ultra-Scale Playbook da Hugging Face, Full Stack Deep Learning e as aulas de MacKay.
+- Ferramentas e documentação para a parte prática: scikit-learn, Spinning Up, DreamerV3, mamba, PyTorch Geometric, Inspect, pymdp, MNE-Python, PyPhi, RatInABox, NetLogo, LeRobot, Brain-Score, ACT-R e Soar.
+- Verbetes da Stanford Encyclopedia of Philosophy para as trilhas de filosofia, consciência e arquiteturas cognitivas.
+- Papers e documentos de 2025–2026 para a fronteira de cada trilha, por exemplo:
+  - Open Problems in Mechanistic Interpretability;
+  - o teste adversarial Cogitate (Nature, 2025);
+  - Distillation Scaling Laws;
+  - Measuring AI Ability to Complete Long Software Tasks;
+  - BitNet b1.58 2B4T;
+  - a Recomendação da UNESCO sobre ética da neurotecnologia.
+
+**Depois:** os 203 assuntos cumprem a regra.
+- Em 26 assuntos, algum critério não tem material bom e aberto. O motivo fica escrito no mapa (campo `excecoes`) e no `assunto.md` do assunto.
+
+  | Critério sem material | Assuntos | Motivo |
+  |---|---|---|
+  | Aula ou vídeo | 26 | não há curso em vídeo aberto e estável sobre o tema (consciência, arquiteturas cognitivas, ofício de pesquisa, partes da neurociência) |
+  | Material prático | 12 | assunto teórico: a prática é o boss fight |
+  | Material de entrada | 2 | M41 (a entrada é o texto introdutório de Frank Nielsen) e Z08 (projeto integrador; os materiais vêm de Z01–Z07) |
+
+- O validador só aceita exceção com motivo escrito e avisa quando ela fica desnecessária.
+
+### 6.2 Checagem de links
+
+O resultado de cada fonte está em `auditoria/links.csv`. Para cada uma, o arquivo traz em que assuntos aparece, a situação, como foi conferida e o título encontrado.
+
+**As 893 fontes originais**, em duas passadas com intervalo entre elas. Só contaria como morto o link que falhasse nas duas e não tivesse cópia.
+
+| Como foi conferida | Fontes |
+|---|---|
+| DOI no Crossref | 319 |
+| Página respondeu | 283 |
+| arXiv no DataCite | 268 |
+| Repositório do GitHub, pelo README (o GitHub recusa leitura automática) | 18 |
+| Cópia no Wayback Machine | 4 |
+| ISBN no Open Library | 1 |
+
+**As 210 fontes novas** foram conferidas uma a uma:
+- título, primeiro autor e ano do arXiv (77) e do DOI (16);
+- vídeos pelo oEmbed do YouTube (4);
+- as demais pela resposta da página (89) ou, quando o site recusa leitura automática, por outra via (24).
+
+**Links mortos: 0.** Sites que recusam leitura automática (GitHub, editoras, alguns portais) abrem normalmente no navegador do app; só a checagem automática não consegue lê-los.
+
+**As 5 fontes "não verificadas" do mapa original** estão conferidas agora:
+
+| Fonte | Como |
+|---|---|
+| Frankish, *Illusionism as a Theory of Consciousness* | Wayback Machine (01/02/2025) |
+| OpenAI, *Sycophancy in GPT-4o* | Wayback Machine (12/10/2026) |
+| Gopen & Swan, *The Science of Scientific Writing* | Wayback Machine (17/08/2026) |
+| Dayan & Abbott, *Theoretical Neuroscience* | ISBN 9780262541855 no Open Library |
+| Newell, *Unified Theories of Cognition* | navegador comum (o site recusa clientes automáticos) |
+
+**Ajustes:**
+- 2 títulos acertados pelo registro oficial:
+  - *Towards Causal Representation Learning*;
+  - *Numerical Linear Algebra (Twenty-fifth Anniversary Edition)*.
+- O endereço do *Probabilistic Models of Cognition* ficou em `http://probmods.org/`, porque o site não tem certificado para https.
+- Nomes de materiais todos em inglês: edição ("2nd ed.") e descrições como "lectures" e "official site".
+  - Ficam com o nome oficial em português só os materiais brasileiros: Portal da Matemática OBMEP, *Análise Real*, LGPD, PEC 29/2023 e FAPESP PIPE.

@@ -57,8 +57,12 @@ Soar é uma das arquiteturas cognitivas mais antigas ainda em desenvolvimento at
 - 📖 [The Soar Cognitive Architecture](https://doi.org/10.7551/mitpress/7688.001.0001) — John E. Laird, 2012 · livro
 - 📄 [Introduction to Soar](https://arxiv.org/abs/2205.03854) — John E. Laird, 2022 · paper. a melhor porta de entrada
 - 📄 [SOAR: An architecture for general intelligence](https://doi.org/10.1016/0004-3702(87)90050-6) — John E. Laird, Allen Newell & Paul S. Rosenbloom, 1987 · paper
-- 🌐 [Soar — site oficial, manuais e tutoriais](https://soar.eecs.umich.edu/) — Soar Group, Universidade de Michigan · site
+- 🌐 [Soar — official site, manuals and tutorials](https://soar.eecs.umich.edu/) — Soar Group, Universidade de Michigan · site
 - 🔧 [SoarGroup/Soar](https://github.com/SoarGroup/Soar) — Soar Group · ferramenta
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

@@ -60,6 +60,7 @@ Se a rede guarda features em superposição, dá para "desembaralhá-las" com di
 - 🆕 [Circuit Tracing: Revealing Computational Graphs in Language Models](https://transformer-circuits.pub/2025/attribution-graphs/methods.html) — Emmanuel Ameisen et al. (Anthropic), 2025 · recente
 - 🆕 [On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) — Jack Lindsey et al. (Anthropic), 2025 · recente
 - 🔧 [circuit-tracer](https://github.com/safety-research/circuit-tracer) — safety-research (GitHub) · ferramenta. grafos de atribuição em modelos abertos
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
 
 ## Boss fight
 

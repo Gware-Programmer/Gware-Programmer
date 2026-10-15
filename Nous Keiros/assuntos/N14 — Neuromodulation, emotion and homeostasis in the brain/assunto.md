@@ -60,6 +60,8 @@ Dopamina, serotonina, noradrenalina e acetilcolina não transmitem mensagens pon
 - 🧭 [Neuromodulation of Neuronal Circuits: Back to the Future](https://doi.org/10.1016/j.neuron.2012.09.010) — Eve Marder, 2012 · review
 - 📄 [Interoceptive inference, emotion, and the embodied self](https://doi.org/10.1016/j.tics.2013.09.007) — Anil K. Seth, 2013 · paper
 - 🧭 [Computational psychiatry as a bridge from neuroscience to clinical applications](https://doi.org/10.1038/nn.4238) — Quentin J. M. Huys, Tiago V. Maia & Michael J. Frank, 2016 · review
+- 🎓 [9.00SC Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) — John Gabrieli (MIT OpenCourseWare) · curso. aulas em vídeo
+- 🆕 [Linking Homeostasis to Reinforcement Learning: Internal State Control of Motivated Behavior](https://arxiv.org/abs/2507.04998) — Naoto Yoshida, Henning Sprekeler & Boris Gutkin, 2025 · recente
 
 ## Boss fight
 

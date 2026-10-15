@@ -57,7 +57,13 @@ Espaços de modelos não são planos: a geometria da informação mede distânci
 - 📖 [Information Geometry and Its Applications](https://link.springer.com/book/10.1007/978-4-431-55978-8) — Shun-ichi Amari, 2016 · livro
 - 📄 [Natural Gradient Works Efficiently in Learning](https://doi.org/10.1162/089976698300017746) — Shun-ichi Amari, 1998 · paper
 - 📄 [New Insights and Perspectives on the Natural Gradient Method](https://arxiv.org/abs/1412.1193) — James Martens, 2020 · paper
-- 📖 [Introduction to Smooth Manifolds (2ª ed.)](https://link.springer.com/book/10.1007/978-1-4419-9982-5) — John M. Lee, 2012 · livro
+- 📖 [Introduction to Smooth Manifolds (2nd ed.)](https://link.springer.com/book/10.1007/978-1-4419-9982-5) — John M. Lee, 2012 · livro
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: matemática pura: a prática é o boss fight
+- sem material de entrada: a entrada é o texto introdutório de Frank Nielsen
 
 ## Boss fight
 

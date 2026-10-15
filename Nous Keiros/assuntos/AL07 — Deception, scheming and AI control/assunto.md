@@ -60,6 +60,7 @@ Modelos de fronteira já mostraram, em experimentos controlados, fingir alinhame
 - 📄 [Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs](https://arxiv.org/abs/2502.17424) — Jan Betley et al., 2025 · paper
 - 📄 [AI Control: Improving Safety Despite Intentional Subversion](https://arxiv.org/abs/2312.06942) — Ryan Greenblatt, Buck Shlegeris, Kshitij Sachan & Fabien Roger, 2023 · paper
 - 🆕 [Natural Emergent Misalignment from Reward Hacking in Production RL](https://arxiv.org/abs/2511.18397) — Monte MacDiarmid et al., 2025 · recente
+- 🎓 [AI Safety Fundamentals: Alignment](https://bluedot.org/courses/alignment) — BlueDot Impact · curso
 
 ## Boss fight
 

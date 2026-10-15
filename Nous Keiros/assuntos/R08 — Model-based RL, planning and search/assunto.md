@@ -58,6 +58,7 @@ Agentes inteligentes imaginam antes de agir. RL baseado em modelo aprende como o
 - 📄 [A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://doi.org/10.1126/science.aar6404) — David Silver et al., 2018 · paper
 - 📄 [Mastering Atari, Go, chess and shogi by planning with a learned model](https://doi.org/10.1038/s41586-020-03051-4) — Julian Schrittwieser et al., 2020 · paper. o MuZero
 - 📄 [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/abs/1906.08253) — Michael Janner, Justin Fu, Marvin Zhang & Sergey Levine, 2019 · paper
+- 🎓 [CS285: Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/) — Sergey Levine (UC Berkeley) · curso. aulas em vídeo e tarefas
 
 ## Boss fight
 

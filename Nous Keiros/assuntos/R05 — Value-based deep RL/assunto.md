@@ -59,6 +59,8 @@ Juntar Q-learning com redes profundas permitiu jogar Atari a partir de pixels (D
 - 📖 [Distributional Reinforcement Learning](https://www.distributional-rl.org/) — Marc G. Bellemare, Will Dabney & Mark Rowland, 2023 · livro
 - 🔧 [CleanRL](https://github.com/vwxyzjn/cleanrl) — Shengyi Huang et al. · ferramenta. implementações de arquivo único
 - 📄 [Deep Reinforcement Learning that Matters](https://arxiv.org/abs/1709.06560) — Peter Henderson et al., 2017 · paper
+- 🎓 [CS285: Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/) — Sergey Levine (UC Berkeley) · curso. aulas em vídeo e tarefas
+- 🗺️ [Spinning Up in Deep RL](https://spinningup.openai.com/) — Joshua Achiam (OpenAI) · guia. implementações comentadas
 
 ## Boss fight
 

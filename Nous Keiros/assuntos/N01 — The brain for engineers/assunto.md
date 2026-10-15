@@ -58,7 +58,7 @@ Para construir IA inspirada no cérebro — e para não se enganar com analogias
 - 📖 [Foundations of Neuroscience](https://openbooks.lib.msu.edu/neuroscience/) — Casey Henley (Michigan State University) · livro. livro aberto
 - 📖 [Neuroscience Online: An Electronic Textbook for the Neurosciences](https://nba.uth.tmc.edu/neuroscience/) — McGovern Medical School, UTHealth Houston · livro
 - 🎓 [9.01 Introduction to Neuroscience](https://ocw.mit.edu/courses/9-01-introduction-to-neuroscience-fall-2007/) — MIT OpenCourseWare, 2007 · curso
-- 📖 [Principles of Neurobiology (2ª ed.)](https://doi.org/10.1201/9781003053972) — Liqun Luo, 2020 · livro. o melhor livro-texto moderno para quem vem da computação
+- 📖 [Principles of Neurobiology (2nd ed.)](https://doi.org/10.1201/9781003053972) — Liqun Luo, 2020 · livro. o melhor livro-texto moderno para quem vem da computação
 - 📄 [Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain](https://doi.org/10.1002/cne.21974) — Frederico A. C. Azevedo et al., 2009 · paper. a contagem de ~86 bilhões, feita no Brasil
 
 ## Boss fight

@@ -52,7 +52,7 @@ O processo de decisão de Markov (MDP) é a linguagem formal de todo agente que 
 
 ## Fontes
 
-- 📖 [Reinforcement Learning: An Introduction (2ª ed.)](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton & Andrew G. Barto, 2018 · livro. cap. 3
+- 📖 [Reinforcement Learning: An Introduction (2nd ed.)](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton & Andrew G. Barto, 2018 · livro. cap. 3
 - 🎓 [Reinforcement Learning (UCL)](https://www.davidsilver.uk/teaching/) — David Silver · curso. aulas 1–2
 - 📖 [Markov Decision Processes: Discrete Stochastic Dynamic Programming](https://doi.org/10.1002/9780470316887) — Martin L. Puterman, 1994 · livro. a referência rigorosa
 - 📄 [Policy invariance under reward transformations: Theory and application to reward shaping](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf) — Andrew Y. Ng, Daishi Harada & Stuart Russell, 1999 · paper

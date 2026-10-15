@@ -57,6 +57,8 @@ Por que neurônios individuais são confusos (polissemânticos)? Porque redes re
 - 📄 [The Linear Representation Hypothesis and the Geometry of Large Language Models](https://arxiv.org/abs/2311.03658) — Kiho Park, Yo Joong Choe & Victor Veitch, 2023 · paper
 - 📄 [Not All Language Model Features Are One-Dimensionally Linear](https://arxiv.org/abs/2405.14860) — Joshua Engels, Eric J. Michaud, Isaac Liao, Wes Gurnee & Max Tegmark, 2024 · paper
 - 🧭 [Mechanistic Interpretability for AI Safety — A Review](https://arxiv.org/abs/2404.14082) — Leonard Bereska & Efstratios Gavves, 2024 · review
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
+- 🆕 [Sparse Autoencoders Do Not Find Canonical Units of Analysis](https://arxiv.org/abs/2502.04878) — Patrick Leask et al., 2025 · recente
 
 ## Boss fight
 

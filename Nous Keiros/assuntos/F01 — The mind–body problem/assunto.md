@@ -55,9 +55,9 @@ Nenhuma matemática necessária; o que se treina é análise de argumentos — p
 
 ## Fontes
 
-- 📖 [Philosophy of Mind: A Contemporary Introduction (4ª ed.)](https://doi.org/10.4324/9780429506994) — John Heil, 2019 · livro
+- 📖 [Philosophy of Mind: A Contemporary Introduction (4th ed.)](https://doi.org/10.4324/9780429506994) — John Heil, 2019 · livro
 - 🎓 [24.09 Minds and Machines](https://ocw.mit.edu/courses/24-09-minds-and-machines-fall-2011/) — Alex Byrne (MIT OpenCourseWare), 2011 · curso
-- 📖 [Meditações sobre Filosofia Primeira (Early Modern Texts)](https://www.earlymoderntexts.com/authors/descartes) — René Descartes, 1641 · livro
+- 📖 [Meditations on First Philosophy (Early Modern Texts)](https://www.earlymoderntexts.com/authors/descartes) — René Descartes, 1641 · livro
 - 📄 [Sensations and Brain Processes](https://doi.org/10.2307/2182164) — J. J. C. Smart, 1959 · paper
 - 📄 [Philosophers on Philosophy: The 2020 PhilPapers Survey](https://doi.org/10.3998/phimp.2109) — David Bourget & David J. Chalmers, 2023 · paper. o que os filósofos pensam, em números
 

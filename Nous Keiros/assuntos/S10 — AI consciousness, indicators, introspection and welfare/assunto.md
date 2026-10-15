@@ -61,6 +61,12 @@ Sistemas de IA podem ser conscientes, agora ou em breve? A resposta séria não 
 - 📄 [Looking Inward: Language Models Can Learn About Themselves by Introspection](https://arxiv.org/abs/2410.13787) — Felix J. Binder et al., 2024 · paper
 - 📄 [Taking AI Welfare Seriously](https://arxiv.org/abs/2411.00986) — Robert Long, Jeff Sebo et al., 2024 · paper
 - 📄 [Could a Large Language Model be Conscious?](https://arxiv.org/abs/2303.07103) — David J. Chalmers, 2023 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: Consciousness](https://plato.stanford.edu/entries/consciousness/) — Stanford Encyclopedia of Philosophy · site
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

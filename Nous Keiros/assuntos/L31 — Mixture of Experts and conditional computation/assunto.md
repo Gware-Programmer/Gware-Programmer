@@ -65,6 +65,7 @@ Muitos dos maiores modelos abertos de hoje são mixtures of experts: muitos par�
 - 📄 [DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models](https://arxiv.org/abs/2401.06066) — Damai Dai et al., 2024 · paper
 - 📄 [Mixture-of-Depths: Dynamically allocating compute in transformer-based language models](https://arxiv.org/abs/2404.02258) — David Raposo et al., 2024 · paper
 - 🆕 [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) — DeepSeek-AI, 2024 · recente
+- 🎓 [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. aulas e tarefas implementando tudo do zero
 
 ## Boss fight
 

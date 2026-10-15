@@ -58,7 +58,7 @@ Novos pré-requisitos: **L28** (tokenização) e **L29** (dados), que antes eram
 
 ## Fontes
 
-- 🎓 [CS336: Language Modeling from Scratch (primavera de 2026)](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. o curso mais completo de LLMs do zero
+- 🎓 [CS336: Language Modeling from Scratch (Spring 2026)](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. o curso mais completo de LLMs do zero
 - 🗺️ [The Smol Training Playbook](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook) — Hugging Face (equipe HuggingFaceTB), 2025 · guia
 - 📄 [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) — Tom B. Brown et al., 2020 · paper
 - 📄 [Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/abs/1508.07909) — Rico Sennrich, Barry Haddow & Alexandra Birch, 2016 · paper. o BPE em NLP

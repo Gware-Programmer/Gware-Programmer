@@ -58,7 +58,10 @@ Moléculas, conectomas, malhas, grafos de conhecimento e sistemas físicos não 
 - 📄 [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) — Thomas N. Kipf & Max Welling, 2016 · paper
 - 📄 [How Powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826) — Keyulu Xu, Weihua Hu, Jure Leskovec & Stefanie Jegelka, 2018 · paper
 - 📄 [Neural Message Passing for Quantum Chemistry](https://arxiv.org/abs/1704.01212) — Justin Gilmer et al., 2017 · paper
-- 🌐 [Geometric Deep Learning — curso e materiais](https://geometricdeeplearning.com/) — Bronstein, Bruna, Cohen & Veličković · site
+- 🌐 [Geometric Deep Learning — course and materials](https://geometricdeeplearning.com/) — Bronstein, Bruna, Cohen & Veličković · site
+- 🎓 [Geometric Deep Learning (AMMI course)](https://geometricdeeplearning.com/lectures/) — Michael Bronstein, Joan Bruna, Taco Cohen & Petar Veličković · curso. aulas em vídeo
+- 🔧 [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/) — Matthias Fey et al. · ferramenta
+- 🆕 [Position: Graph Learning Will Lose Relevance Due To Poor Benchmarks](https://arxiv.org/abs/2502.14546) — Maya Bechler-Speicher et al., 2025 · recente
 
 ## Boss fight
 

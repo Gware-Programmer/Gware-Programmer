@@ -54,10 +54,11 @@ Agente é qualquer sistema que percebe e age para atingir objetivos. Antes dos L
 
 ## Fontes
 
-- 📖 [Artificial Intelligence: A Modern Approach (4ª ed.)](http://aima.cs.berkeley.edu/) — Stuart Russell & Peter Norvig, 2020 · livro. caps. 1–2
+- 📖 [Artificial Intelligence: A Modern Approach (4th ed.)](http://aima.cs.berkeley.edu/) — Stuart Russell & Peter Norvig, 2020 · livro. caps. 1–2
 - 📄 [Intelligent agents: theory and practice](https://doi.org/10.1017/S0269888900008122) — Michael Wooldridge & Nicholas R. Jennings, 1995 · paper
 - 📄 [Intelligence without representation](https://doi.org/10.1016/0004-3702(91)90053-M) — Rodney A. Brooks, 1991 · paper
 - 🧭 [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) — Lei Wang et al., 2023 · review. a ponte para os agentes atuais
+- 🎓 [CS188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/) — UC Berkeley · curso. aulas e os projetos Pac-Man em Python
 
 ## Boss fight
 

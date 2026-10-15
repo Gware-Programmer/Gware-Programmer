@@ -58,6 +58,7 @@ Simetria é o princípio unificador do deep learning geométrico: CNNs são equi
 - 📄 [Group Equivariant Convolutional Networks](https://arxiv.org/abs/1602.07576) — Taco S. Cohen & Max Welling, 2016 · paper
 - 📄 [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478) — Michael M. Bronstein, Joan Bruna, Taco Cohen & Petar Veličković, 2021 · paper
 - 🆕 [A Toy Model of Universality: Reverse Engineering How Networks Learn Group Operations](https://arxiv.org/abs/2302.03025) — Bilal Chughtai, Lawrence Chan & Neel Nanda, 2023 · recente
+- 🎓 [Math 4120: Modern Algebra (Visual Group Theory, online)](https://www.math.clemson.edu/~macaule/classes/m20_math4120/) — Matthew Macauley (Clemson University) · curso. cerca de 50 aulas em vídeo
 
 ## Boss fight
 

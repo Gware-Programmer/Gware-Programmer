@@ -54,12 +54,13 @@ A memória humana não é um disco: é reconstrutiva, dividida em sistemas difer
 
 ## Fontes
 
-- 📖 [Memory (3ª ed.)](https://doi.org/10.4324/9780429449642) — Alan Baddeley, Michael W. Eysenck & Michael C. Anderson, 2020 · livro
+- 📖 [Memory (3rd ed.)](https://doi.org/10.4324/9780429449642) — Alan Baddeley, Michael W. Eysenck & Michael C. Anderson, 2020 · livro
 - 📖 [Memory: A Contribution to Experimental Psychology (Classics in the History of Psychology)](https://psychclassics.yorku.ca/Ebbinghaus/index.htm) — Hermann Ebbinghaus, 1885 · livro
 - 🧭 [Working Memory: Theories, Models, and Controversies](https://doi.org/10.1146/annurev-psych-120710-100422) — Alan Baddeley, 2012 · review
 - 🧭 [Episodic Memory: From Mind to Brain](https://doi.org/10.1146/annurev.psych.53.100901.135114) — Endel Tulving, 2002 · review
 - 📄 [The magical number 4 in short-term memory: A reconsideration of mental storage capacity](https://doi.org/10.1017/S0140525X01003922) — Nelson Cowan, 2001 · paper
 - 📄 [Replication and Analysis of Ebbinghaus' Forgetting Curve](https://doi.org/10.1371/journal.pone.0120644) — Jaap M. J. Murre & Joeri Dros, 2015 · paper
+- 🎓 [9.00SC Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) — John Gabrieli (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

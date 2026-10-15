@@ -60,6 +60,7 @@ O que é ter um "eu", ser um agente e merecer consideração moral? Teorias do s
 - 📄 [A Defense of the Rights of Artificial Intelligences](https://doi.org/10.1111/misp.12032) — Eric Schwitzgebel & Mara Garza, 2015 · paper
 - 📄 [Artificial Suffering: An Argument for a Global Moratorium on Synthetic Phenomenology](https://doi.org/10.1142/S270507852150003X) — Thomas Metzinger, 2021 · paper
 - 🌐 [Ethics of Artificial Intelligence and Robotics (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/ethics-ai/) — Vincent C. Müller · site
+- 🎓 [24.09 Minds and Machines](https://ocw.mit.edu/courses/24-09-minds-and-machines-fall-2011/) — Alex Byrne (MIT OpenCourseWare) · curso
 
 ## Boss fight
 

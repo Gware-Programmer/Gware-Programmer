@@ -60,6 +60,7 @@ Memória, decisão, integração e geração de padrões emergem da dinâmica co
 - 📄 [Generating Coherent Patterns of Activity from Chaotic Neural Networks](https://doi.org/10.1016/j.neuron.2009.07.018) — David Sussillo & L. F. Abbott, 2009 · paper
 - 📄 [Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks](https://doi.org/10.1162/NECO_a_00409) — David Sussillo & Omri Barak, 2013 · paper
 - 🧭 [Attractor and integrator networks in the brain](https://doi.org/10.1038/s41583-022-00642-0) — Mikail Khona & Ila R. Fiete, 2022 · review
+- 🎓 [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks em Python
 
 ## Boss fight
 

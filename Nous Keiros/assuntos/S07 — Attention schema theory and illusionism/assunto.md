@@ -55,10 +55,16 @@ E se a sensação de ter uma experiência interior for o modelo simplificado que
 
 - 📄 [The attention schema theory: a mechanistic account of subjective awareness](https://doi.org/10.3389/fpsyg.2015.00500) — Michael S. A. Graziano & Taylor W. Webb, 2015 · paper
 - 📄 [The Meta-Problem of Consciousness](https://consc.net/papers/metaproblem.pdf) — David J. Chalmers, 2018 · paper
-- 📄 [Illusionism as a Theory of Consciousness](https://www.ingentaconnect.com/content/imp/jcs/2016/00000023/F0020011/art00002) — Keith Frankish, 2016 · paper. o texto-manifesto do ilusionismo ⚠ não verificado — a página bloqueia leitura automática (desafio anti-bot)
+- 📄 [Illusionism as a Theory of Consciousness](https://www.ingentaconnect.com/content/imp/jcs/2016/00000023/F0020011/art00002) — Keith Frankish, 2016 · paper. o texto-manifesto do ilusionismo
 - 📄 [The illusion of conscious experience](https://doi.org/10.1007/s11229-018-02071-y) — François Kammerer, 2021 · paper. o ilusionismo defendido com rigor
 - 📄 [The attention schema theory in a neural network agent: Controlling visuospatial attention using a descriptive model of attention](https://doi.org/10.1073/pnas.2102421118) — Andrew I. Wilterson & Michael S. A. Graziano, 2021 · paper
 - 📄 [Attention Schema in Neural Agents](https://arxiv.org/abs/2305.17375) — Dianbo Liu, Samuele Bolotta, He Zhu, Yoshua Bengio & Guillaume Dumas, 2023 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: Consciousness](https://plato.stanford.edu/entries/consciousness/) — Stanford Encyclopedia of Philosophy · site
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

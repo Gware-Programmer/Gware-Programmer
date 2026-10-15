@@ -65,6 +65,7 @@ Um modelo base completa texto; um assistente segue instruções, raciocina e rec
 - 📖 [Reinforcement Learning from Human Feedback](https://rlhfbook.com/) — Nathan Lambert · livro. livre
 - 🔧 [TRL](https://github.com/huggingface/trl) — Hugging Face · ferramenta
 - 🔧 [mlx-lm](https://github.com/ml-explore/mlx-lm) — Apple Machine Learning Research · ferramenta
+- 🎓 [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. aulas e tarefas implementando tudo do zero
 
 ## Boss fight
 

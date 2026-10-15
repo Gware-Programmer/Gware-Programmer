@@ -59,6 +59,12 @@ Para as teorias de ordem superior (higher-order theories), um estado mental é c
 - 📄 [Awareness as inference in a higher-order state space](https://doi.org/10.1093/nc/niz020) — Stephen M. Fleming, 2020 · paper
 - 📄 [The Generative Adversarial Brain](https://doi.org/10.3389/frai.2019.00018) — Samuel J. Gershman, 2019 · paper
 - 🌐 [Higher-Order Theories of Consciousness (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/consciousness-higher/) — Peter Carruthers & Rocco Gennaro · site
+- 📰 [Testing predictions of first-order and higher-order theories of consciousness](https://www.templetonworldcharity.org/blog/testing-predictions-of-first-order-and-higher-order-theories-of-consciousness) — Templeton World Charity Foundation, 2025 · artigo. a colaboração adversarial ETHOS entre teorias de ordem superior
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

@@ -58,9 +58,10 @@ Spikes neurais são processos pontuais; o ruído do SGD, a difusão generativa e
 
 - 📖 [Applied Stochastic Differential Equations](https://users.aalto.fi/~asolin/sde-book/sde-book.pdf) — Simo Särkkä & Arno Solin, 2019 · livro. PDF dos autores
 - 📖 [Markov Chains](https://doi.org/10.1017/cbo9780511810633) — J. R. Norris, 1997 · livro
-- 📖 [Introduction to Probability (2ª ed.)](http://probabilitybook.net/) — Joseph K. Blitzstein & Jessica Hwang, 2019 · livro. caps. 11–13 (cadeias de Markov, MCMC, Poisson)
-- 📖 [Stochastic Differential Equations (6ª ed.)](https://link.springer.com/book/10.1007/978-3-642-14394-6) — Bernt Øksendal, 2003 · livro. o rigor, para depois
+- 📖 [Introduction to Probability (2nd ed.)](http://probabilitybook.net/) — Joseph K. Blitzstein & Jessica Hwang, 2019 · livro. caps. 11–13 (cadeias de Markov, MCMC, Poisson)
+- 📖 [Stochastic Differential Equations (6th ed.)](https://link.springer.com/book/10.1007/978-3-642-14394-6) — Bernt Øksendal, 2003 · livro. o rigor, para depois
 - 📄 [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456) — Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon & Ben Poole, 2021 · paper. ponte para a difusão
+- 🎓 [6.262 Discrete Stochastic Processes](https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/) — Robert Gallager (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

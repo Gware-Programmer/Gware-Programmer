@@ -59,7 +59,7 @@ A matemática de pesquisa é escrita em lógica e conjuntos: papers de ML usam �
 - 🎓 [Portal da Matemática OBMEP — Introdução à lógica matemática](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=153) — IMPA/OBMEP · curso
 - 🎓 [Portal da Matemática OBMEP — Conjuntos](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=87) — IMPA/OBMEP · curso
 - 📖 [forall x: Calgary — An Introduction to Formal Logic](https://forallx.openlogicproject.org/) — P. D. Magnus, Tim Button, J. Robert Loftis, Aaron Thomas-Bolduc, Robert Trueman & Richard Zach · livro. gratuito, rigoroso e didático
-- 📖 [Book of Proof (3ª ed.)](https://richardhammack.github.io/BookOfProof/) — Richard Hammack, 2018 · livro. caps. 1–3 e 12; gratuito
+- 📖 [Book of Proof (3rd ed.)](https://richardhammack.github.io/BookOfProof/) — Richard Hammack, 2018 · livro. caps. 1–3 e 12; gratuito
 - 📖 [Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf) — Eric Lehman, F. Thomson Leighton & Albert R. Meyer (MIT), 2018 · livro. caps. 1–4, escritos para quem programa
 
 ## Boss fight

@@ -59,8 +59,10 @@ Agentes de linguagem — LLMs que raciocinam, chamam ferramentas e agem em ambie
 - 📄 [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) — Timo Schick et al., 2023 · paper
 - 📄 [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) — Noah Shinn et al., 2023 · paper
 - 🗺️ [Building Effective AI Agents](https://www.anthropic.com/engineering/building-effective-agents) — Anthropic, 2024 · guia
-- 🌐 [Model Context Protocol — especificação e documentação](https://modelcontextprotocol.io/) — Model Context Protocol · site
+- 🌐 [Model Context Protocol — specification and documentation](https://modelcontextprotocol.io/) — Model Context Protocol · site
 - 📰 [Donating the Model Context Protocol and establishing the Agentic AI Foundation](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation) — Anthropic · artigo
+- 🎓 [Large Language Model Agents (MOOC, Fall 2024)](https://llmagents-learning.org/f24) — Dawn Song et al. (UC Berkeley) · curso. aulas em vídeo
+- 🆕 [Measuring AI Ability to Complete Long Software Tasks](https://arxiv.org/abs/2503.14499) — Thomas Kwa et al., 2025 · recente
 
 ## Boss fight
 

@@ -60,6 +60,12 @@ Como estudar cientificamente algo que só se observa por dentro? O método contr
 - 📄 [Distilling the neural correlates of consciousness](https://doi.org/10.1016/j.neubiorev.2011.12.003) — Jaan Aru, Talis Bachmann, Wolf Singer & Lucia Melloni, 2012 · paper
 - 📄 [A Theoretically Based Index of Consciousness Independent of Sensory Processing and Behavior](https://doi.org/10.1126/scitranslmed.3006294) — Adenauer G. Casali et al., 2013 · paper. o PCI
 - 📄 [The ConTraSt database for analysing and comparing empirical studies of consciousness theories](https://doi.org/10.1038/s41562-021-01284-5) — Itay Yaron, Lucia Melloni, Michael Pitts & Liad Mudrik, 2022 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: The Neuroscience of Consciousness](https://plato.stanford.edu/entries/consciousness-neuroscience/) — Stanford Encyclopedia of Philosophy · site
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

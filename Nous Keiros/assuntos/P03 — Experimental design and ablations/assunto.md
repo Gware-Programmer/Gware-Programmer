@@ -59,6 +59,7 @@ Um experimento só vale o que valem seus controles. Linhas de base fortes, abla�
 - 📄 [Accounting for Variance in Machine Learning Benchmarks](https://arxiv.org/abs/2103.03098) — Xavier Bouthillier et al., 2021 · paper
 - 📄 [Show Your Work: Improved Reporting of Experimental Results](https://arxiv.org/abs/1909.03004) — Jesse Dodge, Suchin Gururangan, Dallas Card, Roy Schwartz & Noah A. Smith, 2019 · paper
 - 🗺️ [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook) — Google Research · guia
+- 🎓 [Statistical Rethinking (2024)](https://github.com/rmcelreath/stat_rethinking_2024) — Richard McElreath · curso. aulas em vídeo e código
 
 ## Boss fight
 

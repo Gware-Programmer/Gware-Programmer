@@ -61,7 +61,7 @@ Vinte e três assuntos deste mapa pedem que você implemente algo em C — de bi
 ## Fontes
 
 - 📖 [Modern C](https://gustedt.gitlabpages.inria.fr/modern-c/) — Jens Gustedt · livro. livre; C17 e C23
-- 📖 [Computer Systems: A Programmer's Perspective (3ª ed.)](https://csapp.cs.cmu.edu/) — Randal E. Bryant & David R. O'Hallaron · livro. a referência de sistemas para programadores; labs gratuitos
+- 📖 [Computer Systems: A Programmer's Perspective (3rd ed.)](https://csapp.cs.cmu.edu/) — Randal E. Bryant & David R. O'Hallaron · livro. a referência de sistemas para programadores; labs gratuitos
 - 🎓 [15-213: Introduction to Computer Systems](https://www.cs.cmu.edu/~213/) — Carnegie Mellon University · curso
 - 📖 [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) — Remzi H. Arpaci-Dusseau & Andrea C. Arpaci-Dusseau · livro. livre; a parte de concorrência
 - 🗺️ [Beej's Guide to C Programming](https://beej.us/guide/bgc/) — Brian "Beej Jorgensen" Hall · guia

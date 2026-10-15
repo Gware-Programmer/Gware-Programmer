@@ -58,6 +58,13 @@ Para a teoria do processamento recorrente (recurrent processing theory, RPT), a 
 - 📄 [Consciousness, accessibility, and the mesh between psychology and neuroscience](https://doi.org/10.1017/S0140525X07002786) — Ned Block, 2007 · paper
 - 📄 [Evidence that recurrent circuits are critical to the ventral stream's execution of core object recognition behavior](https://doi.org/10.1038/s41593-019-0392-5) — Kohitij Kar, Jonas Kubilius, Kailyn Schmidt, Elias B. Issa & James J. DiCarlo, 2019 · paper
 - 📄 [Recurrence is required to capture the representational dynamics of the human visual system](https://doi.org/10.1073/pnas.1905544116) — Tim C. Kietzmann et al., 2019 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: The Neuroscience of Consciousness](https://plato.stanford.edu/entries/consciousness-neuroscience/) — Stanford Encyclopedia of Philosophy · site
+- 🆕 [Adversarial testing of global neuronal workspace and integrated information theories of consciousness](https://doi.org/10.1038/s41586-025-08888-1) — Cogitate Consortium, Oscar Ferrante et al., 2025 · recente
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

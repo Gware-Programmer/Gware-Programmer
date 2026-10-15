@@ -56,10 +56,11 @@ A rede neural é o objeto central da IA moderna. Entender um perceptron multicam
 ## Fontes
 
 - 📖 [Understanding Deep Learning](https://udlbook.github.io/udlbook/) — Simon J. D. Prince, 2023 · livro. caps. 3–7; PDF gratuito com notebooks
-- 🎬 [Neural Networks (série)](https://www.3blue1brown.com/topics/neural-networks) — Grant Sanderson (3Blue1Brown) · video
+- 🎬 [Neural Networks (series)](https://www.3blue1brown.com/topics/neural-networks) — Grant Sanderson (3Blue1Brown) · video
 - 📖 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) — Michael Nielsen, 2015 · livro. o melhor texto introdutório sobre backprop
 - 📄 [Learning representations by back-propagating errors](https://doi.org/10.1038/323533a0) — David E. Rumelhart, Geoffrey E. Hinton & Ronald J. Williams, 1986 · paper
 - 📄 [Approximation by superpositions of a sigmoidal function](https://doi.org/10.1007/BF02551274) — George Cybenko, 1989 · paper
+- 🔧 [micrograd](https://github.com/karpathy/micrograd) — Andrej Karpathy · ferramenta
 
 ## Boss fight
 

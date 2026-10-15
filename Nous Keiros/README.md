@@ -13,7 +13,7 @@ Tudo o que você precisa para estudar, praticar e chegar a criar a sua própria 
 | `criacoes/` | As suas criações (Rei Ichi, REIXU, MUSUBI…), uma pasta para cada, com builds e gráficos dentro. |
 | `autodidata/` | Assuntos que você estudar por conta própria, fora do mapa, uma pasta para cada. |
 | `progresso/` | O registro do seu progresso e os backups. Quem escreve aqui é o app. |
-| `auditoria/` | O relatório da auditoria do conteúdo: alinhamento com o objetivo, o que faltava e o que entrou. |
+| `auditoria/` | O relatório da auditoria do conteúdo (alinhamento com o objetivo, o que faltava e o que entrou) e `links.csv`, com a checagem de cada fonte. |
 
 ## Regras do mapa
 

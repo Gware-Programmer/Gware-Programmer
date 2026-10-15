@@ -60,6 +60,7 @@ Levar a IA para um corpo físico é o teste mais duro de generalização: atrito
 - 📄 [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) — Anthony Brohan et al., 2023 · paper
 - 🆕 [π0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164) — Kevin Black et al., 2024 · recente
 - 🔧 [huggingface/lerobot](https://github.com/huggingface/lerobot) — Hugging Face · ferramenta
+- 🎓 [Modern Robotics](https://modernrobotics.northwestern.edu/) — Kevin Lynch & Frank Park (Northwestern) · curso. livro e vídeos
 
 ## Boss fight
 

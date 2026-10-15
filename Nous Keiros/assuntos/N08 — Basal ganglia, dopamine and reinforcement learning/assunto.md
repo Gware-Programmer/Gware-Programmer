@@ -53,12 +53,13 @@ Os neurônios de dopamina disparam como o erro de diferença temporal do RL — 
 
 ## Fontes
 
-- 📖 [Reinforcement Learning: An Introduction (2ª ed.), cap. 15](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton & Andrew G. Barto, 2018 · livro
+- 📖 [Reinforcement Learning: An Introduction (2nd ed.), cap. 15](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton & Andrew G. Barto, 2018 · livro
 - 📄 [A Neural Substrate of Prediction and Reward](https://doi.org/10.1126/science.275.5306.1593) — Wolfram Schultz, Peter Dayan & P. Read Montague, 1997 · paper
 - 📄 [Uncertainty-based competition between prefrontal and dorsolateral striatal systems for behavioral control](https://doi.org/10.1038/nn1560) — Nathaniel D. Daw, Yael Niv & Peter Dayan, 2005 · paper
 - 📄 [A distributional code for value in dopamine-based reinforcement learning](https://doi.org/10.1038/s41586-019-1924-6) — Will Dabney et al., 2020 · paper
 - 📄 [Mesolimbic dopamine release conveys causal associations](https://doi.org/10.1126/science.abq6740) — Huijeong Jeong et al., 2022 · paper. a hipótese alternativa
 - 🆕 [Multi-timescale reinforcement learning in the brain](https://doi.org/10.1038/s41586-025-08929-9) — Paul Masset et al., 2025 · recente
+- 🎓 [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks em Python
 
 ## Boss fight
 

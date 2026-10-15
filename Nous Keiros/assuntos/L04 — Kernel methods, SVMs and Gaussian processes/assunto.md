@@ -58,6 +58,8 @@ Métodos de kernel são a ponte entre modelos lineares e funções arbitrárias,
 - 📄 [Support-vector networks](https://doi.org/10.1007/BF00994018) — Corinna Cortes & Vladimir Vapnik, 1995 · paper
 - 📖 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/) — Christopher M. Bishop, 2006 · livro. caps. 6–7
 - 📄 [Random Features for Large-Scale Kernel Machines](https://proceedings.neurips.cc/paper/2007/hash/013a006f03dbc5392effeb8f18fda755-Abstract.html) — Ali Rahimi & Benjamin Recht, 2007 · paper
+- 🎓 [CS4780/5780: Machine Learning for Intelligent Systems](https://www.cs.cornell.edu/courses/cs4780/2018fa/) — Kilian Weinberger (Cornell) · curso. aulas em vídeo e notas
+- 🔧 [scikit-learn: User Guide](https://scikit-learn.org/stable/user_guide.html) — Projeto scikit-learn · ferramenta
 
 ## Boss fight
 

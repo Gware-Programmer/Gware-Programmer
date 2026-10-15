@@ -58,7 +58,8 @@ Pesquisa começa com leitura — e quase todo mundo lê papers do jeito errado: 
 - 🔧 [Semantic Scholar](https://www.semanticscholar.org/) — Allen Institute for AI · ferramenta
 - 🔧 [Connected Papers](https://www.connectedpapers.com/) — Connected Papers · ferramenta
 - 🔧 [Zotero](https://www.zotero.org/) — Corporation for Digital Scholarship · ferramenta
-- 🌐 [arXiv — cs.LG, submissões recentes](https://arxiv.org/list/cs.LG/recent) — arXiv · site
+- 🌐 [arXiv — cs.LG, recent submissions](https://arxiv.org/list/cs.LG/recent) — arXiv · site
+- 🎬 [Video Highlights: Andrew Ng on Career Advice / Reading Research Papers](https://insidebigdata.com/2021/12/12/video-highlights-andrew-ng-on-career-advice-reading-research-papers/) — Andrew Ng (aula do Stanford CS230), 2021 · video. a aula em vídeo sobre como ler papers
 
 ## Boss fight
 

@@ -57,7 +57,7 @@ Uma IA que escuta e fala precisa transformar ondas de pressão em representaçõ
 
 ## Fontes
 
-- 📖 [Speech and Language Processing (3ª ed., rascunho)](https://web.stanford.edu/~jurafsky/slp3/) — Daniel Jurafsky & James H. Martin · livro. capítulos de reconhecimento e síntese de fala
+- 📖 [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) — Daniel Jurafsky & James H. Martin · livro. capítulos de reconhecimento e síntese de fala
 - 📄 [Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks](https://www.cs.toronto.edu/~graves/icml_2006.pdf) — Alex Graves, Santiago Fernández, Faustino Gomez & Jürgen Schmidhuber, 2006 · paper
 - 📄 [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477) — Alexei Baevski et al., 2020 · paper
 - 📄 [Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356) — Alec Radford et al., 2022 · paper. o Whisper

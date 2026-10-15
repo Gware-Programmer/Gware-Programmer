@@ -59,6 +59,7 @@ Em vez de aprender valores, aprender a política diretamente, subindo o gradient
 - 📄 [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) — John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford & Oleg Klimov, 2017 · paper
 - 🗺️ [The 37 Implementation Details of Proximal Policy Optimization](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/) — Shengyi Huang et al., 2022 · guia
 - 🗺️ [Spinning Up in Deep RL](https://spinningup.openai.com/) — Joshua Achiam (OpenAI), 2018 · guia
+- 🎓 [CS285: Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/) — Sergey Levine (UC Berkeley) · curso. aulas em vídeo e tarefas
 
 ## Boss fight
 

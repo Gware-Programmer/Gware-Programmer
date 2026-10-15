@@ -60,6 +60,7 @@ A mente está só no cérebro? As abordagens 4E — mente corporificada, situada
 - 📄 [A sensorimotor account of vision and visual consciousness](https://doi.org/10.1017/S0140525X01000115) — J. Kevin O'Regan & Alva Noë, 2001 · paper
 - 🌐 [Embodied Cognition (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/embodied-cognition/) — Lawrence Shapiro & Shannon Spaulding · site
 - 📄 [LLMs differ from human cognition because they are not embodied](https://doi.org/10.1038/s41562-023-01723-5) — Anthony Chemero, 2023 · paper
+- 🎓 [24.09 Minds and Machines](https://ocw.mit.edu/courses/24-09-minds-and-machines-fall-2011/) — Alex Byrne (MIT OpenCourseWare) · curso
 
 ## Boss fight
 

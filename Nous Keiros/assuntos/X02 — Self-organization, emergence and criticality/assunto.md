@@ -60,6 +60,9 @@ Ordem que surge sem projetista — de bandos de pássaros a cérebros e redes ne
 - 📄 [Nonnegative Decomposition of Multivariate Information](https://arxiv.org/abs/1004.2515) — Paul L. Williams & Randall D. Beer, 2010 · paper
 - 📄 [Reconciling emergences: An information-theoretic approach to identify causal emergence in multivariate data](https://doi.org/10.1371/journal.pcbi.1008289) — Fernando E. Rosas et al., 2020 · paper
 - 📄 [Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004) — Rylan Schaeffer, Brando Miranda & Sanmi Koyejo, 2023 · paper
+- 🎓 [Complexity Explorer](https://www.complexityexplorer.org/courses) — Santa Fe Institute · curso. cursos de complexidade, caos e sistemas adaptativos
+- 🔧 [NetLogo](https://ccl.northwestern.edu/netlogo/) — Uri Wilensky (Northwestern) · ferramenta. modelos de agentes e sistemas complexos
+- 🆕 [Causal Emergence 2.0: Quantifying emergent complexity](https://arxiv.org/abs/2503.13395) — Erik Hoel, 2025 · recente
 
 ## Boss fight
 

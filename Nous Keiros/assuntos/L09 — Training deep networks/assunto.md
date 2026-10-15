@@ -62,6 +62,7 @@ Conhecer a arquitetura não basta: treinar bem é um ofício de otimização, no
 - 📄 [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) — Kaiming He, Xiangyu Zhang, Shaoqing Ren & Jian Sun, 2015 · paper
 - 📄 [Decoupled Weight Decay Regularization](https://arxiv.org/abs/1711.05101) — Ilya Loshchilov & Frank Hutter, 2017 · paper
 - 📄 [Layer Normalization](https://arxiv.org/abs/1607.06450) — Jimmy Lei Ba, Jamie Ryan Kiros & Geoffrey E. Hinton, 2016 · paper
+- 🎓 [UvA Deep Learning Tutorials](https://uvadlc-notebooks.readthedocs.io/) — Phillip Lippe (Universidade de Amsterdã) · curso. notebooks e vídeos
 
 ## Boss fight
 

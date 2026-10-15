@@ -59,6 +59,7 @@ O funcionalismo diz que estados mentais são definidos pelo que fazem — seus p
 - 🌐 [The Computational Theory of Mind (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/computational-mind/) — Michael Rescorla · site
 - 📄 [A Computational Foundation for the Study of Cognition](https://consc.net/papers/computation.html) — David J. Chalmers, 2011 · paper
 - 📄 [Information processing, computation, and cognition](https://doi.org/10.1007/s10867-010-9195-3) — Gualtiero Piccinini & Andrea Scarantino, 2011 · paper
+- 🎓 [24.09 Minds and Machines](https://ocw.mit.edu/courses/24-09-minds-and-machines-fall-2011/) — Alex Byrne (MIT OpenCourseWare) · curso
 
 ## Boss fight
 

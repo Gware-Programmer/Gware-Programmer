@@ -58,8 +58,8 @@ Prova é o que separa quem usa resultados de quem cria resultados. Em teoria do 
 
 ## Fontes
 
-- 📖 [Book of Proof (3ª ed.)](https://richardhammack.github.io/BookOfProof/) — Richard Hammack, 2018 · livro. caps. 4–10
-- 📖 [How to Prove It: A Structured Approach (3ª ed.)](https://doi.org/10.1017/9781108539890) — Daniel J. Velleman, 2019 · livro. o melhor livro para aprender a estruturar provas
+- 📖 [Book of Proof (3rd ed.)](https://richardhammack.github.io/BookOfProof/) — Richard Hammack, 2018 · livro. caps. 4–10
+- 📖 [How to Prove It: A Structured Approach (3rd ed.)](https://doi.org/10.1017/9781108539890) — Daniel J. Velleman, 2019 · livro. o melhor livro para aprender a estruturar provas
 - 🎓 [Portal da Matemática OBMEP — Indução matemática](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=48) — IMPA/OBMEP · curso
 - 🎓 [Mathematics for Computer Science (6.1200J, 2024)](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/) — MIT OpenCourseWare · curso
 - 🔧 [Natural Number Game (Lean 4)](https://adam.math.hhu.de/#/g/leanprover-community/nng4) — Kevin Buzzard, Mohammad Pedramfar et al. · ferramenta. axiomas de Peano e indução no navegador

@@ -60,6 +60,12 @@ O que separa ciência de pseudociência, e quando uma evidência confirma uma te
 - 📄 [Why Most Published Research Findings Are False](https://doi.org/10.1371/journal.pmed.0020124) — John P. A. Ioannidis, 2005 · paper
 - 📄 [Estimating the reproducibility of psychological science](https://doi.org/10.1126/science.aac4716) — Open Science Collaboration, 2015 · paper
 - 📄 [Falsification and consciousness](https://doi.org/10.1093/nc/niab001) — Johannes Kleiner & Erik Hoel, 2021 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: Scientific Method](https://plato.stanford.edu/entries/scientific-method/) — Stanford Encyclopedia of Philosophy · site
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

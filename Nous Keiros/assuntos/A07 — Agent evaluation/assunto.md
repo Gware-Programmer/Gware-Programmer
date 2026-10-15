@@ -61,6 +61,8 @@ Novo pré-requisito: **L30** — avaliação de LLMs antes da avaliação de age
 - 📄 [Measuring AI Ability to Complete Long Software Tasks](https://arxiv.org/abs/2503.14499) — Thomas Kwa et al. (METR), 2025 · paper
 - 📊 [Time Horizon 1.1](https://metr.org/blog/2026-1-29-time-horizon-1-1/) — METR, 2026 · relatório
 - 📄 [AI Agents That Matter](https://arxiv.org/abs/2407.01502) — Sayash Kapoor, Benedikt Stroebl, Zachary S. Siegel, Nitya Nadgir & Arvind Narayanan, 2024 · paper
+- 🎓 [Large Language Model Agents (MOOC, Fall 2024)](https://llmagents-learning.org/f24) — Dawn Song et al. (UC Berkeley) · curso. aulas em vídeo
+- 🔧 [Inspect](https://inspect.aisi.org.uk/) — UK AI Security Institute · ferramenta
 
 ## Boss fight
 

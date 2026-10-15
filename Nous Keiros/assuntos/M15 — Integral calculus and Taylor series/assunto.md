@@ -58,7 +58,7 @@ Integrais são somas contínuas: probabilidades de variáveis contínuas, espera
 
 - 🎓 [Single Variable Calculus (18.01SC)](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/) — MIT OpenCourseWare · curso. unidades de integração e séries
 - 📖 [Calculus Volume 2](https://openstax.org/details/books/calculus-volume-2) — Gilbert Strang & Edwin Herman (OpenStax), 2016 · livro. caps. 1–3 e 6 (séries de potências e Taylor)
-- 📖 [Calculus (3ª ed.)](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/) — Gilbert Strang (MIT OCW RES.18-001), 2017 · livro. livro completo gratuito
+- 📖 [Calculus (3rd ed.)](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/) — Gilbert Strang (MIT OCW RES.18-001), 2017 · livro. livro completo gratuito
 - 📖 [Active Calculus](https://activecalculus.org/) — Matt Boelkins et al. · livro. livro aberto com atividades guiadas
 - 🎬 [Essence of Calculus](https://www.3blue1brown.com/topics/calculus) — Grant Sanderson (3Blue1Brown) · video. capítulos de integral e Taylor
 

@@ -57,7 +57,12 @@ Em vez de cada teoria testar só as próprias predições, rivais pré-registram
 - 🆕 [GNW theoretical framework and the "adversarial testing of global neuronal workspace and integrated information theories of consciousness"](https://doi.org/10.1093/nc/niaf037) — Lionel Naccache, 2025 · recente. a resposta da GNWT
 - 📄 [The Integrated Information Theory of Consciousness as Pseudoscience](https://doi.org/10.31234/osf.io/zsr78) — IIT-Concerned, Stephen M. Fleming et al., 2023 · paper. a carta
 - 🆕 [Consciousness or pseudo-consciousness? A clash of two paradigms](https://doi.org/10.1038/s41593-025-01880-y) — Giulio Tononi et al., 2025 · recente. a resposta da IIT
-- 🗃️ [Cogitate — portal de dados](https://cogitate-data.ae.mpg.de) — Cogitate Consortium / Max Planck · dados
+- 🗃️ [Cogitate — data portal](https://cogitate-data.ae.mpg.de) — Cogitate Consortium / Max Planck · dados
+- 🌐 [Stanford Encyclopedia of Philosophy: The Neuroscience of Consciousness](https://plato.stanford.edu/entries/consciousness-neuroscience/) — Stanford Encyclopedia of Philosophy · site
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

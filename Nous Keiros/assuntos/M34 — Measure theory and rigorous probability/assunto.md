@@ -57,9 +57,10 @@ Probabilidade de verdade é teoria da medida: é a língua dos papers de teoria 
 ## Fontes
 
 - 📖 [Measure, Integration & Real Analysis](https://measure.axler.net/) — Sheldon Axler, 2020 · livro. acesso aberto
-- 📖 [Probability: Theory and Examples (5ª ed.)](https://services.math.duke.edu/~rtd/PTE/PTE5_011119.pdf) — Rick Durrett, 2019 · livro. PDF do autor
+- 📖 [Probability: Theory and Examples (5th ed.)](https://services.math.duke.edu/~rtd/PTE/PTE5_011119.pdf) — Rick Durrett, 2019 · livro. PDF do autor
 - 📖 [Probability with Martingales](https://www.cambridge.org/core/books/probability-with-martingales/B4CFCE0D08930FB46C6E93E775503926) — David Williams, 1991 · livro. curto e luminoso
 - 📖 [An Introduction to Measure Theory](https://terrytao.files.wordpress.com/2012/12/gsm-126-tao5-measure-book.pdf) — Terence Tao, 2011 · livro. rascunho gratuito do autor
+- 🎓 [Measure Theory: Notes and Videos](https://www.qedcat.com/measuretheory/index.html) — Marty Ross (AMSI Summer School) · curso
 
 ## Boss fight
 

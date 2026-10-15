@@ -57,6 +57,7 @@ O RL tem um irmão mais velho: o controle ótimo, que resolve problemas de decis
 - 📖 [Reinforcement Learning: Theory and Algorithms](https://rltheorybook.github.io/) — Alekh Agarwal, Nan Jiang, Sham M. Kakade & Wen Sun · livro
 - 📄 [Is Q-learning Provably Efficient?](https://arxiv.org/abs/1807.03765) — Chi Jin, Zeyuan Allen-Zhu, Sébastien Bubeck & Michael I. Jordan, 2018 · paper
 - 📄 [A New Approach to Linear Filtering and Prediction Problems](https://doi.org/10.1115/1.3662552) — R. E. Kalman, 1960 · paper. o lado dual do LQR
+- 🎓 [Underactuated Robotics](https://underactuated.mit.edu/) — Russ Tedrake (MIT) · curso. livro-texto online, aulas e notebooks
 
 ## Boss fight
 

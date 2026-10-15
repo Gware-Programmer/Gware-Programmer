@@ -55,7 +55,7 @@ Grafos estão em tudo: conectomas, grafos computacionais de redes neurais, grafo
 ## Fontes
 
 - 🎓 [Portal da Matemática OBMEP — Introdução à teoria dos grafos](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=84) — IMPA/OBMEP · curso. entrada em português
-- 📖 [Graph Theory (6ª ed.)](https://diestel-graph-theory.com/) — Reinhard Diestel, 2025 · livro. edição eletrônica gratuita para leitura
+- 📖 [Graph Theory (6th ed.)](https://diestel-graph-theory.com/) — Reinhard Diestel, 2025 · livro. edição eletrônica gratuita para leitura
 - 📖 [Network Science](http://networksciencebook.com/) — Albert-László Barabási, 2016 · livro. online e gratuito
 - 📖 [Spectral and Algebraic Graph Theory](http://cs-www.cs.yale.edu/homes/spielman/sagt/) — Daniel A. Spielman · livro. rascunho gratuito
 - 📄 [Scale-free networks are rare](https://doi.org/10.1038/s41467-019-08746-5) — Anna D. Broido & Aaron Clauset, 2019 · paper. ceticismo quantitativo exemplar

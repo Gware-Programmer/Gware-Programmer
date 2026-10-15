@@ -61,6 +61,7 @@ Modelos de fronteira são treinados em milhares de GPUs. Paralelismo de dados, d
 - 📄 [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) — Mohammad Shoeybi et al., 2019 · paper
 - 📄 [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) — Deepak Narayanan et al., 2021 · paper
 - 🆕 [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) — DeepSeek-AI, 2024 · recente
+- 🎓 [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. aulas e tarefas implementando tudo do zero
 
 ## Boss fight
 

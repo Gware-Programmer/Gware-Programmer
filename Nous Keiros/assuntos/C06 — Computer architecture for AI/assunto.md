@@ -56,11 +56,12 @@ Novo pré-requisito: **C14** — arquitetura se mede com programas em C.
 
 ## Fontes
 
-- 📖 [Computer Architecture: A Quantitative Approach (7ª ed.)](https://shop.elsevier.com/books/computer-architecture/hennessy/978-0-443-15406-5) — John L. Hennessy & David A. Patterson · livro
+- 📖 [Computer Architecture: A Quantitative Approach (7th ed.)](https://shop.elsevier.com/books/computer-architecture/hennessy/978-0-443-15406-5) — John L. Hennessy & David A. Patterson · livro
 - 📄 [Roofline: An Insightful Visual Performance Model for Multicore Architectures](https://doi.org/10.1145/1498765.1498785) — Samuel Williams, Andrew Waterman & David Patterson, 2009 · paper
 - 📰 [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf) — Ulrich Drepper, 2007 · artigo
 - 📰 [Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html) — Horace He, 2022 · artigo. computação vs. memória vs. overhead
 - 🗺️ [How To Scale Your Model](https://jax-ml.github.io/scaling-book/) — Austin et al. (Google DeepMind), 2025 · guia. capítulo de rooflines
+- 🎓 [6.172 Performance Engineering of Software Systems](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/) — Charles Leiserson & Julian Shun (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

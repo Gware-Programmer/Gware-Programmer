@@ -59,6 +59,8 @@ O custo quadrático da atenção abriu uma corrida por arquiteturas recorrentes 
 - 📄 [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236) — Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas & François Fleuret, 2020 · paper
 - 📄 [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) — Bo Peng et al., 2023 · paper
 - 🆕 [Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663) — Ali Behrouz, Peilin Zhong & Vahab Mirrokni, 2025 · recente
+- 🎓 [CS25: Transformers United](https://web.stanford.edu/class/cs25/) — Stanford · curso. seminários em vídeo com autores de arquiteturas recentes
+- 🔧 [mamba (reference implementation)](https://github.com/state-spaces/mamba) — Albert Gu & Tri Dao · ferramenta
 
 ## Boss fight
 

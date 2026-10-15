@@ -66,6 +66,7 @@ Um modelo não precisa guardar tudo nos pesos: pode buscar. Recuperação de inf
 - 📄 [The Faiss library](https://arxiv.org/abs/2401.08281) — Matthijs Douze et al., 2024 · paper
 - 🆕 [On the Theoretical Limitations of Embedding-Based Retrieval](https://arxiv.org/abs/2508.21038) — Orion Weller et al., 2025 · recente
 - 🔧 [SQLite FTS5](https://www.sqlite.org/fts5.html) — SQLite · ferramenta
+- 🎓 [CS276: Information Retrieval and Web Search](https://web.stanford.edu/class/cs276/) — Stanford · curso
 
 ## Boss fight
 

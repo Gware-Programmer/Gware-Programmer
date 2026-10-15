@@ -59,8 +59,8 @@ Matrizes são o formato de toda a computação em deep learning: uma camada é m
 ## Fontes
 
 - 🎓 [Linear Algebra (18.06SC)](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/) — Gilbert Strang (MIT OpenCourseWare) · curso. aulas, exercícios e provas
-- 📖 [Linear Algebra Done Right (4ª ed.)](https://linear.axler.net/) — Sheldon Axler, 2024 · livro. acesso aberto; o padrão-ouro para aprender a provar em álgebra linear
-- 📖 [Introduction to Linear Algebra (6ª ed.)](https://math.mit.edu/~gs/linearalgebra/ila6/) — Gilbert Strang, 2023 · livro
+- 📖 [Linear Algebra Done Right (4th ed.)](https://linear.axler.net/) — Sheldon Axler, 2024 · livro. acesso aberto; o padrão-ouro para aprender a provar em álgebra linear
+- 📖 [Introduction to Linear Algebra (6th ed.)](https://math.mit.edu/~gs/linearalgebra/ila6/) — Gilbert Strang, 2023 · livro
 - 🎬 [Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra) — Grant Sanderson (3Blue1Brown) · video
 - 🎓 [Portal da Matemática OBMEP — Matrizes e sistemas lineares](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=75) — IMPA/OBMEP · curso. a ponte em português
 

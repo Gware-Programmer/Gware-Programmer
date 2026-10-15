@@ -55,11 +55,18 @@ O cérebro não é só neurônios disparando: é ritmo. Oscilações, acoplament
 ## Fontes
 
 - 📖 [Rhythms of the Brain](https://doi.org/10.1093/acprof:oso/9780195301069.001.0001) — György Buzsáki, 2006 · livro
-- 🔧 [MNE-Python — análise de EEG/MEG](https://mne.tools/stable/index.html) — MNE Developers · ferramenta
+- 🔧 [MNE-Python — EEG/MEG analysis](https://mne.tools/stable/index.html) — MNE Developers · ferramenta
 - 📄 [The Theta-Gamma Neural Code](https://doi.org/10.1016/j.neuron.2013.03.007) — John E. Lisman & Ole Jensen, 2013 · paper
 - 📄 [Parameterizing neural power spectra into periodic and aperiodic components](https://doi.org/10.1038/s41593-020-00744-x) — Thomas Donoghue et al., 2020 · paper
 - 📄 [A default mode of brain function](https://doi.org/10.1073/pnas.98.2.676) — Marcus E. Raichle et al., 2001 · paper. a rede de modo padrão
 - 🧭 [25 years of criticality in neuroscience — established results, open controversies, novel concepts](https://doi.org/10.1016/j.conb.2019.08.002) — Jens Wilting & Viola Priesemann, 2019 · review
+- 🗺️ [MNE-Python tutorials](https://mne.tools/stable/auto_tutorials/index.html) — Projeto MNE · guia. EEG/MEG: espectros, oscilações e conectividade na prática
+- 🔧 [MNE-Python](https://mne.tools/) — Projeto MNE · ferramenta. análise de EEG e MEG
+- 🆕 [Emergent Spatiotemporal Dynamics in Large-Scale Brain Networks with Next Generation Neural Mass Models](https://arxiv.org/abs/2512.03907) — Rosa Maria Delicado, Gemma Huguet & Pau Clusella, 2025 · recente. oscilações em larga escala com modelos de massa neural de nova geração
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

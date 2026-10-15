@@ -53,12 +53,13 @@ Perceber é inferir o mundo a partir de sinais ruidosos; atender é escolher o q
 
 ## Fontes
 
-- 📖 [Detection Theory: A User's Guide (3ª ed.)](https://doi.org/10.4324/9781003203636) — Michael J. Hautus, Neil A. Macmillan & C. Douglas Creelman, 2021 · livro
+- 📖 [Detection Theory: A User's Guide (3rd ed.)](https://doi.org/10.4324/9781003203636) — Michael J. Hautus, Neil A. Macmillan & C. Douglas Creelman, 2021 · livro
 - 📄 [Orienting of Attention](https://doi.org/10.1080/00335558008248231) — Michael I. Posner, 1980 · paper
 - 📄 [A feature-integration theory of attention](https://doi.org/10.1016/0010-0285(80)90005-5) — Anne M. Treisman & Garry Gelade, 1980 · paper
 - 📄 [Humans integrate visual and haptic information in a statistically optimal fashion](https://doi.org/10.1038/415429a) — Marc O. Ernst & Martin S. Banks, 2002 · paper
 - 🧭 [Visual attention: The past 25 years](https://doi.org/10.1016/j.visres.2011.04.012) — Marisa Carrasco, 2011 · review
 - 🧭 [Attention in Psychology, Neuroscience, and Machine Learning](https://doi.org/10.3389/fncom.2020.00029) — Grace W. Lindsay, 2020 · review
+- 🎓 [9.00SC Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) — John Gabrieli (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

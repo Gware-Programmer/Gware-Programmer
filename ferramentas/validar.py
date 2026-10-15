@@ -122,6 +122,7 @@ ENTRADA = {'curso', 'guia', 'video', 'site', 'artigo'}
 CANONICO = {'livro', 'review', 'paper'}
 PRATICO = {'ferramenta', 'curso', 'guia', 'dados'}
 AULA = {'curso', 'video'}
+CRITERIOS = ('entrada', 'texto canônico', 'prático', 'aula/vídeo', 'fonte 2025–2026')
 def ano(x):
     anos = [int(a) for a in re.findall(r'\b(?:19|20)\d\d\b', x['au'])]
     return max(anos) if anos else 0
@@ -134,10 +135,18 @@ for i, s in S.items():
     if not tipos & AULA: falta.append('aula/vídeo')
     if s['lv'] >= 8 and s['tr'] != 'M' and not any(x['ty'] == 'recente' or ano(x) >= 2025 for x in s['src']):
         falta.append('fonte 2025–2026')
+    exc = s.get('excecoes', {})
+    for k, motivo in exc.items():
+        if k not in CRITERIOS or not motivo.strip():
+            erros.append(f'{i}: exceção inválida ({k!r})')
+        elif k not in falta:
+            avisos.append(f'{i}: exceção desnecessária ({k}), o critério já é cumprido')
+    falta = [k for k in falta if k not in exc]
     if falta:
         avisos.append(f'{i}: falta {", ".join(falta)}')
 
 print(f'{len(S)} assuntos · {len(D["sources"])} fontes · {len(D["levels"])} níveis · {len(D["tracks"])} trilhas')
+print(f'{sum(1 for s in S.values() if s.get("excecoes"))} assuntos com exceção justificada na regra de materiais')
 for a in avisos:
     print('aviso:', a)
 for e in erros:

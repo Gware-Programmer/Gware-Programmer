@@ -58,7 +58,7 @@ Novo pré-requisito: **C14** — o boss é escrito em C.
 
 ## Fontes
 
-- 🎬 [Neural Networks: Zero to Hero — aula 1 (micrograd)](https://karpathy.ai/zero-to-hero.html) — Andrej Karpathy · video
+- 🎬 [Neural Networks: Zero to Hero — lecture 1 (micrograd)](https://karpathy.ai/zero-to-hero.html) — Andrej Karpathy · video
 - 🔧 [micrograd](https://github.com/karpathy/micrograd) — Andrej Karpathy · ferramenta. cerca de 150 linhas com toda a essência
 - 📄 [Automatic Differentiation in Machine Learning: a Survey](https://arxiv.org/abs/1502.05767) — Atılım Güneş Baydin, Barak A. Pearlmutter, Alexey Andreyevich Radul & Jeffrey Mark Siskind, 2018 · paper
 - 📄 [A simple automatic derivative evaluation program](https://doi.org/10.1145/355586.364791) — R. E. Wengert, 1964 · paper. o modo forward já em 1964

@@ -62,6 +62,7 @@ Novo pré-requisito: **AL09** — governança e licenças.
 - 📄 [Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective](https://arxiv.org/abs/1908.04734) — Tom Everitt, Marcus Hutter, Ramana Kumar & Victoria Krakovna, 2019 · paper
 - 📄 [Computing Power and the Governance of Artificial Intelligence](https://arxiv.org/abs/2402.08797) — Girish Sastry et al., 2024 · paper
 - 🆕 [Open Problems in Technical AI Governance](https://arxiv.org/abs/2407.14981) — Anka Reuel et al., 2024 · recente
+- 🎓 [AI Governance](https://bluedot.org/courses/governance) — BlueDot Impact · curso
 
 ## Boss fight
 

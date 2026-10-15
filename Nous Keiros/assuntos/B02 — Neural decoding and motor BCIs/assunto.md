@@ -59,6 +59,8 @@ Interfaces cérebro-computador intracorticais já permitem que pessoas com paral
 - 📄 [A high-performance neural prosthesis enabled by control algorithm design](https://doi.org/10.1038/nn.3265) — Vikash Gilja et al., 2012 · paper
 - 📄 [Machine Learning for Neural Decoding](https://doi.org/10.1523/ENEURO.0506-19.2020) — Joshua I. Glaser, Ari S. Benjamin, Raeed H. Chowdhury, Matthew G. Perich, Lee E. Miller & Konrad P. Kording, 2020 · paper
 - 📄 [High-performance brain-to-text communication via handwriting](https://doi.org/10.1038/s41586-021-03506-2) — Francis R. Willett, Donald T. Avansino, Leigh R. Hochberg, Jaimie M. Henderson & Krishna V. Shenoy, 2021 · paper
+- 🎓 [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks em Python
+- 🆕 [A high-performance brain–computer interface for finger decoding and quadcopter game control in an individual with paralysis](https://doi.org/10.1038/s41591-024-03341-8) — Matthew S. Willsey et al., 2025 · recente
 
 ## Boss fight
 

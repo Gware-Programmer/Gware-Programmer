@@ -60,6 +60,12 @@ A pergunta final do mente-máquina: a consciência depende do que um sistema com
 - 📄 [Dissociating Artificial Intelligence from Artificial Consciousness](https://arxiv.org/abs/2412.04571) — Graham Findlay et al., 2024 · paper
 - 🆕 [Conscious artificial intelligence and biological naturalism](https://doi.org/10.1017/S0140525X25000032) — Anil K. Seth, 2025 · recente
 - 📄 [The case for neurons: a no-go theorem for consciousness on a chip](https://doi.org/10.1093/nc/niae037) — Johannes Kleiner & Tim Ludwig, 2024 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: The Computational Theory of Mind](https://plato.stanford.edu/entries/computational-mind/) — Stanford Encyclopedia of Philosophy · site
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

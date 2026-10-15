@@ -62,6 +62,7 @@ Novo pré-requisito: **A10** — recuperação de informação e busca vetorial.
 - 📄 [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) — Joon Sung Park et al., 2023 · paper
 - 🗺️ [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic, 2025 · guia
 - 📄 [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427) — Theodore R. Sumers, Shunyu Yao, Karthik Narasimhan & Thomas L. Griffiths, 2023 · paper. o CoALA
+- 🎓 [Large Language Model Agents (MOOC, Fall 2024)](https://llmagents-learning.org/f24) — Dawn Song et al. (UC Berkeley) · curso. aulas em vídeo
 
 ## Boss fight
 

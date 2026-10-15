@@ -60,6 +60,8 @@ Organismos não maximizam uma recompensa arbitrária: regulam variáveis interna
 - 🧭 [The nature of feelings: evolutionary and neurobiological origins](https://doi.org/10.1038/nrn3403) — Antonio Damasio & Gil B. Carvalho, 2013 · review
 - 🧭 [Where Does Value Come From?](https://doi.org/10.1016/j.tics.2019.07.012) — Keno Juechems & Christopher Summerfield, 2019 · review
 - 🧭 [Emotion in reinforcement learning agents and robots: a survey](https://doi.org/10.1007/s10994-017-5666-0) — Thomas M. Moerland, Joost Broekens & Catholijn M. Jonker, 2018 · review
+- 🎓 [9.00SC Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) — John Gabrieli (MIT OpenCourseWare) · curso. aulas em vídeo
+- 🆕 [Linking Homeostasis to Reinforcement Learning: Internal State Control of Motivated Behavior](https://arxiv.org/abs/2507.04998) — Naoto Yoshida, Henning Sprekeler & Boris Gutkin, 2025 · recente
 
 ## Boss fight
 

@@ -58,6 +58,13 @@ Depois de 40+ anos, arquiteturas cognitivas explicam muitos dados de laboratóri
 - 📄 [Analysis of the human connectome data supports the notion of a "Common Model of Cognition" for human and human-like intelligence across domains](https://doi.org/10.1016/j.neuroimage.2021.118035) — Andrea Stocco, Catherine Sibert, Zoe Steine-Hanson, Natalie Koh, John E. Laird, Christian J. Lebiere & Paul Rosenbloom, 2021 · paper
 - 📄 [A Standard Model of the Mind: Toward a Common Computational Framework across Artificial Intelligence, Cognitive Science, Neuroscience, and Robotics](https://doi.org/10.1609/aimag.v38i4.2744) — John E. Laird, Christian Lebiere & Paul S. Rosenbloom, 2017 · paper
 - 📄 [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427) — Theodore R. Sumers, Shunyu Yao, Karthik Narasimhan & Thomas L. Griffiths, 2023 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: Cognitive Science](https://plato.stanford.edu/entries/cognitive-science/) — Stanford Encyclopedia of Philosophy · site
+- 🔧 [Soar](https://soar.eecs.umich.edu/) — Universidade de Michigan · ferramenta. download e tutoriais
+- 🆕 [A Proposal to Extend the Common Model of Cognition with Metacognition](https://arxiv.org/abs/2506.07807) — John Laird, Christian Lebiere, Paul Rosenbloom & Andrea Stocco, 2025 · recente
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

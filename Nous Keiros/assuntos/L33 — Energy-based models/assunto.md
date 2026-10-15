@@ -66,6 +66,8 @@ Um modelo baseado em energia atribui um número a cada configuração — baixo 
 - 📄 [A Path Towards Autonomous Machine Intelligence](https://openreview.net/forum?id=BZ5a1r-kVsf) — Yann LeCun, 2022 · paper
 - 🆕 [Energy-Based Transformers are Scalable Learners and Thinkers](https://arxiv.org/abs/2507.02092) — Alexi Gladstone et al., 2025 · recente
 - 📖 [Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html) — Kevin P. Murphy, 2023 · livro
+- 🎓 [Deep Learning (NYU DS-GA 1008)](https://atcold.github.io/NYU-DLSP21/) — Yann LeCun & Alfredo Canziani (NYU) · curso. aulas em vídeo e notebooks; forte em modelos de energia
+- 🎓 [CS236: Deep Generative Models](https://deepgenerativemodels.github.io/) — Stefano Ermon (Stanford) · curso. notas e aulas
 
 ## Boss fight
 

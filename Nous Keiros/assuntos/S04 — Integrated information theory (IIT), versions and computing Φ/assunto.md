@@ -63,6 +63,12 @@ A teoria da informação integrada (integrated information theory, IIT) é a ún
 - 📄 [Dissociating Artificial Intelligence from Artificial Consciousness](https://arxiv.org/abs/2412.04571) — Graham Findlay, William Marshall, Larissa Albantakis, Isaac David, William G. P. Mayner, Christof Koch & Giulio Tononi, 2024 · paper
 - 📄 [The unfolding argument: Why IIT and other causal structure theories cannot explain consciousness](https://doi.org/10.1016/j.concog.2019.04.002) — Adrien Doerig, Aaron Schurger, Kathryn Hess & Michael H. Herzog, 2019 · paper. crítica
 - 🆕 [Integrated information theory: the good, the bad and the misunderstood](https://arxiv.org/abs/2604.11482) — Adam B. Barrett, Borjan Milinkovic, Pedro A. M. Mediano, Fernando E. Rosas, Daniel Bor, Lionel Barnett & Anil K. Seth, 2026 · recente. revisão crítica e equilibrada
+- 🌐 [IIT Wiki](https://www.iit.wiki/) — Center for Sleep and Consciousness (Universidade de Wisconsin–Madison) · site. a referência oficial da IIT 4.0
+- 🔧 [PyPhi](https://github.com/wmayner/pyphi) — William Mayner et al. · ferramenta. cálculo de Φ da IIT
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

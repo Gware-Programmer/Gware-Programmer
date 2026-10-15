@@ -58,6 +58,7 @@ A receita que criou os LLMs — muitos dados, transformers, pré-treino — est�
 - 🗃️ [A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence](https://doi.org/10.1038/s41593-021-00962-x) — Emily J. Allen et al., 2022 · dados. o NSD
 - 📄 [Reconstructing the Mind's Eye: fMRI-to-Image with Contrastive Learning and Diffusion Priors](https://arxiv.org/abs/2305.18274) — Paul S. Scotti et al., 2023 · paper
 - 📄 [Spurious reconstruction from brain activity](https://arxiv.org/abs/2405.10078) — Ken Shirakawa et al., 2024 · paper. o controle obrigatório
+- 🎓 [Neuromatch Academy: NeuroAI](https://neuroai.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks
 
 ## Boss fight
 

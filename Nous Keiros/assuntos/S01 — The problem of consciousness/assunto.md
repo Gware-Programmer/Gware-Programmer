@@ -54,12 +54,13 @@ Nenhuma matemática necessária aqui; o que se exige é precisão conceitual.
 
 ## Fontes
 
-- 📖 [Consciousness: An Introduction (4ª ed.)](https://doi.org/10.4324/9781003300687) — Susan Blackmore & Emily T. Troscianko, 2024 · livro
+- 📖 [Consciousness: An Introduction (4th ed.)](https://doi.org/10.4324/9781003300687) — Susan Blackmore & Emily T. Troscianko, 2024 · livro
 - 📄 [What Is It Like to Be a Bat?](https://doi.org/10.2307/2183914) — Thomas Nagel, 1974 · paper
 - 📄 [Facing Up to the Problem of Consciousness](https://consc.net/papers/facing.html) — David J. Chalmers, 1995 · paper
 - 📄 [On a confusion about a function of consciousness](https://doi.org/10.1017/S0140525X00038188) — Ned Block, 1995 · paper
 - 🌐 [Consciousness (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/consciousness/) — Robert Van Gulick · site
 - 📖 [Being You: A New Science of Consciousness](https://www.anilseth.com/being-you/) — Anil Seth, 2021 · livro. a porta de entrada mais legível, da trilha preditiva
+- 🎓 [24.09 Minds and Machines](https://ocw.mit.edu/courses/24-09-minds-and-machines-fall-2011/) — Alex Byrne (MIT OpenCourseWare) · curso
 
 ## Boss fight
 

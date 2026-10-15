@@ -67,6 +67,7 @@ A maior parte da qualidade de um LLM vem dos dados, não da arquitetura. Coletar
 - 🆕 [FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language](https://arxiv.org/abs/2506.20920) — Guilherme Penedo et al., 2025 · recente
 - 🔧 [datatrove](https://github.com/huggingface/datatrove) — Hugging Face · ferramenta
 - 🗃️ [Common Crawl](https://commoncrawl.org/) — Common Crawl Foundation · dados
+- 🎓 [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. aulas e tarefas implementando tudo do zero
 
 ## Boss fight
 

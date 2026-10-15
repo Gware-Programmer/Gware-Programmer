@@ -58,9 +58,9 @@ Autovalores e autovetores revelam a anatomia de uma transformação: as direçõ
 
 ## Fontes
 
-- 📖 [Linear Algebra Done Right (4ª ed.)](https://linear.axler.net/) — Sheldon Axler, 2024 · livro. caps. 5–7
+- 📖 [Linear Algebra Done Right (4th ed.)](https://linear.axler.net/) — Sheldon Axler, 2024 · livro. caps. 5–7
 - 🎓 [Linear Algebra (18.06SC)](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/) — Gilbert Strang (MIT OpenCourseWare) · curso. unidade II
-- 📖 [Introduction to Linear Algebra (6ª ed.)](https://math.mit.edu/~gs/linearalgebra/ila6/) — Gilbert Strang, 2023 · livro
+- 📖 [Introduction to Linear Algebra (6th ed.)](https://math.mit.edu/~gs/linearalgebra/ila6/) — Gilbert Strang, 2023 · livro
 - 🎬 [Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra) — Grant Sanderson (3Blue1Brown) · video. determinantes e autovetores
 - 🎓 [Portal da Matemática OBMEP — Determinantes como áreas, parte 1](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=240) — IMPA/OBMEP · curso. o determinante como área, em português
 

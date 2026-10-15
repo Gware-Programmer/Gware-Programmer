@@ -61,6 +61,7 @@ O grande segredo do deep learning moderno é aprender boas representações sem 
 - 📄 [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) — Alec Radford et al., 2021 · paper. o CLIP
 - 📄 [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) — Mahmoud Assran et al., 2023 · paper
 - 🆕 [The Platonic Representation Hypothesis](https://arxiv.org/abs/2405.07987) — Minyoung Huh, Brian Cheung, Tongzhou Wang & Phillip Isola, 2024 · recente
+- 🎓 [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/) — Christopher Manning (Stanford) · curso. aulas em vídeo e tarefas com código
 
 ## Boss fight
 

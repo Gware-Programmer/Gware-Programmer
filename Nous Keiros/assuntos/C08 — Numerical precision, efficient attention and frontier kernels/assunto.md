@@ -59,6 +59,7 @@ A atenção é a operação central dos LLMs e o maior gargalo de memória. A Fl
 - 🆕 [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) — Jay Shah, Ganesh Bikshandi, Ying Zhang, Vijay Thakkar, Pradeep Ramani & Tri Dao, 2024 · recente
 - 📄 [FP8 Formats for Deep Learning](https://arxiv.org/abs/2209.05433) — Paulius Micikevicius et al., 2022 · paper
 - 🆕 [ThunderKittens: Simple, Fast, and Adorable AI Kernels](https://arxiv.org/abs/2410.20399) — Benjamin F. Spector et al., 2024 · recente
+- 🎓 [GPU MODE lectures](https://github.com/gpu-mode/lectures) — GPU MODE · curso. aulas em vídeo e código sobre kernels de GPU
 
 ## Boss fight
 

@@ -54,12 +54,19 @@ Nenhuma matemática nova; o que conta aqui é estratégia.
 
 ## Fontes
 
-- 🌐 [arXiv — endosso de novos autores](https://info.arxiv.org/help/endorsement.html) — arXiv · site
+- 🌐 [arXiv — endorsement for new authors](https://info.arxiv.org/help/endorsement.html) — arXiv · site
 - 🌐 [NeurIPS 2026](https://neurips.cc/) — NeurIPS Foundation · site
 - 🌐 [ICLR — International Conference on Learning Representations](https://iclr.cc/) — ICLR · site
 - 🌐 [Cognitive Science Society (CogSci)](https://cognitivesciencesociety.org/) — Cognitive Science Society · site
 - 🌐 [ASSC — Association for the Scientific Study of Consciousness](https://theassc.org/) — ASSC · site
 - 🌐 [Khipu — Latin American Meeting in Artificial Intelligence](https://khipu.ai/) — Khipu · site
+- 📄 [Inconsistency in Conference Peer Review: Revisiting the 2014 NeurIPS Experiment](https://arxiv.org/abs/2109.09774) — Corinna Cortes & Neil D. Lawrence, 2021 · paper
+- 🗺️ [arXiv: Submit an article](https://info.arxiv.org/help/submit/index.html) — arXiv · guia
+- 🆕 [Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category](https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/) — arXiv, 2025 · recente. desde 31/10/2025, revisões e position papers em CS só com revisão por pares
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

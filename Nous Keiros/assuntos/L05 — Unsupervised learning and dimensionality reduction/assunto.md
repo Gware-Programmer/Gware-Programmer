@@ -61,6 +61,8 @@ A maior parte dos dados não tem rótulo. Achar estrutura — grupos, eixos, var
 - 📰 [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) — Martin Wattenberg, Fernanda Viégas & Ian Johnson, 2016 · artigo
 - 📄 [UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://arxiv.org/abs/1802.03426) — Leland McInnes, John Healy & James Melville, 2018 · paper
 - 📄 [Emergence of simple-cell receptive field properties by learning a sparse code for natural images](https://doi.org/10.1038/381607a0) — Bruno A. Olshausen & David J. Field, 1996 · paper
+- 🎓 [CS229: Machine Learning](https://cs229.stanford.edu/) — Andrew Ng, Tengyu Ma et al. (Stanford) · curso. aulas em vídeo e listas com código
+- 🔧 [scikit-learn: User Guide](https://scikit-learn.org/stable/user_guide.html) — Projeto scikit-learn · ferramenta
 
 ## Boss fight
 

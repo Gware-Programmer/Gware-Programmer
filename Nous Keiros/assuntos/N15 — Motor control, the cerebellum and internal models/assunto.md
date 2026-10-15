@@ -60,6 +60,7 @@ Mover o corpo é um problema de controle sob atraso, ruído e incerteza que o c�
 - 📄 [A theory of cerebellar cortex](https://doi.org/10.1113/jphysiol.1969.sp008820) — David Marr, 1969 · paper
 - 📄 [Neural population dynamics during reaching](https://doi.org/10.1038/nature11129) — Mark M. Churchland et al., 2012 · paper
 - 🆕 [A virtual rodent predicts the structure of neural activity across behaviours](https://doi.org/10.1038/s41586-024-07633-4) — Diego Aldarondo et al., 2024 · recente
+- 🎓 [Underactuated Robotics](https://underactuated.mit.edu/) — Russ Tedrake (MIT) · curso. livro-texto online, aulas e notebooks
 
 ## Boss fight
 

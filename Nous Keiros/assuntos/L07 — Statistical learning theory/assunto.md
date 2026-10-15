@@ -62,6 +62,7 @@ Por que um modelo treinado em dados finitos funciona em dados novos? A teoria do
 - 📄 [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) — Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht & Oriol Vinyals, 2017 · paper
 - 📄 [Reconciling modern machine-learning practice and the classical bias–variance trade-off](https://doi.org/10.1073/pnas.1903070116) — Mikhail Belkin, Daniel Hsu, Siyuan Ma & Soumik Mandal, 2019 · paper
 - 🆕 [Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/abs/1912.02292) — Preetum Nakkiran et al., 2019 · recente
+- 🎓 [CS4780/5780: Machine Learning for Intelligent Systems](https://www.cs.cornell.edu/courses/cs4780/2018fa/) — Kilian Weinberger (Cornell) · curso. aulas em vídeo e notas
 
 ## Boss fight
 

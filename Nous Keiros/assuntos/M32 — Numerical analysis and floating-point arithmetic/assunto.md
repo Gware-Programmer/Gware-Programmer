@@ -56,10 +56,11 @@ Toda IA roda em aritmética finita: bf16, fp8 e quantização em int4 são decis
 ## Fontes
 
 - 📄 [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://doi.org/10.1145/103162.103163) — David Goldberg, 1991 · paper. o clássico
-- 📖 [Numerical Linear Algebra (edição comemorativa)](https://doi.org/10.1137/1.9781611977165) — Lloyd N. Trefethen & David Bau III, 2022 · livro
-- 📖 [Accuracy and Stability of Numerical Algorithms (2ª ed.)](https://doi.org/10.1137/1.9780898718027) — Nicholas J. Higham, 2002 · livro. a referência de análise de erro
+- 📖 [Numerical Linear Algebra (Twenty-fifth Anniversary Edition)](https://doi.org/10.1137/1.9781611977165) — Lloyd N. Trefethen & David Bau III, 2022 · livro
+- 📖 [Accuracy and Stability of Numerical Algorithms (2nd ed.)](https://doi.org/10.1137/1.9780898718027) — Nicholas J. Higham, 2002 · livro. a referência de análise de erro
 - 📄 [Mixed Precision Training](https://arxiv.org/abs/1710.03740) — Paulius Micikevicius et al., 2017 · paper
 - 📄 [FP8 Formats for Deep Learning](https://arxiv.org/abs/2209.05433) — Paulius Micikevicius et al., 2022 · paper
+- 🎓 [Computational Linear Algebra for Coders](https://github.com/fastai/numerical-linear-algebra) — Rachel Thomas (fast.ai) · curso. aulas em vídeo e notebooks
 
 ## Boss fight
 

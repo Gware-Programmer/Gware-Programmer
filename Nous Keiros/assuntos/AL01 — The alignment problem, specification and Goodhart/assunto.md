@@ -60,6 +60,7 @@ Um sistema que otimiza exatamente o que você especificou — e não o que você
 - 📄 [Goal Misgeneralization in Deep Reinforcement Learning](https://arxiv.org/abs/2105.14111) — Lauro Langosco, Jack Koch, Lee Sharkey, Jacob Pfau, Laurent Orseau & David Krueger, 2021 · paper
 - 📄 [Defining and Characterizing Reward Hacking](https://arxiv.org/abs/2209.13085) — Joar Skalse, Nikolaus H. R. Howe, Dmitrii Krasheninnikov & David Krueger, 2022 · paper
 - 🆕 [Recent Frontier Models Are Reward Hacking](https://metr.org/blog/2025-06-05-recent-reward-hacking/) — METR, 2025 · recente
+- 🎓 [AI Safety Fundamentals: Alignment](https://bluedot.org/courses/alignment) — BlueDot Impact · curso
 
 ## Boss fight
 

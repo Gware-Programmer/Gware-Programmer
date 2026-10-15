@@ -59,6 +59,7 @@ A IA que existe é a IA que o hardware permite — "a loteria do hardware". Sabe
 - 📄 [Loihi: A Neuromorphic Manycore Processor with On-Chip Learning](https://doi.org/10.1109/MM.2018.112130359) — Mike Davies et al., 2018 · paper
 - 📄 [Neural inference at the frontier of energy, space, and time](https://doi.org/10.1126/science.adh1174) — Dharmendra S. Modha et al., 2023 · paper. o chip NorthPole
 - 🌐 [NVIDIA Blackwell Architecture Technical Overview](https://resources.nvidia.com/en-us-blackwell-architecture) — NVIDIA · site
+- 🎓 [MIT 6.5940: TinyML and Efficient Deep Learning Computing](https://hanlab.mit.edu/courses/2024-fall-65940) — Song Han (MIT) · curso. aulas em vídeo e laboratórios
 
 ## Boss fight
 

@@ -53,12 +53,13 @@ Um resultado que ninguém entende não existe. Escrever um paper é projetar uma
 
 ## Fontes
 
-- 📖 [Writing for Computer Science (3ª ed.)](https://doi.org/10.1007/978-1-4471-6639-9) — Justin Zobel, 2014 · livro
+- 📖 [Writing for Computer Science (3rd ed.)](https://doi.org/10.1007/978-1-4471-6639-9) — Justin Zobel, 2014 · livro
 - 📄 [Ten simple rules for structuring papers](https://doi.org/10.1371/journal.pcbi.1005619) — Brett Mensh & Konrad Kording, 2017 · paper
 - 🗺️ [How to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) — Simon Peyton Jones (Microsoft Research) · guia
 - 🗺️ [Highly Opinionated Advice on How to Write ML Papers](https://www.alignmentforum.org/posts/eJGptPbbFPZGLpjsp/highly-opinionated-advice-on-how-to-write-ml-papers) — Neel Nanda, 2025 · guia
-- 📰 [The Science of Scientific Writing](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing) — George D. Gopen & Judith A. Swan, 1990 · artigo ⚠ não verificado — a página bloqueia leitura automática (desafio anti-bot)
+- 📰 [The Science of Scientific Writing](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing) — George D. Gopen & Judith A. Swan, 1990 · artigo
 - 🌐 [Research Debt](https://distill.pub/2017/research-debt/) — Chris Olah & Shan Carter, 2017 · site
+- 🎓 [Writing in the Sciences](https://www.coursera.org/learn/sciwrite) — Kristin Sainani (Stanford, Coursera) · curso
 
 ## Boss fight
 

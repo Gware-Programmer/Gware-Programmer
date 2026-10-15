@@ -59,7 +59,8 @@ RLHF tornou os LLMs úteis — e trouxe falhas próprias: superotimização do m
 - 📄 [Towards Understanding Sycophancy in Language Models](https://arxiv.org/abs/2310.13548) — Mrinank Sharma et al., 2023 · paper
 - 📄 [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) — Yuntao Bai et al., 2022 · paper
 - 📄 [Language Models Learn to Mislead Humans via RLHF](https://arxiv.org/abs/2409.12822) — Jiaxin Wen et al., 2024 · paper
-- 📰 [Sycophancy in GPT-4o: what happened and what we're doing about it](https://openai.com/index/sycophancy-in-gpt-4o/) — OpenAI, 2025 · artigo. o caso real ⚠ não verificado — acesso negado à leitura automática (HTTP 403)
+- 📰 [Sycophancy in GPT-4o: what happened and what we're doing about it](https://openai.com/index/sycophancy-in-gpt-4o/) — OpenAI, 2025 · artigo. o caso real
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
 
 ## Boss fight
 

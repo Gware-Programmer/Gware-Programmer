@@ -63,6 +63,7 @@ Novo pré-requisito: **AL01** — reward hacking e especificação de recompensa
 - 📄 [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) — Yuntao Bai et al., 2022 · paper
 - 📄 [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) — Zhihong Shao et al., 2024 · paper. origem do GRPO
 - 🆕 [DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning](https://doi.org/10.1038/s41586-025-09422-z) — Daya Guo et al. (DeepSeek-AI), 2025 · recente. publicado na Nature
+- 🎓 [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. aulas e tarefas implementando tudo do zero
 
 ## Boss fight
 

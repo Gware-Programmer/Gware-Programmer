@@ -56,7 +56,7 @@ A evolução é o único processo conhecido que produziu inteligência geral, se
 
 ## Fontes
 
-- 📖 [Introduction to Evolutionary Computing (2ª ed.)](https://doi.org/10.1007/978-3-662-44874-8) — A. E. Eiben & J. E. Smith, 2015 · livro
+- 📖 [Introduction to Evolutionary Computing (2nd ed.)](https://doi.org/10.1007/978-3-662-44874-8) — A. E. Eiben & J. E. Smith, 2015 · livro
 - 📄 [Evolving Neural Networks through Augmenting Topologies](https://doi.org/10.1162/106365602320169811) — Kenneth O. Stanley & Risto Miikkulainen, 2002 · paper
 - 📄 [The CMA Evolution Strategy: A Tutorial](https://arxiv.org/abs/1604.00772) — Nikolaus Hansen, 2016 · paper
 - 📄 [Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864) — Tim Salimans et al., 2017 · paper
@@ -64,6 +64,7 @@ A evolução é o único processo conhecido que produziu inteligência geral, se
 - 🧭 [Designing neural networks through neuroevolution](https://doi.org/10.1038/s42256-018-0006-z) — Kenneth O. Stanley, Jeff Clune, Joel Lehman & Risto Miikkulainen, 2019 · review
 - 🆕 [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131) — Alexander Novikov et al., 2025 · recente
 - 🔧 [pycma](https://github.com/CMA-ES/pycma) — Nikolaus Hansen et al. · ferramenta
+- 🎓 [Complexity Explorer](https://www.complexityexplorer.org/courses) — Santa Fe Institute · curso. cursos de complexidade, caos e sistemas adaptativos
 
 ## Boss fight
 

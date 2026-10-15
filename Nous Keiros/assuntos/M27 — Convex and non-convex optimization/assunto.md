@@ -58,7 +58,7 @@ Treinar é otimizar. A teoria convexa dá garantias e linguagem (dualidade, cond
 
 - 📖 [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/) — Stephen Boyd & Lieven Vandenberghe, 2004 · livro. PDF gratuito oficial
 - 🎓 [EE364a: Convex Optimization I](https://web.stanford.edu/class/ee364a/) — Stephen Boyd (Stanford) · curso
-- 📖 [Numerical Optimization (2ª ed.)](https://link.springer.com/book/10.1007/978-0-387-40065-5) — Jorge Nocedal & Stephen J. Wright, 2006 · livro
+- 📖 [Numerical Optimization (2nd ed.)](https://link.springer.com/book/10.1007/978-0-387-40065-5) — Jorge Nocedal & Stephen J. Wright, 2006 · livro
 - 📄 [Convex Optimization: Algorithms and Complexity](https://arxiv.org/abs/1405.4980) — Sébastien Bubeck, 2015 · paper
 - 📄 [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980) — Diederik P. Kingma & Jimmy Ba, 2014 · paper
 - 🆕 [Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability](https://arxiv.org/abs/2103.00065) — Jeremy Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter & Ameet Talwalkar, 2021 · recente

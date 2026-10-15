@@ -59,6 +59,7 @@ A maioria dos erros em pesquisa não é de matemática: é de estatística mal u
 - 📄 [Deep Reinforcement Learning at the Edge of the Statistical Precipice](https://arxiv.org/abs/2108.13264) — Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville & Marc G. Bellemare, 2021 · paper
 - 🆕 [Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations](https://arxiv.org/abs/2411.00640) — Evan Miller, 2024 · recente
 - 📄 [The Hitchhiker's Guide to Testing Statistical Significance in Natural Language Processing](https://aclanthology.org/P18-1128/) — Rotem Dror, Gili Baumer, Segev Shlomov & Roi Reichart, 2018 · paper
+- 🎓 [Statistical Rethinking (2024)](https://github.com/rmcelreath/stat_rethinking_2024) — Richard McElreath · curso. aulas em vídeo e código
 
 ## Boss fight
 

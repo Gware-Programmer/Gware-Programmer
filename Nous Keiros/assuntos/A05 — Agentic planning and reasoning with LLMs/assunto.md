@@ -59,6 +59,8 @@ Novo pré-requisito: **R09** — world models para planejar.
 - 📄 [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) — Shunyu Yao et al., 2023 · paper
 - 📖 [Acting, Planning, and Learning](https://projects.laas.fr/planning/) — Malik Ghallab, Dana Nau & Paolo Traverso · livro
 - 📄 [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) — Guanzhi Wang et al., 2023 · paper
+- 🎓 [Advanced Large Language Model Agents (MOOC, Spring 2025)](https://llmagents-learning.org/sp25) — Dawn Song et al. (UC Berkeley) · curso. raciocínio, busca e agentes; aulas em vídeo
+- 🆕 [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://arxiv.org/abs/2506.06941) — Parshin Shojaee et al., 2025 · recente
 
 ## Boss fight
 

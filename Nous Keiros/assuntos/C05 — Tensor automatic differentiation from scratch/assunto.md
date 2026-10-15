@@ -59,7 +59,7 @@ Depois do autograd escalar vem o de verdade: autodiff sobre tensores, com broadc
 - 📄 [The Elements of Differentiable Programming](https://arxiv.org/abs/2403.14606) — Mathieu Blondel & Vincent Roulet, 2024 · paper. o livro moderno do assunto
 - 🗺️ [Autodidax: JAX core from scratch](https://docs.jax.dev/en/latest/autodidax.html) — The JAX authors · guia
 - 🔧 [tinygrad](https://github.com/tinygrad/tinygrad) — tiny corp · ferramenta
-- 📖 [Evaluating Derivatives (2ª ed.)](https://doi.org/10.1137/1.9780898717761) — Andreas Griewank & Andrea Walther, 2008 · livro. a referência teórica
+- 📖 [Evaluating Derivatives (2nd ed.)](https://doi.org/10.1137/1.9780898717761) — Andreas Griewank & Andrea Walther, 2008 · livro. a referência teórica
 
 ## Boss fight
 

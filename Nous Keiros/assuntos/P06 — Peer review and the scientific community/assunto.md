@@ -58,6 +58,12 @@ Revisão por pares é como a comunidade decide o que vira conhecimento — e ela
 - 🧭 [Challenges, experiments, and computational solutions in peer review](https://doi.org/10.1145/3528086) — Nihar B. Shah, 2022 · review
 - 📄 [What Can We Do to Improve Peer Review in NLP?](https://aclanthology.org/2020.findings-emnlp.112/) — Anna Rogers & Isabelle Augenstein, 2020 · paper
 - 🌐 [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/) — TMLR · site
+- 🔧 [OpenReview](https://openreview.net/) — OpenReview · ferramenta
+- 🆕 [Can LLM feedback enhance review quality? A randomized study of 20K reviews at ICLR 2025](https://arxiv.org/abs/2504.09737) — Nitya Thakkar et al., 2025 · recente
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

@@ -54,11 +54,12 @@ Modelos gráficos são a linguagem para estruturar incerteza: redes bayesianas, 
 
 ## Fontes
 
-- 📖 [Bayesian Filtering and Smoothing (2ª ed.)](https://users.aalto.fi/~ssarkka/pub/bfs_book_2023_online.pdf) — Simo Särkkä & Lennart Svensson, 2023 · livro. versão online gratuita dos autores
+- 📖 [Bayesian Filtering and Smoothing (2nd ed.)](https://users.aalto.fi/~ssarkka/pub/bfs_book_2023_online.pdf) — Simo Särkkä & Lennart Svensson, 2023 · livro. versão online gratuita dos autores
 - 📖 [Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html) — Kevin P. Murphy, 2023 · livro. PDF gratuito; modelos gráficos e espaço de estados
 - 📖 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/) — Christopher M. Bishop, 2006 · livro. caps. 8 e 13
 - 📄 [A New Approach to Linear Filtering and Prediction Problems](https://doi.org/10.1115/1.3662552) — R. E. Kalman, 1960 · paper
 - 📄 [A tutorial on hidden Markov models and selected applications in speech recognition](https://doi.org/10.1109/5.18626) — Lawrence R. Rabiner, 1989 · paper
+- 🎓 [CS188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/) — UC Berkeley · curso. aulas e os projetos Pac-Man em Python
 
 ## Boss fight
 

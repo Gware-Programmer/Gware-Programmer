@@ -53,7 +53,7 @@ Quando o modelo do ambiente é conhecido, a programação dinâmica encontra a p
 
 ## Fontes
 
-- 📖 [Reinforcement Learning: An Introduction (2ª ed.)](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton & Andrew G. Barto, 2018 · livro. cap. 4
+- 📖 [Reinforcement Learning: An Introduction (2nd ed.)](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton & Andrew G. Barto, 2018 · livro. cap. 4
 - 📖 [A Course in Reinforcement Learning](https://web.mit.edu/dimitrib/www/RLbook.html) — Dimitri P. Bertsekas · livro. material gratuito do autor
 - 📖 [Algorithms of Reinforcement Learning](https://sites.ualberta.ca/~szepesva/rlbook.html) — Csaba Szepesvári, 2010 · livro
 - 🎓 [Reinforcement Learning (UCL)](https://www.davidsilver.uk/teaching/) — David Silver · curso. aula 3

@@ -58,7 +58,7 @@ A IA moderna é probabilística até o osso: um LLM é uma distribuição sobre 
 
 ## Fontes
 
-- 📖 [Introduction to Probability (2ª ed.)](http://probabilitybook.net/) — Joseph K. Blitzstein & Jessica Hwang, 2019 · livro. PDF gratuito oficial
+- 📖 [Introduction to Probability (2nd ed.)](http://probabilitybook.net/) — Joseph K. Blitzstein & Jessica Hwang, 2019 · livro. PDF gratuito oficial
 - 🎬 [Statistics 110: Probability (Harvard)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) — Joe Blitzstein · video. o curso completo em vídeo
 - 🎓 [Probabilistic Systems Analysis and Applied Probability (6.041SC)](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) — John Tsitsiklis (MIT OpenCourseWare) · curso
 - 🎓 [Portal da Matemática OBMEP — Introdução à probabilidade](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=46) — IMPA/OBMEP · curso

@@ -62,6 +62,8 @@ Novo pré-requisito: **X04** — computação evolutiva.
 - 📄 [Lenia: Biology of Artificial Life](https://doi.org/10.25088/ComplexSystems.28.3.251) — Bert Wang-Chak Chan, 2019 · paper
 - 📄 [Growing Neural Cellular Automata](https://distill.pub/2020/growing-ca/) — Alexander Mordvintsev, Ettore Randazzo, Eyvind Niklasson & Michael Levin, 2020 · paper
 - 🆕 [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://arxiv.org/abs/2406.19108) — Blaise Agüera y Arcas et al., 2024 · recente
+- 🎓 [Complexity Explorer](https://www.complexityexplorer.org/courses) — Santa Fe Institute · curso. cursos de complexidade, caos e sistemas adaptativos
+- 🔧 [NetLogo](https://ccl.northwestern.edu/netlogo/) — Uri Wilensky (Northwestern) · ferramenta. modelos de agentes e sistemas complexos
 
 ## Boss fight
 

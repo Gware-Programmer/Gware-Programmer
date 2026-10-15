@@ -61,7 +61,7 @@ Nenhuma matemática: só lógica de programação.
 - 🎓 [The Python Tutorial](https://docs.python.org/3/tutorial/) — Python Software Foundation · curso. oficial e direto
 - 🗺️ [Scientific Python Lectures](https://lectures.scientific-python.org/) — Gaël Varoquaux, Emmanuelle Gouillart, Olaf Vahtras et al. · guia. a ponte para o ecossistema científico
 - 📖 [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) — Jake VanderPlas · livro. gratuito: NumPy, pandas, matplotlib
-- 🔧 [uv — gerenciador de pacotes e projetos](https://docs.astral.sh/uv/) — Astral · ferramenta. ambientes rápidos e reprodutíveis
+- 🔧 [uv — package and project manager](https://docs.astral.sh/uv/) — Astral · ferramenta. ambientes rápidos e reprodutíveis
 - 🎓 [Programming with Python (Software Carpentry)](https://swcarpentry.github.io/python-novice-inflammation/) — The Carpentries · curso. ritmo de laboratório
 
 ## Boss fight

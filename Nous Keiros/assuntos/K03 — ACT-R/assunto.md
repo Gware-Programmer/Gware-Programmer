@@ -59,7 +59,11 @@ ACT-R é a arquitetura cognitiva que mais previu dados humanos com precisão —
 - 📄 [An Integrated Theory of the Mind](https://doi.org/10.1037/0033-295X.111.4.1036) — John R. Anderson, Daniel Bothell, Michael D. Byrne, Scott Douglass, Christian Lebiere & Yulin Qin, 2004 · paper
 - 📖 [Computational Cognitive Modeling and Linguistic Theory](https://doi.org/10.1007/978-3-030-31846-8) — Adrian Brasoveanu & Jakub Dotlačil, 2020 · livro. acesso aberto, com pyactr
 - 🔧 [jakdot/pyactr](https://github.com/jakdot/pyactr) — Jakub Dotlačil · ferramenta
-- 🌐 [ACT-R — site oficial, tutoriais e software](http://act-r.psy.cmu.edu/) — Carnegie Mellon University · site
+- 🌐 [ACT-R — official site, tutorials and software](http://act-r.psy.cmu.edu/) — Carnegie Mellon University · site
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

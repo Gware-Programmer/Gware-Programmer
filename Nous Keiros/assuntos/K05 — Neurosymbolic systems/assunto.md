@@ -61,6 +61,7 @@ Novo pré-requisito: **K08** — representação do conhecimento e raciocínio l
 - 📄 [Solving olympiad geometry without human demonstrations](https://doi.org/10.1038/s41586-023-06747-5) — Trieu H. Trinh, Yuhuai Wu, Quoc V. Le, He He & Thang Luong, 2024 · paper. AlphaGeometry
 - 🆕 [Olympiad-level formal mathematical reasoning with reinforcement learning](https://doi.org/10.1038/s41586-025-09833-y) — Thomas Hubert et al., 2025 · recente. AlphaProof
 - 📄 [On the Measure of Intelligence](https://arxiv.org/abs/1911.01547) — François Chollet, 2019 · paper. origem do ARC
+- 🎓 [Probabilistic Models of Cognition](http://probmods.org/) — Noah D. Goodman & Joshua B. Tenenbaum · curso. livro interativo com código que roda no navegador
 
 ## Boss fight
 

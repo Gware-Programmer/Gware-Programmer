@@ -57,10 +57,10 @@ Todo sistema de IA é feito de estruturas de dados: o tokenizador é uma tabela 
 
 ## Fontes
 
-- 📖 [Introduction to Algorithms (4ª ed.)](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/) — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein, 2022 · livro
+- 📖 [Introduction to Algorithms (4th ed.)](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/) — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein, 2022 · livro
 - 🎓 [6.006 Introduction to Algorithms (Spring 2020)](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/) — Erik Demaine, Jason Ku & Justin Solomon (MIT OpenCourseWare) · curso. aulas em vídeo e listas
 - 📖 [Algorithms](https://jeffe.cs.illinois.edu/teaching/algorithms/) — Jeff Erickson, 2019 · livro. livre
-- 📖 [Algorithms (4ª ed.)](https://algs4.cs.princeton.edu/) — Robert Sedgewick & Kevin Wayne · livro
+- 📖 [Algorithms (4th ed.)](https://algs4.cs.princeton.edu/) — Robert Sedgewick & Kevin Wayne · livro
 - 📖 [Open Data Structures](https://opendatastructures.org/) — Pat Morin · livro. livre
 - 🔧 [VisuAlgo](https://visualgo.net/) — Steven Halim · ferramenta
 - 📄 [A note on two problems in connexion with graphs](https://doi.org/10.1007/BF01386390) — E. W. Dijkstra, 1959 · paper

@@ -59,6 +59,13 @@ A teoria do espaço de trabalho global (global workspace theory, GWT) diz que um
 - 📄 [Global workspace theory of consciousness: toward a cognitive neuroscience of human experience](https://doi.org/10.1016/S0079-6123(05)50004-9) — Bernard J. Baars, 2005 · paper
 - 📄 [What is consciousness, and could machines have it?](https://doi.org/10.1126/science.aan8871) — Stanislas Dehaene, Hakwan Lau & Sid Kouider, 2017 · paper
 - 📄 [Coordination Among Neural Modules Through a Shared Global Workspace](https://arxiv.org/abs/2103.01197) — Anirudh Goyal et al., 2021 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: The Neuroscience of Consciousness](https://plato.stanford.edu/entries/consciousness-neuroscience/) — Stanford Encyclopedia of Philosophy · site
+- 🆕 [Adversarial testing of global neuronal workspace and integrated information theories of consciousness](https://doi.org/10.1038/s41586-025-08888-1) — Cogitate Consortium, Oscar Ferrante et al., 2025 · recente
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

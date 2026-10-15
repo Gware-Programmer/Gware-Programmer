@@ -60,6 +60,8 @@ Antes de lançar um modelo, laboratórios testam se ele consegue ajudar em ataqu
 - 📄 [AI Sandbagging: Language Models can Strategically Underperform on Evaluations](https://arxiv.org/abs/2406.07358) — Teun van der Weij, Felix Hofstätter, Ollie Jaffe, Samuel F. Brown & Francis Rhys Ward, 2024 · paper
 - 📊 [International AI Safety Report 2026](https://arxiv.org/abs/2602.21012) — Yoshua Bengio et al., 2026 · relatório
 - 🌐 [Common Elements of Frontier AI Safety Policies](https://metr.org/common-elements) — METR · site
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
+- 🔧 [Inspect](https://inspect.aisi.org.uk/) — UK AI Security Institute · ferramenta
 
 ## Boss fight
 

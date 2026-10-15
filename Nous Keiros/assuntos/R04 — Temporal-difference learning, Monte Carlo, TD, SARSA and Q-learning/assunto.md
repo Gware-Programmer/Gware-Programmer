@@ -51,7 +51,7 @@ Aprender com a experiência, sem conhecer o modelo: Monte Carlo espera o fim do 
 
 ## Fontes
 
-- 📖 [Reinforcement Learning: An Introduction (2ª ed.)](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton & Andrew G. Barto, 2018 · livro. caps. 5–7 e 12
+- 📖 [Reinforcement Learning: An Introduction (2nd ed.)](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton & Andrew G. Barto, 2018 · livro. caps. 5–7 e 12
 - 📄 [Learning to predict by the methods of temporal differences](https://doi.org/10.1007/BF00115009) — Richard S. Sutton, 1988 · paper
 - 📄 [Q-learning](https://doi.org/10.1007/BF00992698) — Christopher J. C. H. Watkins & Peter Dayan, 1992 · paper
 - 📄 [Temporal difference learning and TD-Gammon](https://doi.org/10.1145/203330.203343) — Gerald Tesauro, 1995 · paper

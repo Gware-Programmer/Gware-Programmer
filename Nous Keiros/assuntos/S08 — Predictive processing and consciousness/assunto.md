@@ -59,6 +59,12 @@ Para as teorias de processamento preditivo, a experiência consciente é a melho
 - 📄 [The predictive global neuronal workspace: A formal active inference model of visual consciousness](https://doi.org/10.1016/j.pneurobio.2020.101918) — Christopher J. Whyte & Ryan Smith, 2021 · paper
 - 🆕 [Conscious artificial intelligence and biological naturalism](https://doi.org/10.1017/S0140525X25000032) — Anil K. Seth, 2025 · recente
 - 🆕 [A beautiful loop: An active inference theory of consciousness](https://doi.org/10.31234/osf.io/daf5n_v3) — Ruben E. Laukkonen, Karl J. Friston & Shamil Chandaria, 2025 · recente. preprint; especulativo
+- 🌐 [Stanford Encyclopedia of Philosophy: The Neuroscience of Consciousness](https://plato.stanford.edu/entries/consciousness-neuroscience/) — Stanford Encyclopedia of Philosophy · site
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

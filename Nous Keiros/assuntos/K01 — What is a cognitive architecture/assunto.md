@@ -59,7 +59,13 @@ Uma arquitetura cognitiva é uma hipótese sobre as estruturas fixas da mente �
 - 📄 [You can't play 20 questions with nature and win: Projective comments on the papers of this symposium](https://doi.org/10.1016/b978-0-12-170150-5.50012-3) — Allen Newell, 1973 · paper
 - 📄 [A Standard Model of the Mind: Toward a Common Computational Framework across Artificial Intelligence, Cognitive Science, Neuroscience, and Robotics](https://doi.org/10.1609/aimag.v38i4.2744) — John E. Laird, Christian Lebiere & Paul S. Rosenbloom, 2017 · paper
 - 📄 [Cognitive architectures: Research issues and challenges](https://doi.org/10.1016/j.cogsys.2006.07.004) — Pat Langley, John E. Laird & Seth Rogers, 2009 · paper. capacidades e critérios de avaliação
-- 📖 [Unified Theories of Cognition](https://www.hup.harvard.edu/books/9780674921016) — Allen Newell, 1990 · livro. o manifesto do campo ⚠ não verificado — a página bloqueia leitura automática (desafio anti-bot)
+- 📖 [Unified Theories of Cognition](https://www.hup.harvard.edu/books/9780674921016) — Allen Newell, 1990 · livro. o manifesto do campo
+- 🌐 [Stanford Encyclopedia of Philosophy: Cognitive Science](https://plato.stanford.edu/entries/cognitive-science/) — Stanford Encyclopedia of Philosophy · site
+- 🔧 [Soar](https://soar.eecs.umich.edu/) — Universidade de Michigan · ferramenta. download e tutoriais
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

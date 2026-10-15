@@ -57,11 +57,12 @@ Novo pré-requisito: **C15** — busca é algoritmo sobre grafos e filas de prio
 
 ## Fontes
 
-- 📖 [Artificial Intelligence: A Modern Approach (4ª ed.)](http://aima.cs.berkeley.edu/) — Stuart Russell & Peter Norvig, 2020 · livro. caps. 3–6 e 11
+- 📖 [Artificial Intelligence: A Modern Approach (4th ed.)](http://aima.cs.berkeley.edu/) — Stuart Russell & Peter Norvig, 2020 · livro. caps. 3–6 e 11
 - 📖 [Acting, Planning, and Learning](https://projects.laas.fr/planning/) — Malik Ghallab, Dana Nau & Paolo Traverso · livro. a referência atual em planejamento e atuação
 - 📄 [A Formal Basis for the Heuristic Determination of Minimum Cost Paths](https://doi.org/10.1109/TSSC.1968.300136) — Peter E. Hart, Nils J. Nilsson & Bertram Raphael, 1968 · paper. o A*
 - 📄 [STRIPS: A new approach to the application of theorem proving to problem solving](https://doi.org/10.1016/0004-3702(71)90010-5) — Richard E. Fikes & Nils J. Nilsson, 1971 · paper
 - 🧭 [A Survey of Monte Carlo Tree Search Methods](https://doi.org/10.1109/TCIAIG.2012.2186810) — Cameron B. Browne et al., 2012 · review
+- 🎓 [CS188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/) — UC Berkeley · curso. aulas e os projetos Pac-Man em Python
 
 ## Boss fight
 

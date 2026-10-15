@@ -64,6 +64,12 @@
 - 📄 [Deep Reinforcement Learning that Matters](https://arxiv.org/abs/1709.06560) — Peter Henderson et al., 2018 · paper
 - 📄 [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993) — Margaret Mitchell et al., 2019 · paper
 
+**Exceções na regra de materiais:**
+
+- sem material de entrada: projeto integrador: os materiais vêm dos projetos Z01–Z07
+- sem material prático: é o próprio projeto
+- sem aula ou vídeo: projeto integrador: os materiais vêm dos projetos Z01–Z07
+
 ## Boss fight
 
 Integre a sua IA no Rei Ichi e escreva o relatório técnico: arquitetura (diagrama e interfaces), o seu modelo como núcleo, o agente, o monitoramento por interpretabilidade e o protocolo de segurança e controle; ablações de cada módulo com intervalos de confiança; a avaliação dos indicadores de consciência, com o que eles podem e não podem dizer; e limitações honestas. Deixe o relatório em formato de preprint — ele é a base do boss do nível 12.

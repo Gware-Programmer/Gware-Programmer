@@ -58,12 +58,13 @@ Antes das redes neurais, a IA era sobretudo esta pergunta: como escrever o que s
 ## Fontes
 
 - 📖 [Knowledge Representation and Reasoning](https://doi.org/10.1016/B978-1-55860-932-7.X5083-3) — Ronald J. Brachman & Hector J. Levesque, 2004 · livro
-- 📖 [Artificial Intelligence: A Modern Approach (4ª ed.)](https://aima.cs.berkeley.edu/) — Stuart Russell & Peter Norvig · livro
+- 📖 [Artificial Intelligence: A Modern Approach (4th ed.)](https://aima.cs.berkeley.edu/) — Stuart Russell & Peter Norvig · livro
 - 📄 [What Is a Knowledge Representation?](https://doi.org/10.1609/aimag.v14i1.1029) — Randall Davis, Howard Shrobe & Peter Szolovits, 1993 · paper
 - 📄 [Programs with Common Sense](https://www-formal.stanford.edu/jmc/mcc59/mcc59.html) — John McCarthy, 1959 · paper
 - 🧭 [Knowledge Graphs](https://arxiv.org/abs/2003.02320) — Aidan Hogan et al., 2021 · review
 - 📖 [Learn Prolog Now!](https://www.let.rug.nl/bos/lpn/) — Patrick Blackburn, Johan Bos & Kristina Striegnitz · livro. livre
 - 🔧 [SWI-Prolog](https://www.swi-prolog.org/) — Jan Wielemaker et al. · ferramenta
+- 🎓 [CS188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/) — UC Berkeley · curso. aulas e os projetos Pac-Man em Python
 
 ## Boss fight
 

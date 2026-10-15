@@ -60,6 +60,7 @@ Como supervisionar um sistema mais capaz do que o supervisor? Debate, amplifica�
 - 📄 [Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision](https://arxiv.org/abs/2312.09390) — Collin Burns et al., 2023 · paper
 - 🆕 [Debating with More Persuasive LLMs Leads to More Truthful Answers](https://arxiv.org/abs/2402.06782) — Akbir Khan et al., 2024 · recente
 - 🆕 [Prover-Verifier Games improve legibility of LLM outputs](https://arxiv.org/abs/2407.13692) — Jan Hendrik Kirchner, Yining Chen, Harri Edwards, Jan Leike, Nat McAleese & Yuri Burda, 2024 · recente
+- 🎓 [AI Safety Fundamentals: Alignment](https://bluedot.org/courses/alignment) — BlueDot Impact · curso
 
 ## Boss fight
 

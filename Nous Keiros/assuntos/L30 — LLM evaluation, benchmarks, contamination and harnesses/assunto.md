@@ -67,6 +67,7 @@ Sem avaliação confiável, você não sabe se a sua IA melhorou. Avaliar LLMs �
 - 🆕 [Humanity's Last Exam](https://arxiv.org/abs/2501.14249) — Long Phan et al., 2025 · recente
 - 🔧 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) — EleutherAI · ferramenta
 - 🔧 [Inspect](https://inspect.aisi.org.uk/) — UK AI Security Institute · ferramenta
+- 🎓 [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) — Percy Liang & Tatsunori Hashimoto (Stanford) · curso. aulas e tarefas implementando tudo do zero
 
 ## Boss fight
 

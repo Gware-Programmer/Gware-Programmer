@@ -58,6 +58,7 @@ Pensamentos são sobre coisas; um vetor de ativação é sobre o quê? Intencion
 - 🌐 [Intentionality (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/intentionality/) — Pierre Jacob · site
 - 🌐 [Mental Representation (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/mental-representation/) — David Pitt · site
 - 📄 [The Vector Grounding Problem](https://arxiv.org/abs/2304.01481) — Dimitri Coelho Mollo & Raphaël Millière, 2023 · paper
+- 🎓 [24.09 Minds and Machines](https://ocw.mit.edu/courses/24-09-minds-and-machines-fall-2011/) — Alex Byrne (MIT OpenCourseWare) · curso
 
 ## Boss fight
 

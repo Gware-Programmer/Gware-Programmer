@@ -59,6 +59,13 @@ Algumas arquiteturas tentam ir além da cognição de alto nível: LIDA implemen
 - 📄 [A Large-Scale Model of the Functioning Brain](https://doi.org/10.1126/science.1225266) — Chris Eliasmith, Terrence C. Stewart, Xuan Choo, Trevor Bekolay, Travis DeWolf, Yichuan Tang & Daniel Rasmussen, 2012 · paper. o Spaun
 - 📄 [A theory of consciousness from a theoretical computer science perspective: Insights from the Conscious Turing Machine](https://doi.org/10.1073/pnas.2115934119) — Lenore Blum & Manuel Blum, 2022 · paper
 - 📄 [Deep learning and the Global Workspace Theory](https://doi.org/10.1016/j.tins.2021.04.005) — Rufin VanRullen & Ryota Kanai, 2021 · paper
+- 🌐 [Stanford Encyclopedia of Philosophy: Cognitive Science](https://plato.stanford.edu/entries/cognitive-science/) — Stanford Encyclopedia of Philosophy · site
+- 🔧 [ACT-R](http://act-r.psy.cmu.edu/) — Carnegie Mellon University · ferramenta. software e tutoriais
+- 🆕 [A Proposal to Extend the Common Model of Cognition with Metacognition](https://arxiv.org/abs/2506.07807) — John Laird, Christian Lebiere, Paul Rosenbloom & Andrea Stocco, 2025 · recente
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

@@ -59,6 +59,7 @@ Humanos aprendem por erro de predição, decidem com atalhos e violam sistematic
 - 🧭 [Reinforcement learning in the brain](https://doi.org/10.1016/j.jmp.2008.12.005) — Yael Niv, 2009 · review. de Rescorla-Wagner ao TD
 - 📄 [Resource-rational analysis: Understanding human cognition as the optimal use of limited computational resources](https://doi.org/10.1017/S0140525X1900061X) — Falk Lieder & Thomas L. Griffiths, 2020 · paper
 - 🆕 [A foundation model to predict and capture human cognition](https://doi.org/10.1038/s41586-025-09215-4) — Marcel Binz et al., 2025 · recente. o Centaur; leia junto com as críticas
+- 🎓 [Probabilistic Models of Cognition](http://probmods.org/) — Noah D. Goodman & Joshua B. Tenenbaum · curso. livro interativo com código que roda no navegador
 
 ## Boss fight
 

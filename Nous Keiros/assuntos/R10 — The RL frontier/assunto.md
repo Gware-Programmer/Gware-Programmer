@@ -61,6 +61,8 @@ Novo pré-requisito: **AL01** — reward hacking.
 - 📖 [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/) — Stefano V. Albrecht, Filippos Christianos & Lukas Schäfer, 2024 · livro
 - 🧭 [Reinforcement Learning: An Overview](https://arxiv.org/abs/2412.05265) — Kevin P. Murphy, 2024 · review. atualizado com RL para LLMs
 - 📄 [Reward is enough](https://doi.org/10.1016/j.artint.2021.103535) — David Silver, Satinder Singh, Doina Precup & Richard S. Sutton, 2021 · paper
+- 🎓 [CS285: Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/) — Sergey Levine (UC Berkeley) · curso. aulas em vídeo e tarefas
+- 🆕 [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://arxiv.org/abs/2504.13837) — Yang Yue et al., 2025 · recente
 
 ## Boss fight
 

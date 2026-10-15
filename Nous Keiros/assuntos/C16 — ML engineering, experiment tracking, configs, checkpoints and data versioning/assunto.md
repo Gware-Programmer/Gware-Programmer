@@ -66,6 +66,7 @@ Sem matemática nova: o rigor aqui é de processo.
 - 🔧 [MLflow](https://mlflow.org/) — Projeto MLflow · ferramenta
 - 🔧 [DVC (Data Version Control)](https://dvc.org/) — Iterative · ferramenta
 - 🔧 [Hydra](https://hydra.cc/) — Meta Research · ferramenta
+- 🎓 [Full Stack Deep Learning (2022)](https://fullstackdeeplearning.com/course/2022/) — Charles Frye, Sergey Karayev & Josh Tobin · curso. aulas em vídeo e laboratórios
 
 ## Boss fight
 

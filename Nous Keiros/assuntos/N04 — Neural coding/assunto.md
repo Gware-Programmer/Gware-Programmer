@@ -53,12 +53,13 @@ Como neurônios representam o mundo em disparos? Curvas de sintonia, códigos de
 
 ## Fontes
 
-- 📖 [Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems](https://mitpress.mit.edu/9780262541855/theoretical-neuroscience/) — Peter Dayan & L. F. Abbott, 2001 · livro. caps. 1–4: o texto clássico de codificação e decodificação ⚠ não verificado — a página bloqueia leitura automática (desafio anti-bot)
+- 📖 [Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems](https://mitpress.mit.edu/9780262541855/theoretical-neuroscience/) — Peter Dayan & L. F. Abbott, 2001 · livro. caps. 1–4: o texto clássico de codificação e decodificação
 - 📄 [Possible Principles Underlying the Transformations of Sensory Messages](https://doi.org/10.7551/mitpress/9780262518420.003.0013) — Horace B. Barlow, 1961 · paper
 - 📄 [Emergence of simple-cell receptive field properties by learning a sparse code for natural images](https://doi.org/10.1038/381607a0) — Bruno A. Olshausen & David J. Field, 1996 · paper
 - 🧭 [Information processing with population codes](https://doi.org/10.1038/35039062) — Alexandre Pouget, Peter Dayan & Richard Zemel, 2000 · review
 - 📄 [High-dimensional geometry of population responses in visual cortex](https://doi.org/10.1038/s41586-019-1346-5) — Carsen Stringer, Marius Pachitariu, Nicholas Steinmetz, Matteo Carandini & Kenneth D. Harris, 2019 · paper
 - 🗃️ [Allen Brain Observatory (AllenSDK)](https://allensdk.readthedocs.io/en/latest/brain_observatory.html) — Allen Institute · dados
+- 🎓 [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks em Python
 
 ## Boss fight
 

@@ -58,8 +58,14 @@ Quando dá para ler e escrever no cérebro, privacidade mental, identidade e ag�
 - 📄 [Towards new human rights in the age of neuroscience and neurotechnology](https://doi.org/10.1186/s40504-017-0050-1) — Marcello Ienca & Roberto Andorno, 2017 · paper
 - 📄 [Novel Neurorights: From Nonsense to Substance](https://doi.org/10.1007/s12152-022-09481-3) — Jan Christoph Bublitz, 2022 · paper. a crítica
 - 📄 [A brain-computer interface that evokes tactile sensations improves robotic arm control](https://doi.org/10.1126/science.abd0380) — Sharlene N. Flesher et al., 2021 · paper
-- 🌐 [Ethics of neurotechnology — Recomendação da UNESCO](https://www.unesco.org/en/ethics-neurotech) — UNESCO · site
+- 🌐 [Ethics of Neurotechnology — UNESCO Recommendation](https://www.unesco.org/en/ethics-neurotech) — UNESCO · site
 - 🌐 [Proposta de Emenda à Constituição nº 29, de 2023](https://www.congressonacional.leg.br/materias/materias-bicamerais/-/ver/pec-29-2023) — Congresso Nacional · site
+- 📊 [Recommendation on the Ethics of Neurotechnology](https://www.unesco.org/en/ethics-neurotech/recommendation) — UNESCO, 2025 · relatório. o primeiro marco global de ética da neurotecnologia, adotado em novembro de 2025
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+- sem material prático: assunto teórico: a prática é o boss fight
 
 ## Boss fight
 

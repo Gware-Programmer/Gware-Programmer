@@ -58,7 +58,13 @@ Pela primeira vez existem o conectoma completo de um cérebro adulto (a mosca), 
 - 🆕 [Functional connectomics spanning multiple areas of mouse visual cortex](https://doi.org/10.1038/s41586-025-08790-w) — The MICrONS Consortium, 2025 · recente
 - 🆕 [A brain-wide map of neural activity during complex behaviour](https://doi.org/10.1038/s41586-025-09235-0) — International Brain Laboratory, 2025 · recente
 - 🆕 [Foundation model of neural activity predicts response to new stimulus types](https://doi.org/10.1038/s41586-025-08829-y) — Eric Y. Wang et al., 2025 · recente. um gêmeo digital do córtex visual
-- 🗃️ [FlyWire Codex — explorador do conectoma](https://codex.flywire.ai/) — FlyWire Consortium · dados
+- 🗃️ [FlyWire Codex — connectome explorer](https://codex.flywire.ai/) — FlyWire Consortium · dados
+- 🌐 [FlyWire](https://flywire.ai/) — FlyWire Consortium · site. o conectoma completo da drosófila, navegável
+- 🗃️ [MICrONS Explorer](https://www.microns-explorer.org/) — Consórcio MICrONS · dados. dados abertos e tutoriais
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

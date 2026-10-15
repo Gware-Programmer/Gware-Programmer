@@ -60,6 +60,11 @@ Nenhuma matemática nova: aqui se usa tudo.
 - 📄 [Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373) — Stella Biderman et al., 2023 · paper. precedente de pesquisa aberta fora dos grandes laboratórios
 - 🌐 [Equational Theories Project](https://teorth.github.io/equational_theories/) — Terence Tao et al. · site. precedente de pesquisa colaborativa aberta
 - 🌐 [FAPESP — Pesquisa Inovativa em Pequenas Empresas (PIPE)](https://fapesp.br/pipe) — FAPESP · site
+- 📰 [How To Become A Mechanistic Interpretability Researcher](https://www.alignmentforum.org/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher) — Neel Nanda, 2025 · artigo. roteiro de autodidata para pesquisa, atualizado em setembro de 2025
+
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
 
 ## Boss fight
 

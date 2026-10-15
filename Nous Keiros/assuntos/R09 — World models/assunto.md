@@ -61,6 +61,8 @@ Novo pré-requisito: **L33** — modelos baseados em energia, a base do JEPA.
 - 🆕 [V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning](https://arxiv.org/abs/2506.09985) — Mido Assran et al., 2025 · recente
 - 🆕 [Genie 3: A new frontier for world models](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/) — Google DeepMind, 2025 · recente
 - 📰 [Welcome to the Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf) — David Silver & Richard S. Sutton, 2025 · artigo
+- 🎓 [CS285: Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/) — Sergey Levine (UC Berkeley) · curso. aulas em vídeo e tarefas
+- 🔧 [DreamerV3](https://github.com/danijar/dreamerv3) — Danijar Hafner · ferramenta
 
 ## Boss fight
 

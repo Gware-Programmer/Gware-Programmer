@@ -51,12 +51,14 @@ Em dados tabulares, árvores com boosting ainda vencem redes profundas com frequ
 
 ## Fontes
 
-- 📖 [The Elements of Statistical Learning (2ª ed.)](https://doi.org/10.1007/978-0-387-84858-7) — Trevor Hastie, Robert Tibshirani & Jerome Friedman, 2009 · livro. caps. 9, 10 e 15; os autores mantêm um PDF gratuito no site do livro
+- 📖 [The Elements of Statistical Learning (2nd ed.)](https://doi.org/10.1007/978-0-387-84858-7) — Trevor Hastie, Robert Tibshirani & Jerome Friedman, 2009 · livro. caps. 9, 10 e 15; os autores mantêm um PDF gratuito no site do livro
 - 📖 [An Introduction to Statistical Learning (with Applications in Python)](https://www.statlearning.com/) — James, Witten, Hastie, Tibshirani & Taylor, 2023 · livro. cap. 8
 - 📄 [Random Forests](https://doi.org/10.1023/A:1010933404324) — Leo Breiman, 2001 · paper
 - 📄 [Greedy function approximation: A gradient boosting machine](https://doi.org/10.1214/aos/1013203451) — Jerome H. Friedman, 2001 · paper
 - 📄 [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/abs/1603.02754) — Tianqi Chen & Carlos Guestrin, 2016 · paper
 - 🆕 [Why do tree-based models still outperform deep learning on tabular data?](https://arxiv.org/abs/2207.08815) — Léo Grinsztajn, Edouard Oyallon & Gaël Varoquaux, 2022 · recente
+- 🎓 [CS229: Machine Learning](https://cs229.stanford.edu/) — Andrew Ng, Tengyu Ma et al. (Stanford) · curso. aulas em vídeo e listas com código
+- 🔧 [scikit-learn: User Guide](https://scikit-learn.org/stable/user_guide.html) — Projeto scikit-learn · ferramenta
 
 ## Boss fight
 

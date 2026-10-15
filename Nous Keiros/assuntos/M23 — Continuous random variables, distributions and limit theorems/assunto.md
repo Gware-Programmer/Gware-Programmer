@@ -56,7 +56,7 @@ Ruído, inicialização de pesos, ativações e dados reais são contínuos. A g
 
 ## Fontes
 
-- 📖 [Introduction to Probability (2ª ed.)](http://probabilitybook.net/) — Joseph K. Blitzstein & Jessica Hwang, 2019 · livro. caps. 5–10
+- 📖 [Introduction to Probability (2nd ed.)](http://probabilitybook.net/) — Joseph K. Blitzstein & Jessica Hwang, 2019 · livro. caps. 5–10
 - 🎬 [Statistics 110: Probability (Harvard)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) — Joe Blitzstein · video
 - 🎓 [Probabilistic Systems Analysis and Applied Probability (6.041SC)](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) — John Tsitsiklis (MIT OpenCourseWare) · curso
 - 📖 [Mathematics for Machine Learning](https://mml-book.com/) — Deisenroth, Faisal & Ong, 2020 · livro. cap. 6

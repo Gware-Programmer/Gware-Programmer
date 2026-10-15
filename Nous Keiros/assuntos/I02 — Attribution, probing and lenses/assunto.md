@@ -60,6 +60,8 @@ Antes dos circuitos, as ferramentas mais usadas para olhar dentro de modelos for
 - 📄 [Designing and Interpreting Probes with Control Tasks](https://arxiv.org/abs/1909.03368) — John Hewitt & Percy Liang, 2019 · paper
 - 📰 [interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens) — nostalgebraist, 2020 · artigo
 - 📄 [Eliciting Latent Predictions from Transformers with the Tuned Lens](https://arxiv.org/abs/2303.08112) — Nora Belrose et al., 2023 · paper
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
+- 🆕 [Are Sparse Autoencoders Useful? A Case Study in Sparse Probing](https://arxiv.org/abs/2502.16681) — Subhash Kantamneni et al., 2025 · recente
 
 ## Boss fight
 

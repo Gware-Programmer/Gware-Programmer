@@ -54,11 +54,12 @@ Antes de "inteligência artificial" virar nome de área, a cibernética já estu
 
 ## Fontes
 
-- 📖 [Cybernetics: Or Control and Communication in the Animal and the Machine (reedição 2019)](https://doi.org/10.7551/mitpress/11810.001.0001) — Norbert Wiener, 1948 · livro
+- 📖 [Cybernetics: Or Control and Communication in the Animal and the Machine (2019 reissue)](https://doi.org/10.7551/mitpress/11810.001.0001) — Norbert Wiener, 1948 · livro
 - 📖 [An Introduction to Cybernetics](http://pespmc1.vub.ac.be/books/IntroCyb.pdf) — W. Ross Ashby, 1956 · livro
 - 📖 [Feedback Systems: An Introduction for Scientists and Engineers](https://fbswiki.org/) — Karl J. Åström & Richard M. Murray · livro. livro aberto
 - 📄 [Every good regulator of a system must be a model of that system](https://doi.org/10.1080/00207727008920220) — Roger C. Conant & W. Ross Ashby, 1970 · paper
 - 🆕 [General agents contain world models](https://arxiv.org/abs/2506.01622) — Jonathan Richens, David Abel, Alexis Bellot & Tom Everitt, 2025 · recente
+- 🎓 [Underactuated Robotics](https://underactuated.mit.edu/) — Russ Tedrake (MIT) · curso. livro-texto online, aulas e notebooks
 
 ## Boss fight
 

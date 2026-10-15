@@ -61,6 +61,8 @@ Novo pré-requisito: **L31** — servir mixtures of experts.
 - 📄 [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323) — Elias Frantar, Saleh Ashkboos, Torsten Hoefler & Dan Alistarh, 2022 · paper
 - 🔧 [llama.cpp](https://github.com/ggml-org/llama.cpp) — ggml-org · ferramenta
 - 🔧 [MLX](https://github.com/ml-explore/mlx) — Apple Machine Learning Research · ferramenta
+- 🎓 [MIT 6.5940: TinyML and Efficient Deep Learning Computing](https://hanlab.mit.edu/courses/2024-fall-65940) — Song Han (MIT) · curso. aulas em vídeo e laboratórios
+- 🆕 [FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving](https://arxiv.org/abs/2501.01005) — Zihao Ye et al., 2025 · recente
 
 ## Boss fight
 

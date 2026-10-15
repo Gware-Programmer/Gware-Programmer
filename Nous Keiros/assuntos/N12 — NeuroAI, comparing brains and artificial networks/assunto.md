@@ -60,6 +60,8 @@ Comparar cérebros e redes artificiais virou ciência com métodos próprios: RS
 - 📄 [Integrative Benchmarking to Advance Neurally Mechanistic Models of Human Intelligence](https://doi.org/10.1016/j.neuron.2020.07.040) — Martin Schrimpf et al., 2020 · paper
 - 📄 [The neural architecture of language: Integrative modeling converges on predictive processing](https://doi.org/10.1073/pnas.2105646118) — Martin Schrimpf et al., 2021 · paper
 - 📄 [Deep problems with neural network models of human vision](https://doi.org/10.1017/S0140525X22002813) — Jeffrey S. Bowers et al., 2023 · paper. a crítica
+- 🆕 [Scaling and context steer LLMs along the same computational path as the human brain](https://arxiv.org/abs/2512.01591) — Joséphine Raugel et al., 2025 · recente
+- 🔧 [Brain-Score](https://www.brain-score.org/) — Brain-Score · ferramenta
 
 ## Boss fight
 

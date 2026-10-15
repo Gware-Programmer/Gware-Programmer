@@ -60,6 +60,10 @@ Reproduzir um resultado publicado é o teste mais honesto de entendimento — e 
 - 🗺️ [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/) — Andrej Karpathy, 2019 · guia
 - 🌐 [MLRC — Machine Learning Reproducibility Challenge](https://reproml.org/) — MLRC · site
 
+**Exceções na regra de materiais:**
+
+- sem aula ou vídeo: não há curso em vídeo aberto e estável sobre este tema
+
 ## Boss fight
 
 Reproduza de ponta a ponta um resultado publicado de treinamento de redes, com código aberto, das trilhas que você já fez: ambiente congelado, cinco sementes, determinismo onde for possível e registro de cada divergência. Escreva o relatório no formato do MLRC — o que reproduziu, o que não reproduziu e por quê — e submeta ao MLRC ou publique como preprint.

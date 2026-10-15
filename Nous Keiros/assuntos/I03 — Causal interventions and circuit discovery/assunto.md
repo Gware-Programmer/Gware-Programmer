@@ -60,6 +60,8 @@ Interpretar de verdade exige intervir: trocar ativações, desligar componentes,
 - 🗺️ [How to use and interpret activation patching](https://arxiv.org/abs/2404.15255) — Stefan Heimersheim & Neel Nanda, 2024 · guia
 - 📄 [Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability](https://arxiv.org/abs/2301.04709) — Atticus Geiger et al., 2023 · paper
 - 📄 [Localizing Model Behavior with Path Patching](https://arxiv.org/abs/2304.05969) — Nicholas Goldowsky-Dill, Chris MacLeod, Lucas Sato & Aryaman Arora, 2023 · paper
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
+- 🆕 [Open Problems in Mechanistic Interpretability](https://arxiv.org/abs/2501.16496) — Lee Sharkey et al., 2025 · recente
 
 ## Boss fight
 

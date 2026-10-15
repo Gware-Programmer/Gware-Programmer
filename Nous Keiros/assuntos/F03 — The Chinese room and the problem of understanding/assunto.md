@@ -59,6 +59,8 @@ Um sistema que manipula símbolos perfeitamente entende alguma coisa? O quarto c
 - 📄 [Meaning without reference in large language models](https://arxiv.org/abs/2208.02957) — Steven T. Piantadosi & Felix Hill, 2022 · paper
 - 📄 [The debate over understanding in AI's large language models](https://doi.org/10.1073/pnas.2215907120) — Melanie Mitchell & David C. Krakauer, 2023 · paper
 - 📄 [Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task](https://arxiv.org/abs/2210.13382) — Kenneth Li, Aspen K. Hopkins, David Bau, Fernanda Viégas, Hanspeter Pfister & Martin Wattenberg, 2022 · paper. Othello-GPT
+- 🎓 [24.09 Minds and Machines](https://ocw.mit.edu/courses/24-09-minds-and-machines-fall-2011/) — Alex Byrne (MIT OpenCourseWare) · curso
+- 🌐 [Stanford Encyclopedia of Philosophy: The Chinese Room Argument](https://plato.stanford.edu/entries/chinese-room/) — Stanford Encyclopedia of Philosophy · site
 
 ## Boss fight
 

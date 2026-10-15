@@ -58,7 +58,7 @@ A decomposição em valores singulares (SVD) é o canivete suíço da IA: compre
 
 - 🎓 [Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (18.065)](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) — Gilbert Strang (MIT OpenCourseWare), 2018 · curso
 - 📖 [Mathematics for Machine Learning](https://mml-book.com/) — Deisenroth, Faisal & Ong, 2020 · livro. cap. 4 (decomposições) e cap. 10 (PCA)
-- 📖 [Linear Algebra Done Right (4ª ed.)](https://linear.axler.net/) — Sheldon Axler, 2024 · livro. cap. 7, SVD com provas
+- 📖 [Linear Algebra Done Right (4th ed.)](https://linear.axler.net/) — Sheldon Axler, 2024 · livro. cap. 7, SVD com provas
 - 📄 [Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions](https://arxiv.org/abs/0909.4061) — Nathan Halko, Per-Gunnar Martinsson & Joel A. Tropp, 2011 · paper
 
 ## Boss fight

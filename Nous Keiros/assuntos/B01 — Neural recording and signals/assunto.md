@@ -57,7 +57,9 @@ Toda interface cérebro-computador e toda neurociência de sistemas começam num
 - 📄 [Neuropixels 2.0: A miniaturized high-density probe for stable, long-term brain recordings](https://doi.org/10.1126/science.abf4588) — Nicholas A. Steinmetz et al., 2021 · paper
 - 📄 [Spike sorting with Kilosort4](https://doi.org/10.1038/s41592-024-02232-7) — Marius Pachitariu, Shashwat Sridhar, Jacob Pennington & Carsen Stringer, 2024 · paper
 - 🔧 [SpikeInterface, a unified framework for spike sorting](https://doi.org/10.7554/eLife.61834) — Alessio P. Buccino et al., 2020 · ferramenta
-- 🗃️ [DANDI Archive — dados neurofisiológicos abertos em NWB](https://dandiarchive.org/) — DANDI · dados
+- 🗃️ [DANDI Archive — open neurophysiology data in NWB](https://dandiarchive.org/) — DANDI · dados
+- 🎓 [9.40 Introduction to Neural Computation](https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/) — Michale Fee (MIT OpenCourseWare) · curso. aulas em vídeo
+- 🔧 [MNE-Python](https://mne.tools/) — Projeto MNE · ferramenta. análise de EEG e MEG
 
 ## Boss fight
 

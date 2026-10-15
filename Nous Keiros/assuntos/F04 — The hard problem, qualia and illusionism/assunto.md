@@ -59,6 +59,7 @@ Nenhuma matemática necessária; aqui se treina lógica modal informal — conce
 - 📄 [Quining Qualia](https://ase.tufts.edu/cogstud/dennett/papers/quinqual.htm) — Daniel C. Dennett, 1988 · paper
 - 🌐 [Qualia (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/qualia/) — Michael Tye · site
 - 🌐 [Zombies (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/zombies/) — Robert Kirk · site
+- 🎓 [24.09 Minds and Machines](https://ocw.mit.edu/courses/24-09-minds-and-machines-fall-2011/) — Alex Byrne (MIT OpenCourseWare) · curso
 
 ## Boss fight
 

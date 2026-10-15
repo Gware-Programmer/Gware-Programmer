@@ -59,7 +59,7 @@ Uma rede neural tem milhões de parâmetros; a perda é uma função de milhões
 - 🎓 [Multivariable Calculus (18.02SC)](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) — MIT OpenCourseWare · curso
 - 📖 [Calculus Volume 3](https://openstax.org/details/books/calculus-volume-3) — Gilbert Strang & Edwin Herman (OpenStax), 2016 · livro. caps. 4–5
 - 📖 [Mathematics for Machine Learning](https://mml-book.com/) — Deisenroth, Faisal & Ong, 2020 · livro. cap. 5 (cálculo vetorial)
-- 📖 [Calculus (3ª ed.)](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/) — Gilbert Strang (MIT OCW RES.18-001), 2017 · livro. caps. 13–15
+- 📖 [Calculus (3rd ed.)](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/) — Gilbert Strang (MIT OCW RES.18-001), 2017 · livro. caps. 13–15
 - 📄 [Identifying and Attacking the Saddle Point Problem in High-Dimensional Non-Convex Optimization](https://arxiv.org/abs/1406.2572) — Dauphin, Pascanu, Gulcehre, Cho, Ganguli & Bengio, 2014 · paper. leitura do AVANÇADO
 
 ## Boss fight

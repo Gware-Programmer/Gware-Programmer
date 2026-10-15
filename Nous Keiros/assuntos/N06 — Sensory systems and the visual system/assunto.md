@@ -59,6 +59,7 @@ O sistema visual é o mais estudado do cérebro e o berço das CNNs. Da retina a
 - 🧭 [How Does the Brain Solve Visual Object Recognition?](https://doi.org/10.1016/j.neuron.2012.01.010) — James J. DiCarlo, Davide Zoccolan & Nicole C. Rust, 2012 · review
 - 📄 [Performance-optimized hierarchical models predict neural responses in higher visual cortex](https://doi.org/10.1073/pnas.1403112111) — Daniel L. K. Yamins, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert & James J. DiCarlo, 2014 · paper
 - 🆕 [A large-scale examination of inductive biases shaping high-level visual representation in brains and machines](https://doi.org/10.1038/s41467-024-53147-y) — Colin Conwell, Jacob S. Prince, Kendrick N. Kay, George A. Alvarez & Talia Konkle, 2024 · recente
+- 🎓 [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks em Python
 
 ## Boss fight
 

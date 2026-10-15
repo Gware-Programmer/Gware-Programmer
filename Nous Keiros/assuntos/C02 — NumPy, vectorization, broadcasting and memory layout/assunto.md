@@ -62,6 +62,7 @@ NumPy é a camada sobre a qual a pilha científica inteira foi construída — e
 - 🔧 [100 numpy exercises](https://github.com/rougier/numpy-100) — Nicolas P. Rougier · ferramenta
 - 📄 [Array programming with NumPy](https://doi.org/10.1038/s41586-020-2649-2) — Charles R. Harris et al., 2020 · paper. o desenho por trás da biblioteca
 - 📖 [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) — Jake VanderPlas · livro. cap. 2
+- 🎓 [Scientific Python Lectures](https://lectures.scientific-python.org/) — Comunidade Scientific Python · curso. NumPy, SciPy e Matplotlib em aulas com exercícios
 
 ## Boss fight
 

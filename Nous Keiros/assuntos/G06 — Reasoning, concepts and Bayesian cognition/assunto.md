@@ -55,7 +55,7 @@ Como humanos aprendem um conceito com um único exemplo, raciocinam por analogia
 ## Fontes
 
 - 📖 [Bayesian Models of Cognition: Reverse Engineering the Mind](https://doi.org/10.7551/mitpress/8765.001.0001) — Thomas L. Griffiths, Nick Chater & Joshua B. Tenenbaum (orgs.), 2024 · livro
-- 🎓 [Probabilistic Models of Cognition (2ª ed.)](http://probmods.org/) — Noah D. Goodman & Joshua B. Tenenbaum · curso. livro interativo em WebPPL
+- 🎓 [Probabilistic Models of Cognition (2nd ed.)](http://probmods.org/) — Noah D. Goodman & Joshua B. Tenenbaum · curso. livro interativo em WebPPL
 - 📄 [How to Grow a Mind: Statistics, Structure, and Abstraction](https://doi.org/10.1126/science.1192788) — Joshua B. Tenenbaum, Charles Kemp, Thomas L. Griffiths & Noah D. Goodman, 2011 · paper
 - 📄 [Human-level concept learning through probabilistic program induction](https://doi.org/10.1126/science.aab3050) — Brenden M. Lake, Ruslan Salakhutdinov & Joshua B. Tenenbaum, 2015 · paper
 - 📄 [Core knowledge](https://doi.org/10.1111/j.1467-7687.2007.00569.x) — Elizabeth S. Spelke & Katherine D. Kinzler, 2007 · paper

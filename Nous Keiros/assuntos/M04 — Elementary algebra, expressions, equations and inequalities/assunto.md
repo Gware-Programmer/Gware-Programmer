@@ -63,7 +63,7 @@
 - 🎓 [Portal da Matemática OBMEP — O plano cartesiano e sistemas de equações](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=49) — IMPA/OBMEP · curso
 - 📖 [Algebra](https://doi.org/10.1007/978-1-4612-0335-3) — I. M. Gelfand & A. Shen, 2004 · livro
 - 📖 [Elementary Algebra 2e](https://openstax.org/details/books/elementary-algebra-2e) — Marecek, Anthony-Smith & Mathis (OpenStax), 2020 · livro
-- 🔧 [Desmos — calculadora gráfica](https://www.desmos.com/calculator) — Desmos Studio · ferramenta. para ver cada equação
+- 🔧 [Desmos — graphing calculator](https://www.desmos.com/calculator) — Desmos Studio · ferramenta. para ver cada equação
 
 ## Boss fight
 

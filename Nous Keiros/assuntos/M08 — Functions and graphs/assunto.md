@@ -61,7 +61,7 @@ Um modelo de IA é uma função: entrada → saída, com parâmetros. Redes neur
 - 🎓 [Portal da Matemática OBMEP — Função afim](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=35) — IMPA/OBMEP · curso
 - 🎓 [Portal da Matemática OBMEP — Função quadrática](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=61) — IMPA/OBMEP · curso
 - 📖 [Precalculus 2e](https://openstax.org/details/books/precalculus-2e) — Jay Abramson et al. (OpenStax), 2021 · livro. caps. 1–3
-- 🔧 [Desmos — calculadora gráfica](https://www.desmos.com/calculator) — Desmos Studio · ferramenta
+- 🔧 [Desmos — graphing calculator](https://www.desmos.com/calculator) — Desmos Studio · ferramenta
 
 ## Boss fight
 

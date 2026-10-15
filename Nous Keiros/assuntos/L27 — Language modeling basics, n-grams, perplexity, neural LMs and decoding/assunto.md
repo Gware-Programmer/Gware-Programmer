@@ -57,7 +57,7 @@ Um LLM é, por definição, um modelo de linguagem: uma distribuição de probab
 
 ## Fontes
 
-- 📖 [Speech and Language Processing (3ª ed., rascunho)](https://web.stanford.edu/~jurafsky/slp3/) — Daniel Jurafsky & James H. Martin · livro. livre; capítulos de n-grams e de modelos neurais de linguagem
+- 📖 [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) — Daniel Jurafsky & James H. Martin · livro. livre; capítulos de n-grams e de modelos neurais de linguagem
 - 🎓 [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) — Andrej Karpathy · curso. a série makemore, em vídeo
 - 🎬 [The spelled-out intro to language modeling: building makemore](https://www.youtube.com/watch?v=PaCmpygFfXo) — Andrej Karpathy · video
 - 📄 [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/v3/bengio03a.html) — Yoshua Bengio, Réjean Ducharme, Pascal Vincent & Christian Jauvin, 2003 · paper

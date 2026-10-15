@@ -60,6 +60,7 @@ Este é o seu território: compiladores de ML transformam grafos de tensores em 
 - 📄 [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://doi.org/10.1145/3315508.3329973) — Philippe Tillet, H. T. Kung & David Cox, 2019 · paper
 - 📄 [PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation](https://doi.org/10.1145/3620665.3640366) — Jason Ansel et al., 2024 · paper
 - 🧭 [The Deep Learning Compiler: A Comprehensive Survey](https://arxiv.org/abs/2002.03794) — Mingzhen Li et al., 2020 · review
+- 🎓 [Machine Learning Compilation](https://mlc.ai/summer22/) — Tianqi Chen · curso. aulas e notebooks
 
 ## Boss fight
 

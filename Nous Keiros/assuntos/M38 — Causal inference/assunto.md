@@ -56,10 +56,10 @@ Correlação não é causa — e a interpretabilidade, a neurociência e a avali
 ## Fontes
 
 - 📖 [Causal Inference: What If](https://miguelhernan.org/whatifbook) — Miguel A. Hernán & James M. Robins · livro. gratuito
-- 📖 [Causality (2ª ed.)](https://bayes.cs.ucla.edu/BOOK-2K/) — Judea Pearl, 2009 · livro
+- 📖 [Causality (2nd ed.)](https://bayes.cs.ucla.edu/BOOK-2K/) — Judea Pearl, 2009 · livro
 - 🎓 [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course) — Brady Neal · curso. curso gratuito com livro
 - 📄 [Causal inference in statistics: An overview](https://doi.org/10.1214/09-SS057) — Judea Pearl, 2009 · paper
-- 📄 [Toward Causal Representation Learning](https://arxiv.org/abs/2102.11107) — Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal & Yoshua Bengio, 2021 · paper
+- 📄 [Towards Causal Representation Learning](https://arxiv.org/abs/2102.11107) — Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal & Yoshua Bengio, 2021 · paper
 
 ## Boss fight
 

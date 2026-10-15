@@ -60,6 +60,7 @@ Atenção é o mecanismo que deixou cada elemento de uma sequência "consultar" 
 - 📄 [Hopfield Networks is All You Need](https://arxiv.org/abs/2008.02217) — Hubert Ramsauer et al., 2020 · paper
 - 📄 [Attention is not Explanation](https://arxiv.org/abs/1902.10186) — Sarthak Jain & Byron C. Wallace, 2019 · paper
 - 📖 [Understanding Deep Learning](https://udlbook.github.io/udlbook/) — Simon J. D. Prince, 2023 · livro. cap. 12
+- 🎓 [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/) — Christopher Manning (Stanford) · curso. aulas em vídeo e tarefas com código
 
 ## Boss fight
 

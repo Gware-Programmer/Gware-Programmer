@@ -53,12 +53,14 @@ Aprender, no cérebro, é mudar sinapses. Hebb, STDP e as regras de três fatore
 
 ## Fontes
 
-- 📖 [Neuronal Dynamics (parte IV: plasticidade e aprendizado)](https://neuronaldynamics.epfl.ch/online/index.html) — Wulfram Gerstner, Werner M. Kistler, Richard Naud & Liam Paninski, 2014 · livro
+- 📖 [Neuronal Dynamics (Part IV: plasticity and learning)](https://neuronaldynamics.epfl.ch/online/index.html) — Wulfram Gerstner, Werner M. Kistler, Richard Naud & Liam Paninski, 2014 · livro
 - 📄 [Simplified neuron model as a principal component analyzer](https://doi.org/10.1007/BF00275687) — Erkki Oja, 1982 · paper
 - 📄 [Synaptic Modifications in Cultured Hippocampal Neurons: Dependence on Spike Timing, Synaptic Strength, and Postsynaptic Cell Type](https://doi.org/10.1523/JNEUROSCI.18-24-10464.1998) — Guo-qiang Bi & Mu-ming Poo, 1998 · paper
 - 📄 [Eligibility Traces and Plasticity on Behavioral Time Scales: Experimental Support of NeoHebbian Three-Factor Learning Rules](https://doi.org/10.3389/fncir.2018.00053) — Wulfram Gerstner, Marco Lehmann, Vasiliki Liakoni, Dane Corneil & Johanni Brea, 2018 · paper
 - 📄 [Behavioral time scale synaptic plasticity underlies CA1 place fields](https://doi.org/10.1126/science.aan3846) — Katie C. Bittner, Aaron D. Milstein, Christine Grienberger, Sandro Romani & Jeffrey C. Magee, 2017 · paper
 - 🧭 [Backpropagation and the brain](https://doi.org/10.1038/s41583-020-0277-3) — Timothy P. Lillicrap, Adam Santoro, Luke Marris, Colin J. Akerman & Geoffrey Hinton, 2020 · review
+- 🎓 [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/) — Neuromatch · curso. aulas em vídeo e notebooks em Python
+- 🎓 [9.40 Introduction to Neural Computation](https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/) — Michale Fee (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

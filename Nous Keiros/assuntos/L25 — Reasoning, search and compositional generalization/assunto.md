@@ -59,6 +59,7 @@ O que separa memorização de raciocínio? Modelos recentes resolvem problemas d
 - 🆕 [ARC-AGI-2: A New Challenge for Frontier AI Reasoning Systems](https://arxiv.org/abs/2505.11831) — François Chollet et al., 2025 · recente
 - 📄 [Human-like systematic generalization through a meta-learning neural network](https://doi.org/10.1038/s41586-023-06668-3) — Brenden M. Lake & Marco Baroni, 2023 · paper
 - 📄 [GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models](https://arxiv.org/abs/2410.05229) — Iman Mirzadeh et al., 2024 · paper
+- 🎓 [Advanced Large Language Model Agents (MOOC, Spring 2025)](https://llmagents-learning.org/sp25) — Dawn Song et al. (UC Berkeley) · curso. raciocínio, busca e agentes; aulas em vídeo
 
 ## Boss fight
 

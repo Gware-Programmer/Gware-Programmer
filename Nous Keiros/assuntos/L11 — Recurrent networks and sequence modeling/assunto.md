@@ -61,6 +61,7 @@ Novo pré-requisito: **L27** — o modelo de linguagem clássico vem antes do re
 - 📄 [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) — Ilya Sutskever, Oriol Vinyals & Quoc V. Le, 2014 · paper
 - 📄 [Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks](https://doi.org/10.1162/NECO_a_00409) — David Sussillo & Omri Barak, 2013 · paper
 - 📰 [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) — Andrej Karpathy, 2015 · artigo
+- 🎓 [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/) — Christopher Manning (Stanford) · curso. aulas em vídeo e tarefas com código
 
 ## Boss fight
 

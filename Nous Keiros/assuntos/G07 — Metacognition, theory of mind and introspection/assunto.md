@@ -58,6 +58,8 @@ Saber o que se sabe, atribuir crenças aos outros e relatar os próprios estados
 - 📄 [Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception](https://doi.org/10.1016/0010-0277(83)90004-5) — Heinz Wimmer & Josef Perner, 1983 · paper
 - 📄 [Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks](https://arxiv.org/abs/2302.08399) — Tomer Ullman, 2023 · paper
 - 🆕 [Testing theory of mind in large language models and humans](https://doi.org/10.1038/s41562-024-01882-z) — James W. A. Strachan et al., 2024 · recente
+- 🎓 [Probabilistic Models of Cognition](http://probmods.org/) — Noah D. Goodman & Joshua B. Tenenbaum · curso. livro interativo com código que roda no navegador
+- 🎓 [9.00SC Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) — John Gabrieli (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

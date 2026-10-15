@@ -58,6 +58,7 @@ Redes, kernels e operadores vivem em espaços de funções de dimensão infinita
 - 📄 [A Primer on Reproducing Kernel Hilbert Spaces](https://arxiv.org/abs/1408.0952) — Jonathan H. Manton & Pierre-Olivier Amblard, 2015 · paper
 - 📖 [Learning with Kernels](https://doi.org/10.7551/mitpress/4175.001.0001) — Bernhard Schölkopf & Alexander J. Smola, 2002 · livro
 - 📄 [Random Features for Large-Scale Kernel Machines](https://proceedings.neurips.cc/paper/2007/hash/013a006f03dbc5392effeb8f18fda755-Abstract.html) — Ali Rahimi & Benjamin Recht, 2007 · paper
+- 🎓 [18.102 Introduction to Functional Analysis](https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/) — Casey Rodriguez (MIT OpenCourseWare) · curso. aulas em vídeo
 
 ## Boss fight
 

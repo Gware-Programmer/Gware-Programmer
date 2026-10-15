@@ -60,6 +60,8 @@ A interpretabilidade deixou de ser só curiosidade: hoje ela audita modelos atr�
 - 📄 [Auditing language models for hidden objectives](https://arxiv.org/abs/2503.10965) — Samuel Marks et al. (Anthropic), 2025 · paper
 - 📄 [Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410) — Yanda Chen et al. (Anthropic), 2025 · paper
 - 🧭 [Open Problems in Mechanistic Interpretability](https://arxiv.org/abs/2501.16496) — Lee Sharkey et al., 2025 · review
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
+- 📰 [How To Become A Mechanistic Interpretability Researcher](https://www.alignmentforum.org/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher) — Neel Nanda, 2025 · artigo. roteiro de autodidata para pesquisa, atualizado em setembro de 2025
 
 ## Boss fight
 

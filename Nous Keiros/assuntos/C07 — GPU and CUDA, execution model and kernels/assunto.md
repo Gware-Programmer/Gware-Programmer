@@ -55,7 +55,7 @@ GPUs são a fábrica da IA. Entender o modelo SIMT, a hierarquia de memória da 
 
 ## Fontes
 
-- 📖 [Programming Massively Parallel Processors (4ª ed.)](https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-323-91231-0) — Wen-mei W. Hwu, David B. Kirk & Izzat El Hajj, 2022 · livro
+- 📖 [Programming Massively Parallel Processors (4th ed.)](https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-323-91231-0) — Wen-mei W. Hwu, David B. Kirk & Izzat El Hajj, 2022 · livro
 - 🗺️ [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/) — NVIDIA · guia
 - 📰 [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM) — Simon Boehm, 2022 · artigo
 - 🎓 [GPU MODE lectures](https://github.com/gpu-mode/lectures) — Comunidade GPU MODE · curso

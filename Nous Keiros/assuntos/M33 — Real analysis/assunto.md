@@ -56,10 +56,10 @@
 
 ## Fontes
 
-- 📖 [Understanding Analysis (2ª ed.)](https://link.springer.com/book/10.1007/978-1-4939-2712-8) — Stephen Abbott, 2015 · livro. o melhor primeiro livro de análise
+- 📖 [Understanding Analysis (2nd ed.)](https://link.springer.com/book/10.1007/978-1-4939-2712-8) — Stephen Abbott, 2015 · livro. o melhor primeiro livro de análise
 - 🎓 [Real Analysis (18.100A)](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) — Casey Rodriguez (MIT OpenCourseWare), 2020 · curso. aulas em vídeo e notas
 - 📖 [Análise Real, vol. 1](https://loja.impa.br/produto/analise-real-vol-1-funcoes-de-uma-variavel/) — Elon Lages Lima (IMPA, Coleção Matemática Universitária) · livro. o clássico brasileiro
-- 📖 [Analysis I (4ª ed.)](https://link.springer.com/book/10.1007/978-981-19-7261-4) — Terence Tao, 2022 · livro. constrói tudo a partir dos axiomas
+- 📖 [Analysis I (4th ed.)](https://link.springer.com/book/10.1007/978-981-19-7261-4) — Terence Tao, 2022 · livro. constrói tudo a partir dos axiomas
 - 📖 [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) — Jeremy Avigad & Patrick Massot · livro. capítulos de topologia e limites
 
 ## Boss fight

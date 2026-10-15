@@ -67,6 +67,7 @@ Sem matemática nova.
 - 🌐 [The Open Source AI Definition 1.0](https://opensource.org/ai/open-source-ai-definition) — Open Source Initiative · site
 - 🌐 [Copyright Act (Japan)](https://www.japaneselawtranslation.go.jp/en/laws/view/4207) — Japanese Law Translation, Ministério da Justiça do Japão · site
 - 🌐 [Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) — Presidência da República (Brasil) · site
+- 🎓 [AI Governance](https://bluedot.org/courses/governance) — BlueDot Impact · curso
 
 ## Boss fight
 

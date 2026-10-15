@@ -64,6 +64,8 @@ Uma IA sua precisa rodar onde você está, sem depender do servidor de ninguém.
 - 📄 [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) — Yaniv Leviathan, Matan Kalman & Yossi Matias, 2022 · paper
 - 📄 [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) — Woosuk Kwon et al., 2023 · paper
 - 📄 [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) — Keivan Alizadeh et al., 2023 · paper
+- 🎓 [MIT 6.5940: TinyML and Efficient Deep Learning Computing](https://hanlab.mit.edu/courses/2024-fall-65940) — Song Han (MIT) · curso. aulas em vídeo e laboratórios
+- 🆕 [BitNet b1.58 2B4T Technical Report](https://arxiv.org/abs/2504.12285) — Shuming Ma et al., 2025 · recente
 
 ## Boss fight
 

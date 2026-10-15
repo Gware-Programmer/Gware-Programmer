@@ -63,6 +63,8 @@ Antes de confiar na sua IA — e antes de dar autonomia a ela —, você precisa
 - 🆕 [Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs](https://arxiv.org/abs/2502.17424) — Jan Betley et al., 2025 · recente
 - 🔧 [Inspect](https://inspect.aisi.org.uk/) — UK AI Security Institute · ferramenta
 - 🔧 [garak](https://github.com/NVIDIA/garak) — NVIDIA · ferramenta
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
+- 🎓 [AI Safety Fundamentals: Alignment](https://bluedot.org/courses/alignment) — BlueDot Impact · curso
 
 ## Boss fight
 

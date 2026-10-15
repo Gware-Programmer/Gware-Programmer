@@ -61,6 +61,7 @@ Novo pré-requisito: **X04** — evolução e abertura (open-endedness).
 - 📄 [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292) — Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune & David Ha, 2024 · paper
 - 📄 [Open-Endedness is Essential for Artificial Superhuman Intelligence](https://arxiv.org/abs/2406.04268) — Edward Hughes et al., 2024 · paper
 - 📄 [Fully Autonomous AI Agents Should Not be Developed](https://arxiv.org/abs/2502.02649) — Margaret Mitchell, Avijit Ghosh, Alexandra Sasha Luccioni & Giada Pistilli, 2025 · paper
+- 🎓 [Advanced Large Language Model Agents (MOOC, Spring 2025)](https://llmagents-learning.org/sp25) — Dawn Song et al. (UC Berkeley) · curso. raciocínio, busca e agentes; aulas em vídeo
 
 ## Boss fight
 

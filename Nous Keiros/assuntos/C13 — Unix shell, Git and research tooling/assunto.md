@@ -60,7 +60,7 @@ Nenhuma matemática prévia. O histórico do Git é um grafo acíclico dirigido 
 ## Fontes
 
 - 🎓 [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) — Anish Athalye, Jon Gjengset & Jose Javier Gonzalez Ortiz (MIT) · curso. shell, Git, depuração e automação, com aulas em vídeo
-- 📖 [Pro Git (2ª ed.)](https://git-scm.com/book/en/v2) — Scott Chacon & Ben Straub · livro. livre; o capítulo 10 explica os objetos internos
+- 📖 [Pro Git (2nd ed.)](https://git-scm.com/book/en/v2) — Scott Chacon & Ben Straub · livro. livre; o capítulo 10 explica os objetos internos
 - 📖 [The Linux Command Line](https://linuxcommand.org/tlcl.php) — William Shotts · livro. livre
 - 🗺️ [The Unix Shell](https://swcarpentry.github.io/shell-novice/) — Software Carpentry · guia
 - 🗺️ [Version Control with Git](https://swcarpentry.github.io/git-novice/) — Software Carpentry · guia

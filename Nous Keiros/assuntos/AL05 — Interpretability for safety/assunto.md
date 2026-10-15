@@ -60,6 +60,7 @@ Se não dá para confiar no que o modelo diz, dá para olhar o que ele computa? 
 - 🆕 [Detecting Strategic Deception Using Linear Probes](https://arxiv.org/abs/2502.03407) — Nicholas Goldowsky-Dill, Bilal Chughtai, Stefan Heimersheim & Marius Hobbhahn, 2025 · recente
 - 🆕 [Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation](https://arxiv.org/abs/2503.11926) — Bowen Baker et al., 2025 · recente
 - 🆕 [Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety](https://arxiv.org/abs/2507.11473) — Tomek Korbak et al., 2025 · recente
+- 🎓 [ARENA](https://www.arena.education/) — ARENA · curso. exercícios práticos de interpretabilidade, avaliações e RL
 
 ## Boss fight
 

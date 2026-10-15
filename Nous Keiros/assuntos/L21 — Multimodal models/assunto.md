@@ -61,6 +61,7 @@ Novo pré-requisito: **L32** — modelos de fala e áudio.
 - 📄 [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) — Haotian Liu, Chunyuan Li, Qingyang Wu & Yong Jae Lee, 2023 · paper. o LLaVA
 - 📄 [Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356) — Alec Radford et al., 2022 · paper. o Whisper
 - 🆕 [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://arxiv.org/abs/2405.09818) — Chameleon Team, 2024 · recente
+- 🎓 [CS25: Transformers United](https://web.stanford.edu/class/cs25/) — Stanford · curso. seminários em vídeo com autores de arquiteturas recentes
 
 ## Boss fight
 
